@@ -400,6 +400,11 @@ const updated = (outbreakFile as OutbreakFile).generatedAt;
     clear?.addEventListener('click', () => {
       form.reset();
       apply(true);
+      // On mobile, collapse filters after clearing.
+      const details = form.querySelector<HTMLDetailsElement>('.filters__details');
+      if (details && !window.matchMedia('(min-width: 720px)').matches) {
+        details.open = false;
+      }
     });
 
     restoreFromUrl(key, form);
@@ -438,6 +443,21 @@ const updated = (outbreakFile as OutbreakFile).generatedAt;
   for (const scope of document.querySelectorAll<HTMLElement>('.filterscope')) {
     setupScope(scope);
   }
+
+  // Filters collapse on mobile, open on desktop.
+  function syncFilterDetails(): void {
+    const isDesktop = window.matchMedia('(min-width: 720px)').matches;
+    for (const d of document.querySelectorAll<HTMLDetailsElement>('.filters__details')) {
+      // On desktop, always open. On mobile, only open if user has active filters.
+      if (isDesktop) {
+        d.open = true;
+      } else if (!d.closest('form')?.querySelector<HTMLInputElement>('input:checked')) {
+        d.open = false;
+      }
+    }
+  }
+  syncFilterDetails();
+  window.matchMedia('(min-width: 720px)').addEventListener('change', syncFilterDetails);
 </script>
 
 <script>
