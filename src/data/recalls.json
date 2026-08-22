@@ -1,0 +1,1984 @@
+{
+  "generatedAt": "2026-08-22T14:54:08.770Z",
+  "sources": {
+    "openfda": {
+      "ok": true,
+      "fetchedAt": "2026-08-22T14:54:08.792Z",
+      "lastSuccessAt": "2026-08-22T14:54:08.792Z",
+      "error": null
+    },
+    "fsis": {
+      "ok": false,
+      "fetchedAt": "2026-08-22T14:54:08.794Z",
+      "lastSuccessAt": null,
+      "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
+    }
+  },
+  "recalls": [
+    {
+      "id": "openfda-H-1219-2026",
+      "source": "openfda",
+      "firm": "La Colonia Foods Llc",
+      "product": "Selectos Latinos Requeson Mexicano Mexican Cottage Cheese, Net Weight 16 oz, packed into retail-sized clear plastic containers. Keep refrigerated.",
+      "reason": "Products may be contaminated with Listeria monocytogenes.",
+      "classification": "Class I",
+      "foodRaw": "Selectos Latinos Requeson Mexicano Mexican Cottage Cheese, Net Weight 16 oz, packed into retail-sized clear plastic containers. Keep refrigerated.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Maryland",
+        "Virginia"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1206-2026",
+      "source": "openfda",
+      "firm": "Clover Hill Dairy, LLC",
+      "product": "Clover Hill Dairy LLP, mild cheese variety (Snack Pack Assorted Regular Mild Stix White Colby, Marble Jack, Yummy Cheddar). Sold in approximate 0.40-lb (6.4oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "reason": "Product contaminated with Listeria monocytogenes.",
+      "classification": "Class I",
+      "foodRaw": "Clover Hill Dairy LLP, mild cheese variety (Snack Pack Assorted Regular Mild Stix White Colby, Marble Jack, Yummy Cheddar). Sold in approximate 0.40-lb (6.4oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Maryland",
+        "New York",
+        "Virginia"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1192-2026",
+      "source": "openfda",
+      "firm": "M.G. Foods, Inc.",
+      "product": "Spicy Breakfast Burrito sold under the following brand names: FRESH & READY FOODS Spicy Breakfast Burrito Net Wt. 8.2 oz (232g) UPC 1 00001 00029 7 and Sprig & Sprout Spicy Breakfast Burrito IN A SPICY TORTILLA NET WEIGHT 8.3oz (234g) Contains: Egg, Milk, Wheat. MG Foods Charlotte, NC 28272",
+      "reason": "Undeclared Soy. The firm received complaints of sausage in the burritos. Upon review the firm discovered the sausage contains soy which is not listed on the label.",
+      "classification": "Class I",
+      "foodRaw": "Spicy Breakfast Burrito sold under the following brand names: FRESH & READY FOODS Spicy Breakfast Burrito Net Wt. 8.2 oz (232g) UPC 1 00001 00029 7 and Sprig & Sprout Spicy Breakfast Burrito IN A SPICY TORTILLA NET WEIGHT 8.3oz (234g) Contains: Egg, Milk, Wheat. MG Foods Charlotte, NC 28272",
+      "foodCategory": "Sprouts",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Georgia",
+        "Kentucky",
+        "North Carolina",
+        "South Carolina",
+        "Tennessee",
+        "Virginia",
+        "West Virginia"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1213-2026",
+      "source": "openfda",
+      "firm": "Clover Hill Dairy, LLC",
+      "product": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (Jalapeno Cheddar, Pepper Jack, Sizzlin Colby with Habanero Peppers). Sold in approximate 1/2-lb, 1-lb, 2.5-lb, 5-lb, and 40-lb units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "reason": "Product contaminated with Listeria monocytogenes.",
+      "classification": "Class I",
+      "foodRaw": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (Jalapeno Cheddar, Pepper Jack, Sizzlin Colby with Habanero Peppers). Sold in approximate 1/2-lb, 1-lb, 2.5-lb, 5-lb, and 40-lb units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Maryland",
+        "New York",
+        "Virginia"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1222-2026",
+      "source": "openfda",
+      "firm": "FACTORY6, INC.",
+      "product": "Zen Principle Naturals Moringa Leaf Powder dietary supplement, 900mg capsules, 180 capsules per PET white bottle. Intended Use: take 2 capsules per day. Route of Administration: OraI. Manufactured for Zen Principle 774 Mays Blvd Incline Village, NV 89451. The product is offered as a 1-pack (180 capsules; Amazon code/FNSKU X000ZJJ4FT) and as a 2-pack (twin pack, 360 capsules; Amazon code/FNSKU X001",
+      "reason": "Possible Salmonella in Moringa Leaf Powder product.",
+      "classification": "Class I",
+      "foodRaw": "Zen Principle Naturals Moringa Leaf Powder dietary supplement, 900mg capsules, 180 capsules per PET white bottle. Intended Use: take 2 capsules per day. Route of Administration: OraI. Manufactured for Zen Principle 774 Mays Blvd Incline Village, NV 89451. The product is offered as a 1-pack (180 capsules; Amazon code/FNSKU X000ZJJ4FT) and as a 2-pack (twin pack, 360 capsules; Amazon code/FNSKU X001",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nevada"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1205-2026",
+      "source": "openfda",
+      "firm": "Clover Hill Dairy, LLC",
+      "product": "Clover Hill Dairy LLP, Mild Cheese Variety (Yummy Cheddar, White Cheddar, White Colby, Monterey Jack, Marble Jack). Sold in 1/2-lb, 1-lb, 2.5-lb, 5-lb, and 40-lb units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "reason": "Product contaminated with Listeria monocytogenes.",
+      "classification": "Class I",
+      "foodRaw": "Clover Hill Dairy LLP, Mild Cheese Variety (Yummy Cheddar, White Cheddar, White Colby, Monterey Jack, Marble Jack). Sold in 1/2-lb, 1-lb, 2.5-lb, 5-lb, and 40-lb units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Maryland",
+        "New York",
+        "Virginia"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1214-2026",
+      "source": "openfda",
+      "firm": "Clover Hill Dairy, LLC",
+      "product": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (Snack Pack Assorted Pepperjack Stix (Jalapeno Cheddar, Pepper Jack)). Sold in approximate 0.40-lb (6.4oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "reason": "Product contaminated with Listeria monocytogenes.",
+      "classification": "Class I",
+      "foodRaw": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (Snack Pack Assorted Pepperjack Stix (Jalapeno Cheddar, Pepper Jack)). Sold in approximate 0.40-lb (6.4oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Maryland",
+        "New York",
+        "Virginia"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1180-2026",
+      "source": "openfda",
+      "firm": "Green Jeeva LLC",
+      "product": "Organic Moringa Powder; 15kg/bag (bulk); Product code: GJ96",
+      "reason": "Moringa Powder ingredient positive for salmonella",
+      "classification": "Class I",
+      "foodRaw": "Organic Moringa Powder; 15kg/bag (bulk); Product code: GJ96",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [],
+      "date": "2026-07-29",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1166-2026",
+      "source": "openfda",
+      "firm": "D'Dioses Fruit Pops, Inc.",
+      "product": "Ice Pop, D'Dioses Nuez, 1 Bar (81.7 g), with UPC 827912008548",
+      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
+      "classification": "Class I",
+      "foodRaw": "Ice Pop, D'Dioses Nuez, 1 Bar (81.7 g), with UPC 827912008548",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Connecticut",
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-07-22",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1172-2026",
+      "source": "openfda",
+      "firm": "D'Dioses Fruit Pops, Inc.",
+      "product": "Ice Pop, D'Dioses Tamarindo, 1 Bar (81.7 g), with UPC 827912008593",
+      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
+      "classification": "Class I",
+      "foodRaw": "Ice Pop, D'Dioses Tamarindo, 1 Bar (81.7 g), with UPC 827912008593",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Connecticut",
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-07-22",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1160-2026",
+      "source": "openfda",
+      "firm": "D'Dioses Fruit Pops, Inc.",
+      "product": "Ice Pop, D'Dioses Arroz con Leche, 4 oz (85 g), with UPC 710594511843",
+      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
+      "classification": "Class I",
+      "foodRaw": "Ice Pop, D'Dioses Arroz con Leche, 4 oz (85 g), with UPC 710594511843",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Connecticut",
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-07-22",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1138-2026",
+      "source": "openfda",
+      "firm": "Adams Extract & Spice LLC",
+      "product": "Smoked Sausage Spice 32.86#",
+      "reason": "Undeclared Sesame allergen",
+      "classification": "Class I",
+      "foodRaw": "Smoked Sausage Spice 32.86#",
+      "foodCategory": "Pork",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Texas"
+      ],
+      "date": "2026-07-15",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1128-2026",
+      "source": "openfda",
+      "firm": "MOGO Moringa LLC",
+      "product": "MOGO PURE MORINGA OLEIFERA CAPSULES, HERBAL SUPPLEMENT, 180 QUICK RELEASE VEGGIE CAPSULE, 100% PURE, 350 MG PER CAPSULE, SUPPLEMENT FACTS MORINGA POWDER 1050 mg, Ingredients: 100% Pure Moringa Leaf Powder (Moringa Oleifera), MANUFACTURED IN USA AND Marketed by: MOGO MIRINGA LLC, PO BOX 32066 Saint Louis, MO 63132",
+      "reason": "Product may be contaminated with Salmonella Typhimurium",
+      "classification": "Class I",
+      "foodRaw": "MOGO PURE MORINGA OLEIFERA CAPSULES, HERBAL SUPPLEMENT, 180 QUICK RELEASE VEGGIE CAPSULE, 100% PURE, 350 MG PER CAPSULE, SUPPLEMENT FACTS MORINGA POWDER 1050 mg, Ingredients: 100% Pure Moringa Leaf Powder (Moringa Oleifera), MANUFACTURED IN USA AND Marketed by: MOGO MIRINGA LLC, PO BOX 32066 Saint Louis, MO 63132",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-07-08",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1080-2026",
+      "source": "openfda",
+      "firm": "Prime Food Processing LLC.",
+      "product": "Dried Herring Fish 7 oz.",
+      "reason": "Improperly eviscerated which may result in Clostridium botulinum contamination",
+      "classification": "Class I",
+      "foodRaw": "Dried Herring Fish 7 oz.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Arizona",
+        "California",
+        "Florida",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Louisiana",
+        "Maryland",
+        "Missouri",
+        "Nevada",
+        "New Hampshire",
+        "New York",
+        "North Carolina",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Texas",
+        "Utah",
+        "Washington"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1114-2026",
+      "source": "openfda",
+      "firm": "Utz Quality Foods, LLC",
+      "product": "1.5oz, 2oz Dirty Brand Salt and Vinegar Potato Chips, Plastic Bag.",
+      "reason": "Potential presence of Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "1.5oz, 2oz Dirty Brand Salt and Vinegar Potato Chips, Plastic Bag.",
+      "foodCategory": "Root/Underground",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nevada",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1117-2026",
+      "source": "openfda",
+      "firm": "Utz Quality Foods, LLC",
+      "product": "2.0 oz Dirty Sour Cream and Onion Potato Chips, Plastic Bag.",
+      "reason": "Potential presence of Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "2.0 oz Dirty Sour Cream and Onion Potato Chips, Plastic Bag.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Alabama",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nevada",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1112-2026",
+      "source": "openfda",
+      "firm": "Utz Quality Foods, LLC",
+      "product": "1.5oz Zapp's Bayou Blackened Ranch Kettle Chips, Plastic Bag.",
+      "reason": "Potential presence of Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "1.5oz Zapp's Bayou Blackened Ranch Kettle Chips, Plastic Bag.",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nevada",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0890-2026",
+      "source": "openfda",
+      "firm": "JCB Flavors, LLC",
+      "product": "White Cheddar Seasoning packaged in the following sized containers: 1. Net Wt. 1.2 oz (34g) Distributed by: Fireworks Popcorn, Division of Jonco Industries, Milwaukee, WI 53218. Sold in a Fireworks Popcorn Popping & Toppings gift set. 2. Net Wt. 1.6 oz. (45g) UPC 7 36659-26501 8. Distributed by: Fireworks Popcorn, Division of Jonco Industries, Milwaukee, WI 53218. Sold at West Allis Cheese and Sau",
+      "reason": "Products may be potentially contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "White Cheddar Seasoning packaged in the following sized containers: 1. Net Wt. 1.2 oz (34g) Distributed by: Fireworks Popcorn, Division of Jonco Industries, Milwaukee, WI 53218. Sold in a Fireworks Popcorn Popping & Toppings gift set. 2. Net Wt. 1.6 oz. (45g) UPC 7 36659-26501 8. Distributed by: Fireworks Popcorn, Division of Jonco Industries, Milwaukee, WI 53218. Sold at West Allis Cheese and Sau",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Kansas",
+        "Minnesota",
+        "New York",
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0908-2026",
+      "source": "openfda",
+      "firm": "The Coffee Connexion Co., Inc",
+      "product": "Aramark Cheese Sauce New & Improved, 25 lb., packaged in a tied poly bag and packed 2 bags per case, UPC 0039954925121",
+      "reason": "Product contains dry milk powder ingredient recalled by the supplier due to potential Salmonella contamination",
+      "classification": "Class I",
+      "foodRaw": "Aramark Cheese Sauce New & Improved, 25 lb., packaged in a tied poly bag and packed 2 bags per case, UPC 0039954925121",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Alabama",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Rhode Island",
+        "South Carolina",
+        "South Dakota",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Virginia",
+        "Washington",
+        "Wisconsin",
+        "Wyoming"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0884-2026",
+      "source": "openfda",
+      "firm": "JCB Flavors, LLC",
+      "product": "Karlsburger Kitchens Garlic N Cheese Topper, Net Wt: 20 oz. (567g). Distributed by: Karlsburger Foods, Inc., Monticello, MN 55362",
+      "reason": "Products may be potentially contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Karlsburger Kitchens Garlic N Cheese Topper, Net Wt: 20 oz. (567g). Distributed by: Karlsburger Foods, Inc., Monticello, MN 55362",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Kansas",
+        "Minnesota",
+        "New York",
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0887-2026",
+      "source": "openfda",
+      "firm": "JCB Flavors, LLC",
+      "product": "#003020 Sour Cream & Onion, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "reason": "Products may be potentially contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "#003020 Sour Cream & Onion, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Kansas",
+        "Minnesota",
+        "New York",
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0888-2026",
+      "source": "openfda",
+      "firm": "JCB Flavors, LLC",
+      "product": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "reason": "Products may be potentially contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "foodCategory": "Root/Underground",
+      "foodGroup": "Plants",
+      "states": [
+        "Kansas",
+        "Minnesota",
+        "New York",
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0850-2026",
+      "source": "openfda",
+      "firm": "Legacy Bakehouse LLC",
+      "product": "Butter Parsley Bagel Crisps, Item Number 18490, Net Weight: 10 lbs. Legacy Bakehouse, LLC, N8W22100 Johnson Dr., Waukesha, WI 53166.",
+      "reason": "Products were made with recalled California Dairies milk powder due to Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Butter Parsley Bagel Crisps, Item Number 18490, Net Weight: 10 lbs. Legacy Bakehouse, LLC, N8W22100 Johnson Dr., Waukesha, WI 53166.",
+      "foodCategory": "Herbs",
+      "foodGroup": "Plants",
+      "states": [
+        "Pennsylvania",
+        "Wisconsin"
+      ],
+      "date": "2026-06-03",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0856-2026",
+      "source": "openfda",
+      "firm": "Wawa Beverage Company",
+      "product": "Wawa Diet Iced Tea Lemon Pint (16oz),Plastic bottle",
+      "reason": "Undeclared Milk Allergen,",
+      "classification": "Class I",
+      "foodRaw": "Wawa Diet Iced Tea Lemon Pint (16oz),Plastic bottle",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Delaware",
+        "Maryland",
+        "New Jersey",
+        "Pennsylvania",
+        "Virginia"
+      ],
+      "date": "2026-06-03",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0814-2026",
+      "source": "openfda",
+      "firm": "PS Seasoning & Spices, Inc.",
+      "product": "Ellsworth Sour Cream + Onion Seasoning, Part #: 180000113. Net Wt 25.00 lbs (11.3kg). PS Seasoning & Spices 216 W Pleasant St Iron Ridge WI 53035",
+      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
+      "classification": "Class I",
+      "foodRaw": "Ellsworth Sour Cream + Onion Seasoning, Part #: 180000113. Net Wt 25.00 lbs (11.3kg). PS Seasoning & Spices 216 W Pleasant St Iron Ridge WI 53035",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0835-2026",
+      "source": "openfda",
+      "firm": "JOHN B SANFILIPPO & SONS INC",
+      "product": "Good & Gather Mexican Street Corn Trail Mix 8 oz bag UPC 085239270240, 8 bags per case",
+      "reason": "potential presence of Salmonella",
+      "classification": "Class I",
+      "foodRaw": "Good & Gather Mexican Street Corn Trail Mix 8 oz bag UPC 085239270240, 8 bags per case",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0844-2026",
+      "source": "openfda",
+      "firm": "Ghirardelli Chocolate Company",
+      "product": "GHIRARDELLI SWEET GROUND POWDER WHITE CHOCOLATE FLAVORED NET WT 50oz (3lbs 2oz) 1.41kg Distributed by Ghirardelli Chocolate Company, San Leandro, CA 94578, U.S.A. UPC: 747599620386",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "GHIRARDELLI SWEET GROUND POWDER WHITE CHOCOLATE FLAVORED NET WT 50oz (3lbs 2oz) 1.41kg Distributed by Ghirardelli Chocolate Company, San Leandro, CA 94578, U.S.A. UPC: 747599620386",
+      "foodCategory": "Oils-sugars",
+      "foodGroup": "Plants",
+      "states": [
+        "California"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0822-2026",
+      "source": "openfda",
+      "firm": "Solina U.S. Holding",
+      "product": "Solina 6036195 Ranch Seasoning, 50lb bag",
+      "reason": "potential to be contaminated with Salmonella",
+      "classification": "Class I",
+      "foodRaw": "Solina 6036195 Ranch Seasoning, 50lb bag",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "California",
+        "Georgia",
+        "Illinois",
+        "Kansas",
+        "Michigan",
+        "Pennsylvania",
+        "Wisconsin"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0812-2026",
+      "source": "openfda",
+      "firm": "Fontana Flavors, Inc",
+      "product": "VG7274D1 Natural Cream of Mushroom Type Flavor, Net Weight: 50 lbs. bag. Item #: R5302. For Further Processing. Fontana Flavors, Janesville, WI.",
+      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
+      "classification": "Class I",
+      "foodRaw": "VG7274D1 Natural Cream of Mushroom Type Flavor, Net Weight: 50 lbs. bag. Item #: R5302. For Further Processing. Fontana Flavors, Janesville, WI.",
+      "foodCategory": "Fungi",
+      "foodGroup": "Plants",
+      "states": [
+        "Illinois",
+        "Tennessee"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0836-2026",
+      "source": "openfda",
+      "firm": "JOHN B SANFILIPPO & SONS INC",
+      "product": "Fisher Tex Mex Trail Mix 30 oz plastic jar UPC 070690275941, 6 jars per case",
+      "reason": "potential presence of Salmonella",
+      "classification": "Class I",
+      "foodRaw": "Fisher Tex Mex Trail Mix 30 oz plastic jar UPC 070690275941, 6 jars per case",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0823-2026",
+      "source": "openfda",
+      "firm": "Solina U.S. Holding",
+      "product": "Solina 6036443 Cheddar Cheese Powder Seasoning, 50lb bag",
+      "reason": "potential to be contaminated with Salmonella",
+      "classification": "Class I",
+      "foodRaw": "Solina 6036443 Cheddar Cheese Powder Seasoning, 50lb bag",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "California",
+        "Georgia",
+        "Illinois",
+        "Kansas",
+        "Michigan",
+        "Pennsylvania",
+        "Wisconsin"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0817-2026",
+      "source": "openfda",
+      "firm": "PS Seasoning & Spices, Inc.",
+      "product": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
+      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
+      "classification": "Class I",
+      "foodRaw": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0699-2026",
+      "source": "openfda",
+      "firm": "California Dairies Inc.",
+      "product": "Low Heat Non-Fat Dried Milk Powder - paper bags 25 kg. (packed under 5 labels: Off Grade NFDM Variable; Extra Grade NFDM Standard rBST Free; Grade A NFDM LH Basic; Grade A NFDM LH Standard rBST Free; Grade A NFDM LH Tier 1 rBST Free)",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Low Heat Non-Fat Dried Milk Powder - paper bags 25 kg. (packed under 5 labels: Off Grade NFDM Variable; Extra Grade NFDM Standard rBST Free; Grade A NFDM LH Basic; Grade A NFDM LH Standard rBST Free; Grade A NFDM LH Tier 1 rBST Free)",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0764-2026",
+      "source": "openfda",
+      "firm": "Raw Farm LLC",
+      "product": "RAW FARM RAW CHEDDAR SIMPLY SHREDDED Original MADE WITH: WHOLE RAW MILK TRULY RAW - NEVER WARMED ABOVE 102F MADE IN THE USA KEEP REFRIGERATED INGREDIENTS: WHOLE RAW MILK, VEGETABLE RENNET, CULTURES, KOSHER SEA SALT Produced By: RAW FARM, LLC www.rawfarmusa.com 8 oz (227g) UPC: 835204001184",
+      "reason": "Multi-state outbreak of E. coli O157:H7.",
+      "classification": "Class I",
+      "foodRaw": "RAW FARM RAW CHEDDAR SIMPLY SHREDDED Original MADE WITH: WHOLE RAW MILK TRULY RAW - NEVER WARMED ABOVE 102F MADE IN THE USA KEEP REFRIGERATED INGREDIENTS: WHOLE RAW MILK, VEGETABLE RENNET, CULTURES, KOSHER SEA SALT Produced By: RAW FARM, LLC www.rawfarmusa.com 8 oz (227g) UPC: 835204001184",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Maryland",
+        "Nevada",
+        "Texas"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0837-2026",
+      "source": "openfda",
+      "firm": "Givaudan Flavors Corp",
+      "product": "Bulk WN-976-782-1 Seasoning for Cheese Sauce, Net Wt. 43.50 lbs., in a brown kraft bag",
+      "reason": "Product has the potential to be contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Bulk WN-976-782-1 Seasoning for Cheese Sauce, Net Wt. 43.50 lbs., in a brown kraft bag",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Missouri"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0698-2026",
+      "source": "openfda",
+      "firm": "California Dairies Inc.",
+      "product": "Low Heat Non-Fat Dried Milk Powder - plastic totes (NTE) 2200 lbs. (packed under 5 labels: Off Grade NFDM Variable; Grade A NFDM LH Basic; Grade A NFDM LH Green Loop rBST Free; Grade A NFDM LH Standard NC rBST Free; NFDM LH Variable Standard)",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Low Heat Non-Fat Dried Milk Powder - plastic totes (NTE) 2200 lbs. (packed under 5 labels: Off Grade NFDM Variable; Grade A NFDM LH Basic; Grade A NFDM LH Green Loop rBST Free; Grade A NFDM LH Standard NC rBST Free; NFDM LH Variable Standard)",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0691-2026",
+      "source": "openfda",
+      "firm": "Griffith Foods Inc.",
+      "product": "Costco Service Deli Department 63 MEATLOAF SEASONING MORE FLV Pack Size: 4-5lb. Bags Net Weight: 20lbs Allergy Information: CONTAINS: MILK, WHEAT Packed BY: Griffith Foods STONECREST, GA 30058",
+      "reason": "Potential Salmonella contamination. The firm was notified from their supplier that the nonfat dry milk may be contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Costco Service Deli Department 63 MEATLOAF SEASONING MORE FLV Pack Size: 4-5lb. Bags Net Weight: 20lbs Allergy Information: CONTAINS: MILK, WHEAT Packed BY: Griffith Foods STONECREST, GA 30058",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Louisiana",
+        "Maryland",
+        "Michigan",
+        "North Carolina",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Washington"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1223-2026",
+      "source": "openfda",
+      "firm": "PT Organics Limited",
+      "product": "Pumpkin Tree Peter Rabbit Organics Banana & Strawberry fruit puree, 4oz/113g pouch, UPC 815367010780, PTO Item 10720. Distributed by: PT Organics Ltd, 333 South State St, Suite V-142, Lake Oswego, OR 97034. Product is pasteurized blend of banana and strawberry purees sold in single serve spouted flexible film pouch (4oz/113g) with red cap. It is intended for consumption by children aged +6 months.",
+      "reason": "Possible foreign object (thin, soft plastic strands).",
+      "classification": "Class II",
+      "foodRaw": "Pumpkin Tree Peter Rabbit Organics Banana & Strawberry fruit puree, 4oz/113g pouch, UPC 815367010780, PTO Item 10720. Distributed by: PT Organics Ltd, 333 South State St, Suite V-142, Lake Oswego, OR 97034. Product is pasteurized blend of banana and strawberry purees sold in single serve spouted flexible film pouch (4oz/113g) with red cap. It is intended for consumption by children aged +6 months.",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arizona",
+        "California",
+        "Colorado",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Michigan",
+        "Minnesota",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oregon",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Virginia",
+        "Washington",
+        "Wisconsin"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1191-2026",
+      "source": "openfda",
+      "firm": "Galliker Dairy Co, Inc.",
+      "product": "DQ Chocolate Reduced Fat Ice Cream Mix, 5 GAL (18.9L). Keep refrigerated.",
+      "reason": "Foreign material found in product (identified as metal shavings)",
+      "classification": "Class II",
+      "foodRaw": "DQ Chocolate Reduced Fat Ice Cream Mix, 5 GAL (18.9L). Keep refrigerated.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Delaware",
+        "Maryland",
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-08-05",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1179-2026",
+      "source": "openfda",
+      "firm": "Brooklyn Roasting Works LLC",
+      "product": "Brooklyn Roasting Company Pasteurized Cold Brew Concentrate; 2.5gal; bag in a box distributed between 04/01/2026 and 06/20/2026.",
+      "reason": "Ambient storage of the product may lead to Clostridium botulinum toxin formation.",
+      "classification": "Class II",
+      "foodRaw": "Brooklyn Roasting Company Pasteurized Cold Brew Concentrate; 2.5gal; bag in a box distributed between 04/01/2026 and 06/20/2026.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "New Jersey",
+        "New York"
+      ],
+      "date": "2026-07-29",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1187-2026",
+      "source": "openfda",
+      "firm": "Man Fon, Inc.",
+      "product": "Man Fon Inc. Won Ton Wrappers Extra Thin; Net Wt. 10 oz; UPC# 757168 977315, Keep Refrigerated, Can be Frozen. Sold in 48 units (10oz)/case.",
+      "reason": "Undeclared colors: Yellow#5, and Yellow#6.",
+      "classification": "Class II",
+      "foodRaw": "Man Fon Inc. Won Ton Wrappers Extra Thin; Net Wt. 10 oz; UPC# 757168 977315, Keep Refrigerated, Can be Frozen. Sold in 48 units (10oz)/case.",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "New Mexico"
+      ],
+      "date": "2026-07-29",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1152-2026",
+      "source": "openfda",
+      "firm": "Nutricia North America",
+      "product": "functional formularies LIQUID HOPE ORGANIC WHOLE FOODS MEAL REPLACEMENT PEPTIDE FORMULA BERRY MEDLEY NET WT. 12 OZ (341g) case UPC 8 57858 00453 3, package UPC 8 57858 00450 2",
+      "reason": "Subpotent for Vitamin A. The firm discovered that the testing laboratory used the wrong method when testing for Vitamin A. The test results gave a higher concentration of vitamin A than what is actually in the product.",
+      "classification": "Class II",
+      "foodRaw": "functional formularies LIQUID HOPE ORGANIC WHOLE FOODS MEAL REPLACEMENT PEPTIDE FORMULA BERRY MEDLEY NET WT. 12 OZ (341g) case UPC 8 57858 00453 3, package UPC 8 57858 00450 2",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "New York"
+      ],
+      "date": "2026-07-22",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1175-2026",
+      "source": "openfda",
+      "firm": "Fayus Inc.",
+      "product": "OLA-OLA POUNDED GROUNDNUTS (INTWILO) NET WT. 32 oz., 2 lbs. (0.907 kg) Distributed by: Yusol International Foods Sacramento, CA 95828 Product of USA INGREDIENTS: Pounded Groundnuts (Intwilo) UPC: 650655764330",
+      "reason": "Undeclared peanuts",
+      "classification": "Class II",
+      "foodRaw": "OLA-OLA POUNDED GROUNDNUTS (INTWILO) NET WT. 32 oz., 2 lbs. (0.907 kg) Distributed by: Yusol International Foods Sacramento, CA 95828 Product of USA INGREDIENTS: Pounded Groundnuts (Intwilo) UPC: 650655764330",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Texas"
+      ],
+      "date": "2026-07-22",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1143-2026",
+      "source": "openfda",
+      "firm": "Bear Stewart Co",
+      "product": "Bakr Brown Butter Chocolate Chunk Ready to Bake Cookie Dough, 8-oz pouch 12 cookies per pouch, UPC 8 50073 08700 8, 8 pouches per case",
+      "reason": "undeclared soy",
+      "classification": "Class II",
+      "foodRaw": "Bakr Brown Butter Chocolate Chunk Ready to Bake Cookie Dough, 8-oz pouch 12 cookies per pouch, UPC 8 50073 08700 8, 8 pouches per case",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Illinois"
+      ],
+      "date": "2026-07-15",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1129-2026",
+      "source": "openfda",
+      "firm": "MARS SNACKING",
+      "product": "MorningStar Farms Buffalo Chik'n Nuggets, 100% Plant Protein Vegan Nuggets, Net Wt. 10.5 oz. (298g), packaged in a resealable plastic bag with UPC 028989101105, packed 6 bags per case",
+      "reason": "Potential contamination with plastic material",
+      "classification": "Class II",
+      "foodRaw": "MorningStar Farms Buffalo Chik'n Nuggets, 100% Plant Protein Vegan Nuggets, Net Wt. 10.5 oz. (298g), packaged in a resealable plastic bag with UPC 028989101105, packed 6 bags per case",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Alabama",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nebraska",
+        "Nevada",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Puerto Rico",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "Wisconsin",
+        "Wyoming"
+      ],
+      "date": "2026-07-08",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1136-2026",
+      "source": "openfda",
+      "firm": "Fry Pie Factory LLC",
+      "product": "Pepperoni Rolls, Net Wt. 5 oz (141g), individually packaged in a clear plastic bag, UPC 601959803041",
+      "reason": "Undeclared allergen (milk) and process deviation (product not held under refrigeration as required)",
+      "classification": "Class II",
+      "foodRaw": "Pepperoni Rolls, Net Wt. 5 oz (141g), individually packaged in a clear plastic bag, UPC 601959803041",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Ohio",
+        "West Virginia"
+      ],
+      "date": "2026-07-08",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1085-2026",
+      "source": "openfda",
+      "firm": "Joy Gourmet Foods LLC.",
+      "product": "Joy Pineapple Lassi 16 oz.",
+      "reason": "Product not adequately pasteurized",
+      "classification": "Class II",
+      "foodRaw": "Joy Pineapple Lassi 16 oz.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1133-2026",
+      "source": "openfda",
+      "firm": "Boichik Bagels, Inc.",
+      "product": "boichik bagles Pumpernickel Mix Bagels 6 pre-sliced bagels NET WT 26.5 OZ (1.66 LB) 750g Ingredients: Organic wheat flour... Contains Wheat Topped flavors may additionally contain... sesame seeds... Best by SE 26 26 UPC: 850016588067",
+      "reason": "Undeclared allergen, sesame.",
+      "classification": "Class II",
+      "foodRaw": "boichik bagles Pumpernickel Mix Bagels 6 pre-sliced bagels NET WT 26.5 OZ (1.66 LB) 750g Ingredients: Organic wheat flour... Contains Wheat Topped flavors may additionally contain... sesame seeds... Best by SE 26 26 UPC: 850016588067",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "California"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1095-2026",
+      "source": "openfda",
+      "firm": "Champion Foods, LLC",
+      "product": "Motor City Pizza Co. 5 Cheese Bread Single retail pack; 22.43 oz. (1 lb. 6.4 oz.) 636g UPC 8 70375 00511 1; 6 retail units per case Motor City Pizza Co. 5 Cheese Bread Twin retail pack; 44.86 oz. (2 lb. 12.9 oz.) 1272g UPC 8 70375 00509 8; 10 retail units per case",
+      "reason": "potential salmonella contamination",
+      "classification": "Class II",
+      "foodRaw": "Motor City Pizza Co. 5 Cheese Bread Single retail pack; 22.43 oz. (1 lb. 6.4 oz.) 636g UPC 8 70375 00511 1; 6 retail units per case Motor City Pizza Co. 5 Cheese Bread Twin retail pack; 44.86 oz. (2 lb. 12.9 oz.) 1272g UPC 8 70375 00509 8; 10 retail units per case",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Michigan"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1094-2026",
+      "source": "openfda",
+      "firm": "Joy Gourmet Foods LLC.",
+      "product": "Joy Saffron Cardamon Lassi 16 oz.",
+      "reason": "Product not adequately pasteurized",
+      "classification": "Class II",
+      "foodRaw": "Joy Saffron Cardamon Lassi 16 oz.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-07-01",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0932-2026",
+      "source": "openfda",
+      "firm": "Galaxy RG Corp",
+      "product": "Marquesita de Chocolate y Vainilla [image] Delighted Flavored Cakes The Original, Net Wt. 16 oz, packaged in a transparent and rigid plastic clamshell container, one unit per container. KEEP REFRIGERATED. UPC 824790852706",
+      "reason": "Undeclared colors (Yellow #5, Yellow #6, and/or Red #40).",
+      "classification": "Class II",
+      "foodRaw": "Marquesita de Chocolate y Vainilla [image] Delighted Flavored Cakes The Original, Net Wt. 16 oz, packaged in a transparent and rigid plastic clamshell container, one unit per container. KEEP REFRIGERATED. UPC 824790852706",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "Florida",
+        "Texas"
+      ],
+      "date": "2026-06-17",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0919-2026",
+      "source": "openfda",
+      "firm": "Galaxy RG Corp",
+      "product": "Rollitos de Guava [image] Guava Rolls The Original, Net Wt. 15 oz, packaged in a transparent and rigid plastic clamshell container, one unit per container. KEEP REFRIGERATED. UPC 824790852454",
+      "reason": "Undeclared colors (Yellow #5, Yellow #6, and/or Red #40).",
+      "classification": "Class II",
+      "foodRaw": "Rollitos de Guava [image] Guava Rolls The Original, Net Wt. 15 oz, packaged in a transparent and rigid plastic clamshell container, one unit per container. KEEP REFRIGERATED. UPC 824790852454",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Florida",
+        "Texas"
+      ],
+      "date": "2026-06-17",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0920-2026",
+      "source": "openfda",
+      "firm": "Galaxy RG Corp",
+      "product": "Rollitos de DulceLeche [image] Caramel Rolls The Original, Net Wt. 15 oz, packaged in a transparent and rigid plastic clamshell container, one unit per container. KEEP REFRIGERATED. UPC 824790852454",
+      "reason": "Undeclared colors (Yellow #5, Yellow #6, and/or Red #40).",
+      "classification": "Class II",
+      "foodRaw": "Rollitos de DulceLeche [image] Caramel Rolls The Original, Net Wt. 15 oz, packaged in a transparent and rigid plastic clamshell container, one unit per container. KEEP REFRIGERATED. UPC 824790852454",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Florida",
+        "Texas"
+      ],
+      "date": "2026-06-17",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0914-2026",
+      "source": "openfda",
+      "firm": "J and J Bunting, Inc",
+      "product": "Lunds & Byerly's Curry Powder Sweet",
+      "reason": "Sesame Seeds White were labeled as Curry Powder Sweet.",
+      "classification": "Class II",
+      "foodRaw": "Lunds & Byerly's Curry Powder Sweet",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1016-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21163600000 Ready Meals SALAD WALDORF SS This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Walnut",
+      "classification": "Class II",
+      "foodRaw": "UPC 21163600000 Ready Meals SALAD WALDORF SS This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0968-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 25185700000 COOKIE GOURMET DUBAI 1CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Pistachio.",
+      "classification": "Class II",
+      "foodRaw": "UPC 25185700000 COOKIE GOURMET DUBAI 1CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0895-2026",
+      "source": "openfda",
+      "firm": "Straus Family Creamery",
+      "product": "STRAUS FAMILY CREAMERY Cookie Dough ORGANIC SUPER PREMIUM ICE CREAM ONE PINT (473mL) Produced and Distributed by Straus Family Creamery, Petaluma, CA 94952 UPC: 784830101044",
+      "reason": "Potential contamination with foreign objects (metal pieces).",
+      "classification": "Class II",
+      "foodRaw": "STRAUS FAMILY CREAMERY Cookie Dough ORGANIC SUPER PREMIUM ICE CREAM ONE PINT (473mL) Produced and Distributed by Straus Family Creamery, Petaluma, CA 94952 UPC: 784830101044",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Maryland",
+        "New Jersey",
+        "Oregon",
+        "Pennsylvania",
+        "South Carolina",
+        "Texas",
+        "Washington",
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0991-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 29153000000 SAMPLER TRAY ITALIAN 16 INCH This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Almond",
+      "classification": "Class II",
+      "foodRaw": "UPC 29153000000 SAMPLER TRAY ITALIAN 16 INCH This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0988-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 29168800000 CARVING TRAY 16IN FS This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Walnut",
+      "classification": "Class II",
+      "foodRaw": "UPC 29168800000 CARVING TRAY 16IN FS This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1022-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21195200000 READY MEALS SALAD FRESH BERRY & CHICKEN SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Walnut",
+      "classification": "Class II",
+      "foodRaw": "UPC 21195200000 READY MEALS SALAD FRESH BERRY & CHICKEN SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Chicken",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0897-2026",
+      "source": "openfda",
+      "firm": "Straus Family Creamery",
+      "product": "STRAUS FAMILY CREAMERY Mint Chip ORGANIC SUPER PREMIUM ICE CREAM ONE PINT (473mL) Produced and Distributed by Straus Family Creamery, Petaluma, CA 94952 UPC: 784830100504",
+      "reason": "Potential contamination with foreign objects (metal pieces).",
+      "classification": "Class II",
+      "foodRaw": "STRAUS FAMILY CREAMERY Mint Chip ORGANIC SUPER PREMIUM ICE CREAM ONE PINT (473mL) Produced and Distributed by Straus Family Creamery, Petaluma, CA 94952 UPC: 784830100504",
+      "foodCategory": "Herbs",
+      "foodGroup": "Plants",
+      "states": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Maryland",
+        "New Jersey",
+        "Oregon",
+        "Pennsylvania",
+        "South Carolina",
+        "Texas",
+        "Washington",
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0993-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 29133000000 TRAY COCKTAIL This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Almond",
+      "classification": "Class II",
+      "foodRaw": "UPC 29133000000 TRAY COCKTAIL This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0995-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 23285300000 IMITATION CRAB AND SHRIMP SALAD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Pollock",
+      "classification": "Class II",
+      "foodRaw": "UPC 23285300000 IMITATION CRAB AND SHRIMP SALAD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Crustaceans",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1020-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 29433900000 Kitchen SALAD CHICKEN STRIP This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Almond",
+      "classification": "Class II",
+      "foodRaw": "UPC 29433900000 Kitchen SALAD CHICKEN STRIP This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Chicken",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0904-2026",
+      "source": "openfda",
+      "firm": "Market of Choice Inc",
+      "product": "Market of Choice Vegan Kale Caesar Salad, Net Wt. 9.5oz. Finished product is pre-packaged into a clear flexible plastic clamshell container. Label has UPC 0 210126 01099 3. Market Central Kitchen 1150 Owen Loop S. Eugene, OR 97402 The Za'atar spice, which contains Sesame Seeds, is mixed with chickpeas and packaged into a 2-oz plastic cup. This 2-oz. cup with chickpeas is then assembled into the fi",
+      "reason": "Undeclared allergen (sesame). Ingredients panel does not list sesame as sub-ingredient of Za'atar spice and Contains statement does not declare sesame.",
+      "classification": "Class II",
+      "foodRaw": "Market of Choice Vegan Kale Caesar Salad, Net Wt. 9.5oz. Finished product is pre-packaged into a clear flexible plastic clamshell container. Label has UPC 0 210126 01099 3. Market Central Kitchen 1150 Owen Loop S. Eugene, OR 97402 The Za'atar spice, which contains Sesame Seeds, is mixed with chickpeas and packaged into a 2-oz plastic cup. This 2-oz. cup with chickpeas is then assembled into the fi",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Oregon"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1045-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21425300000 READY MEALS SALAD KALE MANGO & COCONUT SS UPC 21042400000 SALAD KALE MANGO & COCONUT FS This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Cashew",
+      "classification": "Class II",
+      "foodRaw": "UPC 21425300000 READY MEALS SALAD KALE MANGO & COCONUT SS UPC 21042400000 SALAD KALE MANGO & COCONUT FS This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1035-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 29787500000 KITCHEN SALAD SPRING LARGE This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Almond",
+      "classification": "Class II",
+      "foodRaw": "UPC 29787500000 KITCHEN SALAD SPRING LARGE This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0990-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 27841000000 Ready Meals TRAY BRIE & BLEU CHEESE LARGE This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Almond",
+      "classification": "Class II",
+      "foodRaw": "UPC 27841000000 Ready Meals TRAY BRIE & BLEU CHEESE LARGE This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1031-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class II",
+      "foodRaw": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0985-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Walnut",
+      "classification": "Class II",
+      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0788-2026",
+      "source": "openfda",
+      "firm": "LIQUID BLENZ CORP",
+      "product": "Menopause Bully 16 oz and 32 oz.",
+      "reason": "May be under-processed resulting in growth of Clostridium botulinum and lists health claims.",
+      "classification": "Class II",
+      "foodRaw": "Menopause Bully 16 oz and 32 oz.",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "New York"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0808-2026",
+      "source": "openfda",
+      "firm": "Wellnov Supplements LLC",
+      "product": "Liposomal Sleep Spray. Dosage: 6 sprays Liquid. Packaging: Aluminum bottle. 30 ml. Firm Address: VitaminAlly LLC Chandler, AZ 85225",
+      "reason": "Deviations from current Good Manufacturing Practices (cGMP) that could lead to bacterial pathogen and possible C. Botulinum concerns.",
+      "classification": "Class II",
+      "foodRaw": "Liposomal Sleep Spray. Dosage: 6 sprays Liquid. Packaging: Aluminum bottle. 30 ml. Firm Address: VitaminAlly LLC Chandler, AZ 85225",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide",
+        "Puerto Rico"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0770-2026",
+      "source": "openfda",
+      "firm": "Dakota Honey Company",
+      "product": "Dakota Honey Company Spreadable Spun Honey, Salted Caramel. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41981 4. 2. Net Wt 12 oz (340g) UPC 8 60010-57964 0.",
+      "reason": "Foreign object (stainless steel dust/flakes or shreds of plastic)",
+      "classification": "Class II",
+      "foodRaw": "Dakota Honey Company Spreadable Spun Honey, Salted Caramel. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41981 4. 2. Net Wt 12 oz (340g) UPC 8 60010-57964 0.",
+      "foodCategory": "Oils-sugars",
+      "foodGroup": "Plants",
+      "states": [
+        "Florida",
+        "Georgia",
+        "Nationwide",
+        "South Dakota"
+      ],
+      "date": "2026-05-20",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0773-2026",
+      "source": "openfda",
+      "firm": "FINESALER LLC",
+      "product": "Alain MILLIAT; MARMELADE ORANGE; 300 g 10.6 oz; packaged in glass jars",
+      "reason": "Product may contain foreign objects, specifically glass.",
+      "classification": "Class II",
+      "foodRaw": "Alain MILLIAT; MARMELADE ORANGE; 300 g 10.6 oz; packaged in glass jars",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Massachusetts"
+      ],
+      "date": "2026-05-20",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0775-2026",
+      "source": "openfda",
+      "firm": "WE R NUTS",
+      "product": "Uncle Giuseppe's Marketplace Milk Chocolate Bridge Mix, 11 oz Net Wt, packed in clear tamper resistant plastic container. UPC 812235023309. Distributed by: WE R NUTS LLC, 99 Seaview Blvd, Port Washington, NY 11050",
+      "reason": "Contains undeclared allergens (cashews, milk, and soy).",
+      "classification": "Class II",
+      "foodRaw": "Uncle Giuseppe's Marketplace Milk Chocolate Bridge Mix, 11 oz Net Wt, packed in clear tamper resistant plastic container. UPC 812235023309. Distributed by: WE R NUTS LLC, 99 Seaview Blvd, Port Washington, NY 11050",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "New Jersey",
+        "New York"
+      ],
+      "date": "2026-05-20",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0771-2026",
+      "source": "openfda",
+      "firm": "Dakota Honey Company",
+      "product": "Dakota Honey Company Spreadable Spun Honey, Jalapeno. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41982 1. 2. Net Wt 12 oz (340g) UPC 8 60010-57965 7.",
+      "reason": "Foreign object (stainless steel dust/flakes or shreds of plastic)",
+      "classification": "Class II",
+      "foodRaw": "Dakota Honey Company Spreadable Spun Honey, Jalapeno. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41982 1. 2. Net Wt 12 oz (340g) UPC 8 60010-57965 7.",
+      "foodCategory": "Seeded Vegetables",
+      "foodGroup": "Plants",
+      "states": [
+        "Florida",
+        "Georgia",
+        "Nationwide",
+        "South Dakota"
+      ],
+      "date": "2026-05-20",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0756-2026",
+      "source": "openfda",
+      "firm": "Silver Moon LP dba Loard's Ice Cream",
+      "product": "Banana Ice Cream - 32 oz (4 labels: Mollie Stone's; Dehoff's; Farmer Joe's, Piazza's Fine Foods) UPC: 8-12017-00903",
+      "reason": "Undeclared Yellow #5",
+      "classification": "Class II",
+      "foodRaw": "Banana Ice Cream - 32 oz (4 labels: Mollie Stone's; Dehoff's; Farmer Joe's, Piazza's Fine Foods) UPC: 8-12017-00903",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "California"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0745-2026",
+      "source": "openfda",
+      "firm": "Silver Moon LP dba Loard's Ice Cream",
+      "product": "Loard's Peppermint Ice Cream - 32 oz; 56 oz",
+      "reason": "Undeclared Milk, Soy, Red #40.",
+      "classification": "Class II",
+      "foodRaw": "Loard's Peppermint Ice Cream - 32 oz; 56 oz",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "California"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0711-2026",
+      "source": "openfda",
+      "firm": "Horizon Organic Dairy, LLC",
+      "product": "Horizon Organic Chocolate Organic Lowfat Milk. Saleable Unit UPC: 742365004322 (6-8 FL OZ Milk Boxes). Case: ORG MILK 1% DHA CHOCOLATE 3/6PK (item 136518). Case UPC: 742365004322. Three 6-Packs, 18-8 FL OZ Containers (236 mL)/case. Individual milk boxes are packed in 8-oz Tetra Pak cartons. Distributed by: Horizon Organic Dairy, LLC (Horizon) 12303 Airport Way Suite 200 Broomfield, CO 80021. Shelf",
+      "reason": "Package integrity compromised.",
+      "classification": "Class II",
+      "foodRaw": "Horizon Organic Chocolate Organic Lowfat Milk. Saleable Unit UPC: 742365004322 (6-8 FL OZ Milk Boxes). Case: ORG MILK 1% DHA CHOCOLATE 3/6PK (item 136518). Case UPC: 742365004322. Three 6-Packs, 18-8 FL OZ Containers (236 mL)/case. Individual milk boxes are packed in 8-oz Tetra Pak cartons. Distributed by: Horizon Organic Dairy, LLC (Horizon) 12303 Airport Way Suite 200 Broomfield, CO 80021. Shelf",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Arizona",
+        "California",
+        "Nevada",
+        "Oregon"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0767-2026",
+      "source": "openfda",
+      "firm": "Wehah Farms",
+      "product": "LUNDBERG FAMILY FAMRS WHITE RICE JASMINE NET WT 32 OZ (2 lb) 907 g Manufactured and Distributed by: Lundberg Family Farms Richvale, CA 95974 UPC: 073416040281",
+      "reason": "Potential contamination with foreign materials.",
+      "classification": "Class II",
+      "foodRaw": "LUNDBERG FAMILY FAMRS WHITE RICE JASMINE NET WT 32 OZ (2 lb) 907 g Manufactured and Distributed by: Lundberg Family Farms Richvale, CA 95974 UPC: 073416040281",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Connecticut",
+        "Florida",
+        "Illinois",
+        "New Hampshire",
+        "New York",
+        "North Carolina",
+        "Pennsylvania",
+        "Tennessee",
+        "Vermont",
+        "Washington",
+        "Wisconsin"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0701-2026",
+      "source": "openfda",
+      "firm": "Walker Honey Co",
+      "product": "Fain s Blackberry Honey Spread, 12oz net wt., UPC 01832213862",
+      "reason": "Creamed honey products may contain stainless steel dust/flakes and/or small particles or shreds of plastic.",
+      "classification": "Class II",
+      "foodRaw": "Fain s Blackberry Honey Spread, 12oz net wt., UPC 01832213862",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Texas"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0724-2026",
+      "source": "openfda",
+      "firm": "Silver Moon LP dba Loard's Ice Cream",
+      "product": "Loard's Champagne Sherbert - 32 oz",
+      "reason": "Undeclared Milk, Red #40.",
+      "classification": "Class II",
+      "foodRaw": "Loard's Champagne Sherbert - 32 oz",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "California"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1071-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 29604300000 SALMON WASABI GRILLED FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 29604300000 SALMON WASABI GRILLED FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1059-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 29120700000 Ready Meals SALAD SMOKED SALMON & FETA PASTA SS UPC 29137800000 SALAD SMOKED SALMON & FETA PASTA FS COLD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 29120700000 Ready Meals SALAD SMOKED SALMON & FETA PASTA SS UPC 29137800000 SALAD SMOKED SALMON & FETA PASTA FS COLD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1056-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21292200000 SALMON CAJUN PREMIUM FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 21292200000 SALMON CAJUN PREMIUM FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1068-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 23180600000 SALMON KABOB With CITRUS LEMON MARINADE This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 23180600000 SALMON KABOB With CITRUS LEMON MARINADE This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0957-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 28848900000 Cake Yellow Fudge Pecan 1/2 8IN This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare pecan.",
+      "classification": "Class III",
+      "foodRaw": "UPC 28848900000 Cake Yellow Fudge Pecan 1/2 8IN This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1058-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21494500000 Ready Meals MEAL SALMON With LEMON CAPELLINI PASTA SS This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 21494500000 Ready Meals MEAL SALMON With LEMON CAPELLINI PASTA SS This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1070-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21877300000 SALMON SWEET CHILI KOSHER PO SS COLD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 21877300000 SALMON SWEET CHILI KOSHER PO SS COLD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1042-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21330300000 Ready Meals BAKED POLLOCK 4CT SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Pollock",
+      "classification": "Class III",
+      "foodRaw": "UPC 21330300000 Ready Meals BAKED POLLOCK 4CT SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0973-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 25317100000 CROISSANTS ALMOND RASPBERRY FILLED 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Almond",
+      "classification": "Class III",
+      "foodRaw": "UPC 25317100000 CROISSANTS ALMOND RASPBERRY FILLED 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1065-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 23077600000 SALMON FILLET CARNE ASADA MARINADE This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 23077600000 SALMON FILLET CARNE ASADA MARINADE This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0956-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 28832500000 Cake Yellow Caramel Pecan 1/2 8IN UPC 28831600000 Cake Yellow Caramel Pecan 2-Layer These are Albertson's store-made items and sold by unit at point of sale with grocery store's scale labels.",
+      "reason": "Contains statement does not declare pecan.",
+      "classification": "Class III",
+      "foodRaw": "UPC 28832500000 Cake Yellow Caramel Pecan 1/2 8IN UPC 28831600000 Cake Yellow Caramel Pecan 2-Layer These are Albertson's store-made items and sold by unit at point of sale with grocery store's scale labels.",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1001-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 23043800000 SHRIMP 16-20 KABOB POLLO ASADA MARINADE This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Shrimp",
+      "classification": "Class III",
+      "foodRaw": "UPC 23043800000 SHRIMP 16-20 KABOB POLLO ASADA MARINADE This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Crustaceans",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1063-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 23100200000 SALMON ATLANTIC PORTION PIRI PIRI MARINADE This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class III",
+      "foodRaw": "UPC 23100200000 SALMON ATLANTIC PORTION PIRI PIRI MARINADE This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1039-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21234900000 TILAPIA PARMESAN CRUSTED SS COLD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Tilapia",
+      "classification": "Class III",
+      "foodRaw": "UPC 21234900000 TILAPIA PARMESAN CRUSTED SS COLD This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0976-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21788400000 Ready Meals SANDWICH TUNA SALAD CROISSANT SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare TUNA",
+      "classification": "Class III",
+      "foodRaw": "UPC 21788400000 Ready Meals SANDWICH TUNA SALAD CROISSANT SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0892-2026",
+      "source": "openfda",
+      "firm": "Sato Pharmaceutical Inc.",
+      "product": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
+      "reason": "Product does not meet label claim for Vitamin E.",
+      "classification": "Class III",
+      "foodRaw": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0998-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Shrimp",
+      "classification": "Class III",
+      "foodRaw": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Crustaceans",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0696-2026",
+      "source": "openfda",
+      "firm": "Falcon Trading Co., Inc.",
+      "product": "SunRidge Farms Organic CHILI BEAN BLEND CERTIFIED ORGANIC BY QAI NET WT. 15 LBS Item: 003056 UPC: 086700030561",
+      "reason": "Potential contamination with pesticides, haloxyfop and thiamethoxam",
+      "classification": "Class III",
+      "foodRaw": "SunRidge Farms Organic CHILI BEAN BLEND CERTIFIED ORGANIC BY QAI NET WT. 15 LBS Item: 003056 UPC: 086700030561",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Colorado",
+        "Hawaii",
+        "Missouri",
+        "Texas",
+        "Vermont",
+        "Washington"
+      ],
+      "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Hand-edited corrections. This file wins over anything the scrapers produce.
+#
+# Why it exists: CDC and FDA publish active outbreak investigations as HTML only — there is
+# no API — and both sit behind bot protection that can block an automated fetch. When that
+# happens the scraper reports a FAILED source and existing records are frozen rather than
+# closed. Use this file to add, correct, or conclude outbreaks by hand in the meantime.
+#
+# Fields (all optional except id):
+#   id            required; matches an existing record's id, or any unique slug when manual: true
+#   manual        true to add an outbreak the scrapers cannot see
+#   status        active | closed  (forces the status)
+#   pathogen      e.g. Salmonella, Listeria, E. coli
+#   foodRaw       the implicated food in the agency's words
+#   foodCategory  an IFSAC category from src/lib/ifsac.ts, e.g. "Vegetable Row Crops"
+#   illnesses / hospitalizations / deaths   numbers
+#   states        list of state names
+#   sourceUrl     link to the CDC/FDA notice
+#   advice        one plain sentence on what a reader should do
+#   notes         anything else worth showing
+#
+# Example:
+# outbreaks:
+#   - id: manual-listeria-deli-meat-2026
+#     manual: true
+#     pathogen: Listeria
+#     foodRaw: Sliced deli meat
+#     foodCategory: Other Meat
+#     illnesses: 61
+#     deaths: 10
+#     states: [New York, Maryland, Virginia]
+#     sourceUrl: https://www.cdc.gov/listeria/outbreaks/index.html
+#     advice: Do not eat sliced deli meat unless it is heated to steaming hot.
+
+outbreaks: []

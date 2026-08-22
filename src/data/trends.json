@@ -1,0 +1,1973 @@
+{
+  "generatedAt": "2026-08-22T14:54:08.770Z",
+  "sources": {
+    "nndss": {
+      "ok": true,
+      "fetchedAt": "2026-08-22T14:54:08.796Z",
+      "lastSuccessAt": "2026-08-22T14:54:08.796Z",
+      "error": null
+    }
+  },
+  "trends": [
+    {
+      "label": "Salmonellosis (excluding Salmonella Typhi infection and Salmonella Paratyphi infection)",
+      "displayName": "Salmonella",
+      "currentYear": [
+        {
+          "year": 2026,
+          "week": 1,
+          "cases": 337
+        },
+        {
+          "year": 2026,
+          "week": 2,
+          "cases": 312
+        },
+        {
+          "year": 2026,
+          "week": 3,
+          "cases": 327
+        },
+        {
+          "year": 2026,
+          "week": 4,
+          "cases": 285
+        },
+        {
+          "year": 2026,
+          "week": 5,
+          "cases": 321
+        },
+        {
+          "year": 2026,
+          "week": 6,
+          "cases": 258
+        },
+        {
+          "year": 2026,
+          "week": 7,
+          "cases": 259
+        },
+        {
+          "year": 2026,
+          "week": 8,
+          "cases": 340
+        },
+        {
+          "year": 2026,
+          "week": 9,
+          "cases": 350
+        },
+        {
+          "year": 2026,
+          "week": 10,
+          "cases": 301
+        },
+        {
+          "year": 2026,
+          "week": 11,
+          "cases": 296
+        },
+        {
+          "year": 2026,
+          "week": 12,
+          "cases": 362
+        },
+        {
+          "year": 2026,
+          "week": 13,
+          "cases": 385
+        },
+        {
+          "year": 2026,
+          "week": 14,
+          "cases": 415
+        },
+        {
+          "year": 2026,
+          "week": 15,
+          "cases": 392
+        },
+        {
+          "year": 2026,
+          "week": 16,
+          "cases": 426
+        },
+        {
+          "year": 2026,
+          "week": 17,
+          "cases": 488
+        },
+        {
+          "year": 2026,
+          "week": 18,
+          "cases": 477
+        },
+        {
+          "year": 2026,
+          "week": 19,
+          "cases": 507
+        },
+        {
+          "year": 2026,
+          "week": 20,
+          "cases": 137
+        },
+        {
+          "year": 2026,
+          "week": 21,
+          "cases": 367
+        },
+        {
+          "year": 2026,
+          "week": 22,
+          "cases": 633
+        },
+        {
+          "year": 2026,
+          "week": 23,
+          "cases": 611
+        },
+        {
+          "year": 2026,
+          "week": 24,
+          "cases": 626
+        },
+        {
+          "year": 2026,
+          "week": 25,
+          "cases": 651
+        },
+        {
+          "year": 2026,
+          "week": 26,
+          "cases": 671
+        },
+        {
+          "year": 2026,
+          "week": 27,
+          "cases": 839
+        },
+        {
+          "year": 2026,
+          "week": 28,
+          "cases": 1110
+        },
+        {
+          "year": 2026,
+          "week": 29,
+          "cases": 1115
+        },
+        {
+          "year": 2026,
+          "week": 30,
+          "cases": 1166
+        },
+        {
+          "year": 2026,
+          "week": 31,
+          "cases": 1060
+        },
+        {
+          "year": 2026,
+          "week": 32,
+          "cases": 1056
+        }
+      ],
+      "previousYear": [
+        {
+          "year": 2025,
+          "week": 1,
+          "cases": 286
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "cases": 373
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "cases": 245
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "cases": 265
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "cases": 239
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "cases": 215
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "cases": 270
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "cases": 288
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "cases": 288
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "cases": 363
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "cases": 245
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "cases": 261
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "cases": 311
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "cases": 304
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "cases": 402
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "cases": 427
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "cases": 427
+        },
+        {
+          "year": 2025,
+          "week": 18,
+          "cases": 451
+        },
+        {
+          "year": 2025,
+          "week": 19,
+          "cases": 422
+        },
+        {
+          "year": 2025,
+          "week": 20,
+          "cases": 532
+        },
+        {
+          "year": 2025,
+          "week": 21,
+          "cases": 529
+        },
+        {
+          "year": 2025,
+          "week": 22,
+          "cases": 471
+        },
+        {
+          "year": 2025,
+          "week": 23,
+          "cases": 567
+        },
+        {
+          "year": 2025,
+          "week": 24,
+          "cases": 609
+        },
+        {
+          "year": 2025,
+          "week": 25,
+          "cases": 447
+        },
+        {
+          "year": 2025,
+          "week": 26,
+          "cases": 523
+        },
+        {
+          "year": 2025,
+          "week": 27,
+          "cases": 446
+        },
+        {
+          "year": 2025,
+          "week": 28,
+          "cases": 616
+        },
+        {
+          "year": 2025,
+          "week": 29,
+          "cases": 740
+        },
+        {
+          "year": 2025,
+          "week": 30,
+          "cases": 817
+        },
+        {
+          "year": 2025,
+          "week": 31,
+          "cases": 678
+        },
+        {
+          "year": 2025,
+          "week": 32,
+          "cases": 787
+        }
+      ],
+      "currentYearTotal": 16880,
+      "previousYearTotalToDate": 13844
+    },
+    {
+      "label": "Shiga toxin-producing Escherichia coli (STEC)",
+      "displayName": "E. coli (STEC)",
+      "currentYear": [
+        {
+          "year": 2026,
+          "week": 1,
+          "cases": 136
+        },
+        {
+          "year": 2026,
+          "week": 2,
+          "cases": 113
+        },
+        {
+          "year": 2026,
+          "week": 3,
+          "cases": 97
+        },
+        {
+          "year": 2026,
+          "week": 4,
+          "cases": 100
+        },
+        {
+          "year": 2026,
+          "week": 5,
+          "cases": 117
+        },
+        {
+          "year": 2026,
+          "week": 6,
+          "cases": 90
+        },
+        {
+          "year": 2026,
+          "week": 7,
+          "cases": 99
+        },
+        {
+          "year": 2026,
+          "week": 8,
+          "cases": 116
+        },
+        {
+          "year": 2026,
+          "week": 9,
+          "cases": 125
+        },
+        {
+          "year": 2026,
+          "week": 10,
+          "cases": 134
+        },
+        {
+          "year": 2026,
+          "week": 11,
+          "cases": 112
+        },
+        {
+          "year": 2026,
+          "week": 12,
+          "cases": 132
+        },
+        {
+          "year": 2026,
+          "week": 13,
+          "cases": 152
+        },
+        {
+          "year": 2026,
+          "week": 14,
+          "cases": 112
+        },
+        {
+          "year": 2026,
+          "week": 15,
+          "cases": 148
+        },
+        {
+          "year": 2026,
+          "week": 16,
+          "cases": 140
+        },
+        {
+          "year": 2026,
+          "week": 17,
+          "cases": 130
+        },
+        {
+          "year": 2026,
+          "week": 18,
+          "cases": 150
+        },
+        {
+          "year": 2026,
+          "week": 19,
+          "cases": 162
+        },
+        {
+          "year": 2026,
+          "week": 20,
+          "cases": 63
+        },
+        {
+          "year": 2026,
+          "week": 21,
+          "cases": 117
+        },
+        {
+          "year": 2026,
+          "week": 22,
+          "cases": 207
+        },
+        {
+          "year": 2026,
+          "week": 23,
+          "cases": 211
+        },
+        {
+          "year": 2026,
+          "week": 24,
+          "cases": 170
+        },
+        {
+          "year": 2026,
+          "week": 25,
+          "cases": 170
+        },
+        {
+          "year": 2026,
+          "week": 26,
+          "cases": 168
+        },
+        {
+          "year": 2026,
+          "week": 27,
+          "cases": 215
+        },
+        {
+          "year": 2026,
+          "week": 28,
+          "cases": 287
+        },
+        {
+          "year": 2026,
+          "week": 29,
+          "cases": 297
+        },
+        {
+          "year": 2026,
+          "week": 30,
+          "cases": 288
+        },
+        {
+          "year": 2026,
+          "week": 31,
+          "cases": 310
+        },
+        {
+          "year": 2026,
+          "week": 32,
+          "cases": 279
+        }
+      ],
+      "previousYear": [
+        {
+          "year": 2025,
+          "week": 1,
+          "cases": 46
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "cases": 100
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "cases": 76
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "cases": 88
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "cases": 79
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "cases": 86
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "cases": 81
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "cases": 108
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "cases": 114
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "cases": 121
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "cases": 87
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "cases": 82
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "cases": 100
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "cases": 95
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "cases": 121
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "cases": 117
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "cases": 123
+        },
+        {
+          "year": 2025,
+          "week": 18,
+          "cases": 162
+        },
+        {
+          "year": 2025,
+          "week": 19,
+          "cases": 146
+        },
+        {
+          "year": 2025,
+          "week": 20,
+          "cases": 138
+        },
+        {
+          "year": 2025,
+          "week": 21,
+          "cases": 135
+        },
+        {
+          "year": 2025,
+          "week": 22,
+          "cases": 124
+        },
+        {
+          "year": 2025,
+          "week": 23,
+          "cases": 175
+        },
+        {
+          "year": 2025,
+          "week": 24,
+          "cases": 186
+        },
+        {
+          "year": 2025,
+          "week": 25,
+          "cases": 175
+        },
+        {
+          "year": 2025,
+          "week": 26,
+          "cases": 160
+        },
+        {
+          "year": 2025,
+          "week": 27,
+          "cases": 190
+        },
+        {
+          "year": 2025,
+          "week": 28,
+          "cases": 252
+        },
+        {
+          "year": 2025,
+          "week": 29,
+          "cases": 233
+        },
+        {
+          "year": 2025,
+          "week": 30,
+          "cases": 236
+        },
+        {
+          "year": 2025,
+          "week": 31,
+          "cases": 229
+        },
+        {
+          "year": 2025,
+          "week": 32,
+          "cases": 244
+        }
+      ],
+      "currentYearTotal": 5147,
+      "previousYearTotalToDate": 4409
+    },
+    {
+      "label": "Listeriosis, Confirmed",
+      "displayName": "Listeria",
+      "currentYear": [
+        {
+          "year": 2026,
+          "week": 1,
+          "cases": 8
+        },
+        {
+          "year": 2026,
+          "week": 2,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 3,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 4,
+          "cases": 1
+        },
+        {
+          "year": 2026,
+          "week": 5,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 6,
+          "cases": 5
+        },
+        {
+          "year": 2026,
+          "week": 7,
+          "cases": 2
+        },
+        {
+          "year": 2026,
+          "week": 8,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 9,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 10,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 11,
+          "cases": 7
+        },
+        {
+          "year": 2026,
+          "week": 12,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 13,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 14,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 15,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 16,
+          "cases": 5
+        },
+        {
+          "year": 2026,
+          "week": 17,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 18,
+          "cases": 2
+        },
+        {
+          "year": 2026,
+          "week": 19,
+          "cases": 10
+        },
+        {
+          "year": 2026,
+          "week": 20,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 21,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 22,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 23,
+          "cases": 10
+        },
+        {
+          "year": 2026,
+          "week": 24,
+          "cases": 13
+        },
+        {
+          "year": 2026,
+          "week": 25,
+          "cases": 12
+        },
+        {
+          "year": 2026,
+          "week": 26,
+          "cases": 6
+        },
+        {
+          "year": 2026,
+          "week": 27,
+          "cases": 14
+        },
+        {
+          "year": 2026,
+          "week": 28,
+          "cases": 8
+        },
+        {
+          "year": 2026,
+          "week": 29,
+          "cases": 14
+        },
+        {
+          "year": 2026,
+          "week": 30,
+          "cases": 12
+        },
+        {
+          "year": 2026,
+          "week": 31,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 32,
+          "cases": 13
+        }
+      ],
+      "previousYear": [
+        {
+          "year": 2025,
+          "week": 1,
+          "cases": 3
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "cases": 11
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "cases": 1
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "cases": 8
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "cases": 8
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "cases": 8
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "cases": 6
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "cases": 5
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "cases": 6
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "cases": 11
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "cases": 6
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 18,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 19,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 20,
+          "cases": 3
+        },
+        {
+          "year": 2025,
+          "week": 21,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 22,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 23,
+          "cases": 7
+        },
+        {
+          "year": 2025,
+          "week": 24,
+          "cases": 3
+        },
+        {
+          "year": 2025,
+          "week": 25,
+          "cases": 7
+        },
+        {
+          "year": 2025,
+          "week": 26,
+          "cases": 9
+        },
+        {
+          "year": 2025,
+          "week": 27,
+          "cases": 3
+        },
+        {
+          "year": 2025,
+          "week": 28,
+          "cases": 8
+        },
+        {
+          "year": 2025,
+          "week": 29,
+          "cases": 5
+        },
+        {
+          "year": 2025,
+          "week": 30,
+          "cases": 19
+        },
+        {
+          "year": 2025,
+          "week": 31,
+          "cases": 6
+        },
+        {
+          "year": 2025,
+          "week": 32,
+          "cases": 11
+        }
+      ],
+      "currentYearTotal": 195,
+      "previousYearTotalToDate": 184
+    },
+    {
+      "label": "Campylobacteriosis",
+      "displayName": "Campylobacter",
+      "currentYear": [
+        {
+          "year": 2026,
+          "week": 1,
+          "cases": 801
+        },
+        {
+          "year": 2026,
+          "week": 2,
+          "cases": 757
+        },
+        {
+          "year": 2026,
+          "week": 3,
+          "cases": 705
+        },
+        {
+          "year": 2026,
+          "week": 4,
+          "cases": 596
+        },
+        {
+          "year": 2026,
+          "week": 5,
+          "cases": 610
+        },
+        {
+          "year": 2026,
+          "week": 6,
+          "cases": 624
+        },
+        {
+          "year": 2026,
+          "week": 7,
+          "cases": 609
+        },
+        {
+          "year": 2026,
+          "week": 8,
+          "cases": 669
+        },
+        {
+          "year": 2026,
+          "week": 9,
+          "cases": 684
+        },
+        {
+          "year": 2026,
+          "week": 10,
+          "cases": 652
+        },
+        {
+          "year": 2026,
+          "week": 11,
+          "cases": 589
+        },
+        {
+          "year": 2026,
+          "week": 12,
+          "cases": 638
+        },
+        {
+          "year": 2026,
+          "week": 13,
+          "cases": 753
+        },
+        {
+          "year": 2026,
+          "week": 14,
+          "cases": 684
+        },
+        {
+          "year": 2026,
+          "week": 15,
+          "cases": 712
+        },
+        {
+          "year": 2026,
+          "week": 16,
+          "cases": 732
+        },
+        {
+          "year": 2026,
+          "week": 17,
+          "cases": 811
+        },
+        {
+          "year": 2026,
+          "week": 18,
+          "cases": 715
+        },
+        {
+          "year": 2026,
+          "week": 19,
+          "cases": 895
+        },
+        {
+          "year": 2026,
+          "week": 20,
+          "cases": 377
+        },
+        {
+          "year": 2026,
+          "week": 21,
+          "cases": 631
+        },
+        {
+          "year": 2026,
+          "week": 22,
+          "cases": 1175
+        },
+        {
+          "year": 2026,
+          "week": 23,
+          "cases": 989
+        },
+        {
+          "year": 2026,
+          "week": 24,
+          "cases": 912
+        },
+        {
+          "year": 2026,
+          "week": 25,
+          "cases": 836
+        },
+        {
+          "year": 2026,
+          "week": 26,
+          "cases": 775
+        },
+        {
+          "year": 2026,
+          "week": 27,
+          "cases": 1232
+        },
+        {
+          "year": 2026,
+          "week": 28,
+          "cases": 1533
+        },
+        {
+          "year": 2026,
+          "week": 29,
+          "cases": 1413
+        },
+        {
+          "year": 2026,
+          "week": 30,
+          "cases": 1438
+        },
+        {
+          "year": 2026,
+          "week": 31,
+          "cases": 1236
+        },
+        {
+          "year": 2026,
+          "week": 32,
+          "cases": 1292
+        }
+      ],
+      "previousYear": [
+        {
+          "year": 2025,
+          "week": 1,
+          "cases": 379
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "cases": 574
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "cases": 519
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "cases": 457
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "cases": 563
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "cases": 546
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "cases": 559
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "cases": 569
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "cases": 624
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "cases": 670
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "cases": 585
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "cases": 620
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "cases": 632
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "cases": 606
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "cases": 701
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "cases": 699
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "cases": 720
+        },
+        {
+          "year": 2025,
+          "week": 18,
+          "cases": 734
+        },
+        {
+          "year": 2025,
+          "week": 19,
+          "cases": 812
+        },
+        {
+          "year": 2025,
+          "week": 20,
+          "cases": 917
+        },
+        {
+          "year": 2025,
+          "week": 21,
+          "cases": 839
+        },
+        {
+          "year": 2025,
+          "week": 22,
+          "cases": 887
+        },
+        {
+          "year": 2025,
+          "week": 23,
+          "cases": 1018
+        },
+        {
+          "year": 2025,
+          "week": 24,
+          "cases": 1105
+        },
+        {
+          "year": 2025,
+          "week": 25,
+          "cases": 990
+        },
+        {
+          "year": 2025,
+          "week": 26,
+          "cases": 1181
+        },
+        {
+          "year": 2025,
+          "week": 27,
+          "cases": 1020
+        },
+        {
+          "year": 2025,
+          "week": 28,
+          "cases": 1206
+        },
+        {
+          "year": 2025,
+          "week": 29,
+          "cases": 1240
+        },
+        {
+          "year": 2025,
+          "week": 30,
+          "cases": 1205
+        },
+        {
+          "year": 2025,
+          "week": 31,
+          "cases": 1113
+        },
+        {
+          "year": 2025,
+          "week": 32,
+          "cases": 1168
+        }
+      ],
+      "currentYearTotal": 27075,
+      "previousYearTotalToDate": 25458
+    },
+    {
+      "label": "Cyclosporiasis",
+      "displayName": "Cyclospora",
+      "currentYear": [
+        {
+          "year": 2026,
+          "week": 1,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 2,
+          "cases": 2
+        },
+        {
+          "year": 2026,
+          "week": 3,
+          "cases": 1
+        },
+        {
+          "year": 2026,
+          "week": 4,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 5,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 7,
+          "cases": 3
+        },
+        {
+          "year": 2026,
+          "week": 8,
+          "cases": 2
+        },
+        {
+          "year": 2026,
+          "week": 9,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 10,
+          "cases": 2
+        },
+        {
+          "year": 2026,
+          "week": 11,
+          "cases": 2
+        },
+        {
+          "year": 2026,
+          "week": 12,
+          "cases": 5
+        },
+        {
+          "year": 2026,
+          "week": 13,
+          "cases": 1
+        },
+        {
+          "year": 2026,
+          "week": 14,
+          "cases": 1
+        },
+        {
+          "year": 2026,
+          "week": 15,
+          "cases": 2
+        },
+        {
+          "year": 2026,
+          "week": 16,
+          "cases": 4
+        },
+        {
+          "year": 2026,
+          "week": 17,
+          "cases": 6
+        },
+        {
+          "year": 2026,
+          "week": 18,
+          "cases": 6
+        },
+        {
+          "year": 2026,
+          "week": 19,
+          "cases": 6
+        },
+        {
+          "year": 2026,
+          "week": 20,
+          "cases": 6
+        },
+        {
+          "year": 2026,
+          "week": 21,
+          "cases": 20
+        },
+        {
+          "year": 2026,
+          "week": 22,
+          "cases": 48
+        },
+        {
+          "year": 2026,
+          "week": 23,
+          "cases": 64
+        },
+        {
+          "year": 2026,
+          "week": 24,
+          "cases": 73
+        },
+        {
+          "year": 2026,
+          "week": 25,
+          "cases": 180
+        },
+        {
+          "year": 2026,
+          "week": 26,
+          "cases": 358
+        },
+        {
+          "year": 2026,
+          "week": 27,
+          "cases": 874
+        },
+        {
+          "year": 2026,
+          "week": 28,
+          "cases": 2275
+        },
+        {
+          "year": 2026,
+          "week": 29,
+          "cases": 2163
+        },
+        {
+          "year": 2026,
+          "week": 30,
+          "cases": 2393
+        },
+        {
+          "year": 2026,
+          "week": 31,
+          "cases": 1538
+        },
+        {
+          "year": 2026,
+          "week": 32,
+          "cases": 931
+        }
+      ],
+      "previousYear": [
+        {
+          "year": 2025,
+          "week": 1,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "cases": 1
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "cases": 3
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "cases": 7
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "cases": 3
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "cases": 1
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "cases": 2
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "cases": 3
+        },
+        {
+          "year": 2025,
+          "week": 18,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 19,
+          "cases": 5
+        },
+        {
+          "year": 2025,
+          "week": 20,
+          "cases": 6
+        },
+        {
+          "year": 2025,
+          "week": 21,
+          "cases": 4
+        },
+        {
+          "year": 2025,
+          "week": 22,
+          "cases": 9
+        },
+        {
+          "year": 2025,
+          "week": 23,
+          "cases": 9
+        },
+        {
+          "year": 2025,
+          "week": 24,
+          "cases": 23
+        },
+        {
+          "year": 2025,
+          "week": 25,
+          "cases": 34
+        },
+        {
+          "year": 2025,
+          "week": 26,
+          "cases": 58
+        },
+        {
+          "year": 2025,
+          "week": 27,
+          "cases": 65
+        },
+        {
+          "year": 2025,
+          "week": 28,
+          "cases": 129
+        },
+        {
+          "year": 2025,
+          "week": 29,
+          "cases": 123
+        },
+        {
+          "year": 2025,
+          "week": 30,
+          "cases": 158
+        },
+        {
+          "year": 2025,
+          "week": 31,
+          "cases": 119
+        },
+        {
+          "year": 2025,
+          "week": 32,
+          "cases": 108
+        }
+      ],
+      "currentYearTotal": 10979,
+      "previousYearTotalToDate": 890
+    },
+    {
+      "label": "Shigellosis",
+      "displayName": "Shigella",
+      "currentYear": [
+        {
+          "year": 2026,
+          "week": 1,
+          "cases": 139
+        },
+        {
+          "year": 2026,
+          "week": 2,
+          "cases": 141
+        },
+        {
+          "year": 2026,
+          "week": 3,
+          "cases": 150
+        },
+        {
+          "year": 2026,
+          "week": 4,
+          "cases": 145
+        },
+        {
+          "year": 2026,
+          "week": 5,
+          "cases": 144
+        },
+        {
+          "year": 2026,
+          "week": 6,
+          "cases": 145
+        },
+        {
+          "year": 2026,
+          "week": 7,
+          "cases": 133
+        },
+        {
+          "year": 2026,
+          "week": 8,
+          "cases": 152
+        },
+        {
+          "year": 2026,
+          "week": 9,
+          "cases": 143
+        },
+        {
+          "year": 2026,
+          "week": 10,
+          "cases": 152
+        },
+        {
+          "year": 2026,
+          "week": 11,
+          "cases": 129
+        },
+        {
+          "year": 2026,
+          "week": 12,
+          "cases": 141
+        },
+        {
+          "year": 2026,
+          "week": 13,
+          "cases": 145
+        },
+        {
+          "year": 2026,
+          "week": 14,
+          "cases": 134
+        },
+        {
+          "year": 2026,
+          "week": 15,
+          "cases": 140
+        },
+        {
+          "year": 2026,
+          "week": 16,
+          "cases": 150
+        },
+        {
+          "year": 2026,
+          "week": 17,
+          "cases": 135
+        },
+        {
+          "year": 2026,
+          "week": 18,
+          "cases": 135
+        },
+        {
+          "year": 2026,
+          "week": 19,
+          "cases": 134
+        },
+        {
+          "year": 2026,
+          "week": 20,
+          "cases": 37
+        },
+        {
+          "year": 2026,
+          "week": 21,
+          "cases": 97
+        },
+        {
+          "year": 2026,
+          "week": 22,
+          "cases": 165
+        },
+        {
+          "year": 2026,
+          "week": 23,
+          "cases": 137
+        },
+        {
+          "year": 2026,
+          "week": 24,
+          "cases": 145
+        },
+        {
+          "year": 2026,
+          "week": 25,
+          "cases": 172
+        },
+        {
+          "year": 2026,
+          "week": 26,
+          "cases": 136
+        },
+        {
+          "year": 2026,
+          "week": 27,
+          "cases": 165
+        },
+        {
+          "year": 2026,
+          "week": 28,
+          "cases": 224
+        },
+        {
+          "year": 2026,
+          "week": 29,
+          "cases": 234
+        },
+        {
+          "year": 2026,
+          "week": 30,
+          "cases": 226
+        },
+        {
+          "year": 2026,
+          "week": 31,
+          "cases": 232
+        },
+        {
+          "year": 2026,
+          "week": 32,
+          "cases": 225
+        }
+      ],
+      "previousYear": [
+        {
+          "year": 2025,
+          "week": 1,
+          "cases": 115
+        },
+        {
+          "year": 2025,
+          "week": 2,
+          "cases": 137
+        },
+        {
+          "year": 2025,
+          "week": 3,
+          "cases": 138
+        },
+        {
+          "year": 2025,
+          "week": 4,
+          "cases": 145
+        },
+        {
+          "year": 2025,
+          "week": 5,
+          "cases": 119
+        },
+        {
+          "year": 2025,
+          "week": 6,
+          "cases": 124
+        },
+        {
+          "year": 2025,
+          "week": 7,
+          "cases": 132
+        },
+        {
+          "year": 2025,
+          "week": 8,
+          "cases": 132
+        },
+        {
+          "year": 2025,
+          "week": 9,
+          "cases": 163
+        },
+        {
+          "year": 2025,
+          "week": 10,
+          "cases": 146
+        },
+        {
+          "year": 2025,
+          "week": 11,
+          "cases": 113
+        },
+        {
+          "year": 2025,
+          "week": 12,
+          "cases": 113
+        },
+        {
+          "year": 2025,
+          "week": 13,
+          "cases": 130
+        },
+        {
+          "year": 2025,
+          "week": 14,
+          "cases": 113
+        },
+        {
+          "year": 2025,
+          "week": 15,
+          "cases": 145
+        },
+        {
+          "year": 2025,
+          "week": 16,
+          "cases": 131
+        },
+        {
+          "year": 2025,
+          "week": 17,
+          "cases": 140
+        },
+        {
+          "year": 2025,
+          "week": 18,
+          "cases": 168
+        },
+        {
+          "year": 2025,
+          "week": 19,
+          "cases": 157
+        },
+        {
+          "year": 2025,
+          "week": 20,
+          "cases": 139
+        },
+        {
+          "year": 2025,
+          "week": 21,
+          "cases": 113
+        },
+        {
+          "year": 2025,
+          "week": 22,
+          "cases": 144
+        },
+        {
+          "year": 2025,
+          "week": 23,
+          "cases": 147
+        },
+        {
+          "year": 2025,
+          "week": 24,
+          "cases": 149
+        },
+        {
+          "year": 2025,
+          "week": 25,
+          "cases": 96
+        },
+        {
+          "year": 2025,
+          "week": 26,
+          "cases": 130
+        },
+        {
+          "year": 2025,
+          "week": 27,
+          "cases": 139
+        },
+        {
+          "year": 2025,
+          "week": 28,
+          "cases": 169
+        },
+        {
+          "year": 2025,
+          "week": 29,
+          "cases": 188
+        },
+        {
+          "year": 2025,
+          "week": 30,
+          "cases": 180
+        },
+        {
+          "year": 2025,
+          "week": 31,
+          "cases": 167
+        },
+        {
+          "year": 2025,
+          "week": 32,
+          "cases": 194
+        }
+      ],
+      "currentYearTotal": 4882,
+      "previousYearTotalToDate": 4516
+    }
+  ]
+}
