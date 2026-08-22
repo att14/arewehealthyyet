@@ -11,11 +11,12 @@ const { outbreak, featured = false } = Astro.props;
 
 const germ = pathogenInfo(outbreak.pathogen);
 const severity = severityOf(outbreak);
+const hasStateNames = outbreak.states.length > 0;
+const stateCountVal = outbreak.stateCount ?? outbreak.states.length;
 const stats = [
   { label: plural(outbreak.illnesses ?? 0, 'person', 'people') + ' sick', value: outbreak.illnesses },
   { label: 'in hospital', value: outbreak.hospitalizations },
   { label: plural(outbreak.deaths ?? 0, 'death'), value: outbreak.deaths },
-  { label: 'states', value: outbreak.stateCount },
 ].filter((s) => s.value !== null);
 const days = outbreak.updatedAt ?? outbreak.lastSeen;
 ---
@@ -56,6 +57,22 @@ const days = outbreak.updatedAt ?? outbreak.lastSeen;
         <li><b>{num(s.value)}</b><span>{s.label}</span></li>
       ))}
     </ul>
+  )}
+
+  {stateCountVal > 0 && (
+    <div class="states-row">
+      {hasStateNames ? (
+        <details class="states-detail">
+          <summary class="states-summary">
+            <b>{num(stateCountVal)}</b> <span class="states-label">{plural(stateCountVal, 'state')}</span>
+            <span class="states-show" aria-hidden="true"></span>
+          </summary>
+          <p class="states-list">{outbreak.states.join(', ')}</p>
+        </details>
+      ) : (
+        <p class="states-count"><b>{num(stateCountVal)}</b> <span class="states-label">{plural(stateCountVal, 'state')}</span></p>
+      )}
+    </div>
   )}
 
   <p class="atrisk">Most at risk: {germ.whoIsAtRisk}</p>
@@ -135,6 +152,37 @@ const days = outbreak.updatedAt ?? outbreak.lastSeen;
   .stats li { display: flex; flex-direction: column; }
   .stats b { font-size: 1.35rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
   .stats span { font-size: 0.82rem; color: var(--ink-secondary); }
+
+  .states-row { font-size: 0.92rem; }
+  .states-count { display: flex; align-items: baseline; gap: 0.3rem; }
+  .states-count b { font-size: 1.35rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .states-label { font-size: 0.82rem; color: var(--ink-secondary); }
+
+  .states-detail { }
+  .states-summary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.3rem;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  .states-summary::-webkit-details-marker { display: none; }
+  .states-summary::marker { display: none; content: ''; }
+  .states-summary b { font-size: 1.35rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .states-show {
+    font-size: 0.72rem;
+    color: var(--series-1);
+    margin-left: 0.15rem;
+  }
+  .states-show::after { content: 'show'; }
+  .states-detail[open] .states-show::after { content: 'hide'; }
+  .states-list {
+    margin-top: 0.35rem;
+    font-size: 0.88rem;
+    color: var(--ink-secondary);
+    line-height: 1.45;
+  }
 
   .atrisk { font-size: 0.88rem; color: var(--ink-secondary); }
 

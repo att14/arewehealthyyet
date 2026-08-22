@@ -12,25 +12,30 @@ const { groups } = Astro.props;
 ---
 
 <form class="filters" aria-label="Filter what you see">
-  <div class="filters__head">
-    <p class="filters__title">Narrow it down</p>
-    <button type="button" class="clear" hidden>Clear all</button>
-  </div>
+  <details class="filters__details">
+    <summary class="filters__head">
+      <p class="filters__title">Narrow it down</p>
+      <span class="filters__toggle" aria-hidden="true"></span>
+    </summary>
 
-  {groups.filter((g) => g.options.length > 1).map((group) => (
-    <fieldset class="group">
-      <legend>{group.label}{group.hint && <span class="hint"> {group.hint}</span>}</legend>
-      <div class="chips">
-        {group.options.map((option) => (
-          <label class="chip">
-            <input type="checkbox" name={group.id} value={option.key} />
-            <span>{option.label}<b>{option.count}</b></span>
-          </label>
-        ))}
-      </div>
-    </fieldset>
-  ))}
+    <div class="filters__body">
+      {groups.filter((g) => g.options.length > 1).map((group) => (
+        <fieldset class="group">
+          <legend>{group.label}{group.hint && <span class="hint"> {group.hint}</span>}</legend>
+          <div class="chips">
+            {group.options.map((option) => (
+              <label class="chip">
+                <input type="checkbox" name={group.id} value={option.key} />
+                <span>{option.label}<b>{option.count}</b></span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+      ))}
+    </div>
+  </details>
 
+  <button type="button" class="clear" hidden>Clear all</button>
   <p class="result" role="status" aria-live="polite"></p>
 </form>
 
@@ -45,8 +50,42 @@ const { groups } = Astro.props;
     flex-direction: column;
     gap: 0.85rem;
   }
-  .filters__head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+
+  .filters__details { }
+
+  .filters__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  .filters__head::-webkit-details-marker { display: none; }
+  .filters__head::marker { display: none; content: ''; }
   .filters__title { font-weight: 700; font-size: 1rem; }
+
+  .filters__toggle {
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    transition: transform 0.15s ease;
+  }
+  .filters__toggle::after { content: '▼'; }
+  .filters__details[open] .filters__toggle { transform: rotate(180deg); }
+
+  .filters__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding-top: 0.85rem;
+  }
+
+  /* Desktop: open by default via JS, hide the toggle arrow */
+  @media (min-width: 720px) {
+    .filters__toggle { display: none; }
+    .filters__head { cursor: default; }
+  }
 
   .clear {
     background: none;
@@ -80,7 +119,6 @@ const { groups } = Astro.props;
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    /* Thumb-sized: this bar is used on a phone more than a desktop. */
     min-height: 40px;
     padding: 0.3rem 0.8rem;
     border: 1px solid var(--border);
