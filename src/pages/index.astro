@@ -517,3 +517,16 @@ const updated = (outbreakFile as OutbreakFile).generatedAt;
     plot.addEventListener('pointerdown', (event) => show((event as PointerEvent).clientX));
   }
 </script>
+
+<script>
+  for (const btn of document.querySelectorAll<HTMLButtonElement>('.states-toggle')) {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('article');
+      const list = card?.querySelector<HTMLElement>('.states-list');
+      if (!list) return;
+      const open = list.hidden;
+      list.hidden = !open;
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  }
+</script>
