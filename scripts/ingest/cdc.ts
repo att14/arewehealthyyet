@@ -3,7 +3,7 @@ import { fetchJson, fetchText, FetchFailure } from './fetch.js';
 import { classifyAndTrack } from '../../src/lib/classify.js';
 import { pathogenNamesFrom } from '../../src/lib/pathogens.js';
 import type { Outbreak } from '../../src/lib/types.js';
-import { cleanText, toInt } from './parse-utils.js';
+import { cleanText, splitStates, toInt } from './parse-utils.js';
 
 /**
  * CDC has no outbreak API in the usual sense, but it does syndicate its current outbreak
@@ -170,7 +170,7 @@ export function parseNotice(
     hospitalizations: factValue(pageText, 'Hospitalizations'),
     deaths: factValue(pageText, 'Deaths'),
     stateCount: factValue(pageText, 'States'),
-    states: [],
+    states: splitStates(pageText).filter((s) => s !== 'Nationwide'),
     firstSeen: child.datePublished || now,
     lastSeen: now,
     closedAt: status === 'closed' ? now : null,
