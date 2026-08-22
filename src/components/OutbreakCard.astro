@@ -1,0 +1,160 @@
+---
+import type { Outbreak } from '../lib/types';
+import { pathogenInfo } from '../lib/pathogens';
+import {
+  foodChip, foodLabel, germChips, num, plural, recencyChip, relativeDate,
+  severityChip, severityOf, severityLabel, sourceChip,
+} from '../lib/view';
+
+interface Props { outbreak: Outbreak; featured?: boolean }
+const { outbreak, featured = false } = Astro.props;
+
+const germ = pathogenInfo(outbreak.pathogen);
+const severity = severityOf(outbreak);
+const stats = [
+  { label: plural(outbreak.illnesses ?? 0, 'person', 'people') + ' sick', value: outbreak.illnesses },
+  { label: 'in hospital', value: outbreak.hospitalizations },
+  { label: plural(outbreak.deaths ?? 0, 'death'), value: outbreak.deaths },
+  { label: 'states', value: outbreak.stateCount },
+].filter((s) => s.value !== null);
+const days = outbreak.updatedAt ?? outbreak.lastSeen;
+---
+
+<article
+  class:list={['card', `sev-${severity}`, { featured }]}
+  data-kind="outbreak"
+  data-status={outbreak.status}
+  data-f-food={foodChip(outbreak)}
+  data-f-germ={germChips(outbreak).join("|")}
+  data-f-severity={severityChip(outbreak)}
+  data-f-source={sourceChip(outbreak)}
+  data-f-updated={recencyChip(outbreak)}
+>
+  <div class="card__top">
+    <p class="eyebrow">
+      <span class="dot" aria-hidden="true"></span>
+      {outbreak.status === 'active' ? 'Being investigated now' : 'Investigation closed'}
+      <span class="sep">·</span>
+      {severityLabel(severity)}
+    </p>
+    <h3 class="card__food">{outbreak.foodRaw ?? 'Food not identified yet'}</h3>
+    <p class="card__germ">
+      <strong>{outbreak.pathogen}</strong> — {germ.what}
+    </p>
+  </div>
+
+  {outbreak.advice && (
+    <p class="advice">
+      <span class="advice__label">What to do</span>
+      {outbreak.advice}
+    </p>
+  )}
+
+  {stats.length > 0 && (
+    <ul class="stats">
+      {stats.map((s) => (
+        <li><b>{num(s.value)}</b><span>{s.label}</span></li>
+      ))}
+    </ul>
+  )}
+
+  <p class="atrisk">Most at risk: {germ.whoIsAtRisk}</p>
+
+  <footer class="card__foot">
+    <span class="food-tag">{foodLabel(outbreak)}</span>
+    <span class="meta">
+      Updated {relativeDate(days)} ·
+      {outbreak.sourceUrl ? (
+        <a href={outbreak.sourceUrl} target="_blank" rel="noopener">
+          {outbreak.source === 'fda' ? 'FDA notice' : outbreak.source === 'cdc' ? 'CDC notice' : 'Source'}
+        </a>
+      ) : (
+        <span>{outbreak.source.toUpperCase()}</span>
+      )}
+      {outbreak.crossReferences && outbreak.crossReferences.length > 0 && (
+        <span class="alsotracked"> · also tracked by FDA</span>
+      )}
+    </span>
+  </footer>
+</article>
+
+<style>
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--baseline);
+    border-radius: 10px;
+    padding: 1.1rem 1.15rem;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .card.sev-critical { border-left-color: var(--critical); }
+  .card.sev-serious { border-left-color: var(--serious); }
+  .card.sev-warning { border-left-color: var(--warning); }
+  .card[data-status='closed'] { opacity: 0.82; }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--ink-secondary);
+    font-weight: 600;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--baseline); flex: none; }
+  .sev-critical .dot { background: var(--critical); }
+  .sev-serious .dot { background: var(--serious); }
+  .sev-warning .dot { background: var(--warning); }
+  .sep { color: var(--ink-muted); }
+
+  .card__food { font-size: 1.4rem; margin-top: 0.15rem; }
+  .featured .card__food { font-size: 1.7rem; }
+  .card__germ { color: var(--ink-secondary); font-size: 0.97rem; }
+
+  .advice {
+    background: var(--surface-sunken);
+    border-radius: 8px;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.97rem;
+  }
+  .advice__label {
+    display: block;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    color: var(--ink-muted);
+    margin-bottom: 0.15rem;
+  }
+
+  .stats { display: flex; flex-wrap: wrap; gap: 1.25rem; list-style: none; margin: 0; padding: 0; }
+  .stats li { display: flex; flex-direction: column; }
+  .stats b { font-size: 1.35rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .stats span { font-size: 0.82rem; color: var(--ink-secondary); }
+
+  .atrisk { font-size: 0.88rem; color: var(--ink-secondary); }
+
+  .card__foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 0.6rem;
+    font-size: 0.82rem;
+    color: var(--ink-muted);
+  }
+  .food-tag {
+    background: var(--surface-sunken);
+    border-radius: 999px;
+    padding: 0.2rem 0.65rem;
+    color: var(--ink-secondary);
+    font-weight: 600;
+  }
+  .meta a { color: var(--ink-secondary); }
+</style>

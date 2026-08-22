@@ -1,0 +1,499 @@
+---
+import Base from '../layouts/Base.astro';
+import OutbreakCard from '../components/OutbreakCard.astro';
+import FilterBar from '../components/FilterBar.astro';
+import RecallTable from '../components/RecallTable.astro';
+import TrendChart from '../components/TrendChart.astro';
+import SourceStatus from '../components/SourceStatus.astro';
+
+import outbreakFile from '../data/outbreaks.json';
+import recallFile from '../data/recalls.json';
+import trendFile from '../data/trends.json';
+
+import type { OutbreakFile, RecallFile, TrendFile } from '../lib/types';
+import {
+  buildHeadline, facets, foodChip, germChips, num, recencyChip, relativeDate,
+  riskChip, severityChip, shortDate, sourceChip, sum,
+} from '../lib/view';
+
+const outbreaks = (outbreakFile as OutbreakFile).outbreaks;
+const recalls = (recallFile as RecallFile).recalls;
+const trends = (trendFile as TrendFile).trends;
+
+const active = outbreaks.filter((o) => o.status === 'active');
+const closed = outbreaks.filter((o) => o.status === 'closed').slice(0, 30);
+const headline = buildHeadline(active, (outbreakFile as OutbreakFile).sources);
+
+const featured = active.slice(0, 3);
+const rest = active.slice(3);
+
+const outbreakGroups = [
+  { id: 'food', label: 'Food', options: facets(active, (o) => foodChip(o)) },
+  {
+    id: 'germ',
+    label: 'Germ',
+    options: facets(
+      active.flatMap((o) => germChips(o).map((germ) => ({ germ }))),
+      (row) => row.germ,
+    ),
+  },
+  { id: 'severity', label: 'How serious', options: facets(active, (o) => severityChip(o)) },
+  { id: 'source', label: 'Reported by', options: facets(active, (o) => sourceChip(o)) },
+  { id: 'updated', label: 'Last updated', options: facets(active, (o) => recencyChip(o)) },
+];
+
+const recallGroups = [
+  {
+    id: 'food',
+    label: 'Food',
+    options: facets(recalls, (r) => foodChip(r)).slice(0, 12),
+  },
+  { id: 'risk', label: 'How risky', options: facets(recalls, (r) => riskChip(r)) },
+  {
+    id: 'states',
+    label: 'State',
+    hint: '(where the recall lists one)',
+    options: facets(
+      recalls.flatMap((r) => r.states.map((state) => ({ state }))),
+      (row) => row.state,
+    ).slice(0, 16),
+  },
+];
+
+const totals = {
+  sick: sum(active, 'illnesses'),
+  hospital: sum(active, 'hospitalizations'),
+  deaths: sum(active, 'deaths'),
+};
+const updated = (outbreakFile as OutbreakFile).generatedAt;
+---
+
+<Base
+  title="Are We Healthy Yet? — US foodborne outbreaks right now"
+  description="A plain-language look at the foodborne illness outbreaks US health officials are investigating right now, plus food recalls and how this year compares with last."
+>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="brand">Are We Healthy Yet?</p>
+      <p class="tagline">What's making people sick from food in the US — checked {relativeDate(updated)}.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class:list={['hero', `hero--${headline.tone}`]}>
+      <h1>{headline.sentence}</h1>
+      {headline.detail && <p class="hero__detail">{headline.detail}</p>}
+
+      {headline.tone === 'active' && (
+        <ul class="hero__stats">
+          <li><b>{num(active.length)}</b><span>outbreaks being investigated</span></li>
+          <li><b>{num(totals.sick)}</b><span>people reported sick</span></li>
+          <li><b>{num(totals.hospital)}</b><span>went to hospital</span></li>
+          <li><b>{num(totals.deaths)}</b><span>deaths reported</span></li>
+        </ul>
+      )}
+    </section>
+
+    <SourceStatus sources={(outbreakFile as OutbreakFile).sources} />
+
+    <section id="outbreaks" class="section">
+      <div class="section__head">
+        <h2>Outbreaks being investigated now</h2>
+        <p class="section__lede">
+          Each one is an open investigation by CDC or FDA. Numbers are what the agency has confirmed
+          so far — real totals are usually higher, because most people who get sick are never tested.
+        </p>
+      </div>
+
+      {active.length > 0 ? (
+        <div class="filterscope" data-scope="outbreaks">
+          <FilterBar groups={outbreakGroups} />
+
+          <div class="cards cards--featured" data-list>
+            {featured.map((outbreak) => <OutbreakCard outbreak={outbreak} featured />)}
+          </div>
+          {rest.length > 0 && (
+            <div class="cards" data-list>
+              {rest.map((outbreak) => <OutbreakCard outbreak={outbreak} />)}
+            </div>
+          )}
+
+          <p class="empty" data-empty hidden>
+            Nothing matches those filters. Try clearing one.
+          </p>
+        </div>
+      ) : (
+        <p class="empty">Nothing is being investigated right now — good news.</p>
+      )}
+
+      {closed.length > 0 && (
+        <details class="closed">
+          <summary>Recently concluded ({closed.length})</summary>
+          <div class="cards">
+            {closed.map((outbreak) => <OutbreakCard outbreak={outbreak} />)}
+          </div>
+        </details>
+      )}
+    </section>
+
+    <section id="recalls" class="section">
+      <div class="section__head">
+        <h2>Food pulled from shelves</h2>
+        <p class="section__lede">
+          Recalls from the last four months. Most are precautionary — a recall doesn't mean anyone
+          got sick, it means the food shouldn't be eaten.
+        </p>
+      </div>
+
+      <div class="filterscope" data-scope="recalls" data-limit="12">
+        <FilterBar groups={recallGroups} />
+        <div data-list>
+          <RecallTable recalls={recalls} />
+        </div>
+        <p class="empty" data-empty hidden>No recalls match those filters.</p>
+        <button type="button" class="more" data-more hidden></button>
+      </div>
+    </section>
+
+    <section id="trends" class="section">
+      <div class="section__head">
+        <h2>How this year compares</h2>
+        <p class="section__lede">
+          Cases reported to CDC each week across the whole country, this year against last year at
+          the same point. These are all cases, not just the ones tied to an outbreak.
+        </p>
+      </div>
+
+      <p class="legend">
+        <span class="legend__item"><span class="swatch swatch--now"></span>This year</span>
+        <span class="legend__item"><span class="swatch swatch--prev"></span>Last year</span>
+      </p>
+
+      <div class="trends">
+        {trends.map((trend) => <TrendChart trend={trend} />)}
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h2>About this page</h2>
+      <p>
+        Everything here comes straight from federal sources: CDC's outbreak notices, FDA's
+        investigation table, FDA and USDA recall data, and CDC's weekly case counts. Foods are
+        grouped using <abbr title="Interagency Food Safety Analytics Collaboration">IFSAC</abbr>
+        categories, the same scheme CDC uses in its own outbreak data.
+      </p>
+      <p>
+        Data was last refreshed {shortDate(updated)}. This is a summary of public information, not
+        medical advice — if you think you're sick, call your doctor.
+      </p>
+      <p class="links">
+        <a href="https://www.cdc.gov/outbreaks/index.html" target="_blank" rel="noopener">CDC outbreaks</a>
+        <a href="https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks" target="_blank" rel="noopener">FDA investigations</a>
+        <a href="https://www.fsis.usda.gov/recalls" target="_blank" rel="noopener">USDA recalls</a>
+      </p>
+    </footer>
+  </main>
+</Base>
+
+<style>
+  .masthead {
+    border-bottom: 1px solid var(--rule);
+    padding: 1.1rem 0;
+    background: var(--surface);
+  }
+  .brand { font-weight: 800; font-size: 1.05rem; letter-spacing: -0.01em; }
+  .tagline { color: var(--ink-secondary); font-size: 0.9rem; }
+
+  main { padding-bottom: 4rem; display: flex; flex-direction: column; gap: 2.5rem; }
+
+  .hero { padding: 2.25rem 0 0.5rem; display: flex; flex-direction: column; gap: 0.8rem; }
+  .hero h1 { font-size: clamp(1.7rem, 5vw, 2.6rem); letter-spacing: -0.02em; max-width: 22ch; }
+  .hero--ok h1 { color: var(--good-text); }
+  .hero__detail { color: var(--ink-secondary); font-size: 1.05rem; max-width: 60ch; }
+
+  .hero__stats {
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  .hero__stats li {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.8rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__stats b { font-size: 1.9rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .hero__stats span { font-size: 0.85rem; color: var(--ink-secondary); }
+
+  .section { display: flex; flex-direction: column; gap: 1.1rem; }
+  .section__head { display: flex; flex-direction: column; gap: 0.35rem; }
+  .section__head h2 { font-size: 1.5rem; letter-spacing: -0.01em; }
+  .section__lede { color: var(--ink-secondary); font-size: 0.97rem; max-width: 68ch; }
+
+  .filterscope { display: flex; flex-direction: column; gap: 1.1rem; }
+
+  .cards { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+  @media (min-width: 720px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+    .cards--featured { grid-template-columns: 1fr; }
+  }
+  @media (min-width: 1000px) {
+    .cards--featured { grid-template-columns: repeat(3, 1fr); }
+  }
+  .cards article[hidden] { display: none; }
+
+  .more {
+    align-self: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.55rem 1.2rem;
+    font: inherit;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--ink-secondary);
+    cursor: pointer;
+    min-height: 44px;
+  }
+  .more:hover { background: var(--surface-sunken); }
+
+  .empty {
+    background: var(--surface);
+    border: 1px dashed var(--baseline);
+    border-radius: 10px;
+    padding: 1.2rem;
+    color: var(--ink-secondary);
+    text-align: center;
+  }
+
+  .closed > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--ink-secondary);
+    padding: 0.5rem 0;
+  }
+  .closed .cards { margin-top: 0.8rem; }
+
+  .legend { display: flex; gap: 1.1rem; font-size: 0.87rem; color: var(--ink-secondary); }
+  .legend__item { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .swatch { width: 16px; height: 3px; border-radius: 2px; display: inline-block; }
+  .swatch--now { background: var(--series-1); }
+  .swatch--prev {
+    background: repeating-linear-gradient(90deg, var(--series-reference) 0 3px, transparent 3px 6px);
+  }
+
+  .trends { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+  .footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    color: var(--ink-secondary);
+    font-size: 0.92rem;
+  }
+  .footer h2 { font-size: 1.1rem; color: var(--ink); }
+  .footer p { max-width: 70ch; }
+  .links { display: flex; flex-wrap: wrap; gap: 1rem; }
+</style>
+
+<script>
+  /**
+   * Chip filtering. Each filter group's `name` maps to a `data-f-<name>` attribute on the
+   * items it filters; a group whose attribute an item does not carry simply doesn't apply
+   * to it. Multi-value attributes (states) are pipe separated and match on any value.
+   */
+  type Selections = Map<string, Set<string>>;
+
+  function readSelections(form: HTMLFormElement): Selections {
+    const selections: Selections = new Map();
+    for (const input of form.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')) {
+      const set = selections.get(input.name) ?? new Set<string>();
+      set.add(input.value);
+      selections.set(input.name, set);
+    }
+    return selections;
+  }
+
+  function matches(item: HTMLElement, selections: Selections): boolean {
+    for (const [name, wanted] of selections) {
+      const value = item.dataset[`f${name.charAt(0).toUpperCase()}${name.slice(1)}`];
+      if (value === undefined) continue;
+      const values = value.split('|').filter(Boolean);
+      if (!values.some((v) => wanted.has(v))) return false;
+    }
+    return true;
+  }
+
+  function setupScope(scope: HTMLElement): void {
+    const form = scope.querySelector<HTMLFormElement>('form.filters');
+    if (!form) return;
+    const clear = form.querySelector<HTMLButtonElement>('.clear');
+    const result = form.querySelector<HTMLElement>('.result');
+    const empty = scope.querySelector<HTMLElement>('[data-empty]');
+    const items = [...scope.querySelectorAll<HTMLElement>('[data-kind]')];
+    const key = scope.dataset.scope ?? 'filter';
+    const noun = key === 'recalls' ? 'recalls' : 'outbreaks';
+    const limit = Number(scope.dataset.limit ?? 0);
+    const more = scope.querySelector<HTMLButtonElement>('[data-more]');
+    let expanded = false;
+
+    const apply = (pushUrl: boolean): void => {
+      const selections = readSelections(form);
+      let shown = 0;
+      for (const item of items) {
+        const visible = matches(item, selections);
+        item.hidden = !visible;
+        if (visible) shown += 1;
+      }
+
+      // A list container whose children are all hidden should collapse too, so the
+      // page doesn't keep an empty grid gap where cards used to be.
+      for (const list of scope.querySelectorAll<HTMLElement>('[data-list]')) {
+        const kids = [...list.querySelectorAll<HTMLElement>('[data-kind]')];
+        list.hidden = kids.length > 0 && kids.every((k) => k.hidden);
+      }
+
+      // A hundred rows is a wall of text; show a readable slice until asked for the rest.
+      if (limit > 0) {
+        let seen = 0;
+        for (const item of items) {
+          if (item.hidden) continue;
+          seen += 1;
+          if (!expanded && seen > limit) item.hidden = true;
+        }
+        if (more) {
+          const hiddenByLimit = Math.max(0, shown - limit);
+          more.hidden = !expanded && hiddenByLimit === 0;
+          more.textContent = expanded
+            ? 'Show fewer'
+            : `Show all ${shown} ${noun}`;
+        }
+      }
+
+      const filtering = selections.size > 0;
+      if (clear) clear.hidden = !filtering;
+      if (empty) empty.hidden = !(filtering && shown === 0);
+      if (result) {
+        result.textContent = filtering
+          ? `Showing ${shown} of ${items.length} ${noun}.`
+          : '';
+      }
+
+      if (pushUrl) syncUrl(key, selections);
+    };
+
+    form.addEventListener('change', () => {
+      expanded = false;
+      apply(true);
+    });
+    more?.addEventListener('click', () => {
+      expanded = !expanded;
+      apply(false);
+    });
+    clear?.addEventListener('click', () => {
+      form.reset();
+      apply(true);
+    });
+
+    restoreFromUrl(key, form);
+    apply(false);
+    window.addEventListener('popstate', () => {
+      form.reset();
+      restoreFromUrl(key, form);
+      apply(false);
+    });
+  }
+
+  /** Filters live in the URL so a filtered view can be sent to someone else. */
+  function syncUrl(key: string, selections: Selections): void {
+    const url = new URL(window.location.href);
+    for (const param of [...url.searchParams.keys()]) {
+      if (param.startsWith(`${key}.`)) url.searchParams.delete(param);
+    }
+    for (const [name, values] of selections) {
+      url.searchParams.set(`${key}.${name}`, [...values].join('~'));
+    }
+    window.history.replaceState({}, '', url.searchParams.toString() ? url : url.pathname);
+  }
+
+  function restoreFromUrl(key: string, form: HTMLFormElement): void {
+    const params = new URLSearchParams(window.location.search);
+    for (const [param, raw] of params) {
+      if (!param.startsWith(`${key}.`)) continue;
+      const name = param.slice(key.length + 1);
+      const wanted = new Set(raw.split('~'));
+      for (const input of form.querySelectorAll<HTMLInputElement>(`input[name="${name}"]`)) {
+        if (wanted.has(input.value)) input.checked = true;
+      }
+    }
+  }
+
+  for (const scope of document.querySelectorAll<HTMLElement>('.filterscope')) {
+    setupScope(scope);
+  }
+</script>
+
+<script>
+  /** Crosshair + tooltip on the weekly trend charts. */
+  interface Point { week: number; cases: number }
+  interface TrendData { name: string; max: number; current: Point[]; previous: Point[] }
+
+  const PAD = 4;
+  const VIEW_W = 300;
+
+  for (const figure of document.querySelectorAll<HTMLElement>('.trend')) {
+    const raw = figure.dataset.trend;
+    const plot = figure.querySelector<HTMLElement>('.plot');
+    const svg = figure.querySelector('svg');
+    const tooltip = figure.querySelector<HTMLElement>('.tooltip');
+    const crosshair = figure.querySelector<SVGLineElement>('.crosshair');
+    if (!raw || !plot || !svg || !tooltip || !crosshair) continue;
+
+    const data: TrendData = JSON.parse(raw);
+    if (data.current.length === 0) continue;
+
+    const weekAt = (fraction: number): number => {
+      const week = Math.round(1 + fraction * 51);
+      return Math.min(52, Math.max(1, week));
+    };
+
+    const show = (clientX: number): void => {
+      const box = svg.getBoundingClientRect();
+      const fraction = (clientX - box.left) / box.width;
+      const week = weekAt(Math.min(1, Math.max(0, fraction)));
+      const now = data.current.find((p) => p.week === week);
+      const prev = data.previous.find((p) => p.week === week);
+      if (!now && !prev) return;
+
+      const x = PAD + ((week - 1) / 51) * (VIEW_W - PAD * 2);
+      crosshair.setAttribute('x1', String(x));
+      crosshair.setAttribute('x2', String(x));
+      // SVG elements have no `hidden` property, so visibility rides on a class.
+      crosshair.classList.add('is-on');
+
+      tooltip.innerHTML =
+        `Week ${week}<br>This year: <b>${now ? now.cases.toLocaleString('en-US') : '—'}</b>` +
+        `<br>Last year: <b>${prev ? prev.cases.toLocaleString('en-US') : '—'}</b>`;
+      tooltip.style.left = `${(x / VIEW_W) * 100}%`;
+      tooltip.hidden = false;
+    };
+
+    const hide = (): void => {
+      tooltip.hidden = true;
+      crosshair.classList.remove('is-on');
+    };
+
+    // Listen on the wrapper, not the <svg>: SVG hit-testing only covers painted marks, so
+    // a 2px line would give the reader a hairline-wide hover target.
+    plot.addEventListener('pointermove', (event) => show((event as PointerEvent).clientX));
+    plot.addEventListener('pointerleave', hide);
+    plot.addEventListener('pointerdown', (event) => show((event as PointerEvent).clientX));
+  }
+</script>

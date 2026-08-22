@@ -1,0 +1,77 @@
+---
+import type { SourceHealth } from '../lib/types';
+import { relativeDate, shortDate } from '../lib/view';
+
+interface Props { sources: Record<string, SourceHealth> }
+const { sources } = Astro.props;
+
+const NAMES: Record<string, string> = {
+  cdc: 'CDC outbreak notices',
+  fda: 'FDA investigation table',
+  openfda: 'FDA recalls',
+  fsis: 'USDA meat & poultry recalls',
+  nndss: 'CDC weekly case counts',
+};
+
+const entries = Object.entries(sources);
+const failing = entries.filter(([, health]) => !health.ok);
+---
+
+{failing.length > 0 && (
+  <div class="notice" role="status">
+    <p class="notice__title">Some data couldn't be refreshed</p>
+    <ul>
+      {failing.map(([key, health]) => (
+        <li>
+          <b>{NAMES[key] ?? key}</b> —
+          {health.lastSuccessAt
+            ? ` showing what we last confirmed ${relativeDate(health.lastSuccessAt)}.`
+            : ' no data collected yet.'}
+        </li>
+      ))}
+    </ul>
+    <p class="notice__foot">
+      An outbreak missing from this page is not proof it ended — it may just mean we couldn't read the source.
+    </p>
+  </div>
+)}
+
+<details class="sources">
+  <summary>Where this comes from · checked {relativeDate(entries.map(([, h]) => h.fetchedAt).filter(Boolean).sort().pop())}</summary>
+  <ul>
+    {entries.map(([key, health]) => (
+      <li>
+        <span class:list={['pip', health.ok ? 'pip--ok' : 'pip--bad']} aria-hidden="true"></span>
+        <b>{NAMES[key] ?? key}</b>
+        <span class="state">{health.ok ? 'read successfully' : 'could not be read'}</span>
+        <span class="stamp">{health.ok ? shortDate(health.fetchedAt) : health.lastSuccessAt ? `last good ${shortDate(health.lastSuccessAt)}` : 'never'}</span>
+      </li>
+    ))}
+  </ul>
+</details>
+
+<style>
+  .notice {
+    background: color-mix(in srgb, var(--warning) 14%, var(--surface));
+    border: 1px solid color-mix(in srgb, var(--warning) 45%, var(--border));
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    font-size: 0.92rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .notice__title { font-weight: 700; }
+  .notice ul { margin: 0; padding-left: 1.1rem; }
+  .notice__foot { color: var(--ink-secondary); font-size: 0.86rem; }
+
+  .sources { font-size: 0.85rem; color: var(--ink-secondary); }
+  .sources summary { cursor: pointer; padding: 0.3rem 0; }
+  .sources ul { list-style: none; margin: 0.3rem 0 0; padding: 0; display: grid; gap: 0.3rem; }
+  .sources li { display: flex; align-items: baseline; gap: 0.45rem; flex-wrap: wrap; }
+  .pip { width: 8px; height: 8px; border-radius: 50%; flex: none; align-self: center; }
+  .pip--ok { background: var(--good); }
+  .pip--bad { background: var(--critical); }
+  .state { color: var(--ink-muted); }
+  .stamp { color: var(--ink-muted); margin-left: auto; }
+</style>

@@ -1,0 +1,56 @@
+name: Refresh data
+
+on:
+  schedule:
+    # Every six hours. CDC and FDA update on their own cadence (FDA's table is weekly),
+    # so this is about not missing a change for long, not about polling hard.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run ingest
+        id: ingest
+        # A failed source is reported with a non-zero exit AFTER the data files are written,
+        # so the run goes red without discarding what did load.
+        run: npm run ingest
+        continue-on-error: true
+
+      - name: Check data is still valid
+        run: npx vitest run
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- src/data; then
+            echo "No data changes."
+            exit 0
+          fi
+          git add src/data
+          git commit -m "data: refresh outbreaks, recalls and trends"
+          git push
+
+      - name: Report source failures
+        if: steps.ingest.outcome == 'failure'
+        run: |
+          echo "::warning::One or more sources could not be read — see the ingest step log."
+          echo "Existing data was kept; nothing was closed on a failed read."

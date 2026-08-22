@@ -1,0 +1,112 @@
+---
+import type { Recall } from '../lib/types';
+import { foodChip, riskChip, shortDate } from '../lib/view';
+
+interface Props { recalls: Recall[] }
+const { recalls } = Astro.props;
+
+const classLabel = (c: string | null): string => {
+  const t = (c ?? '').toLowerCase();
+  if (t.includes('iii')) return 'Low risk';
+  if (t.includes('ii')) return 'Could make you sick';
+  if (t.includes('i')) return 'Serious risk';
+  return 'Risk not classified';
+};
+const classKey = (c: string | null): string => {
+  const t = (c ?? '').toLowerCase();
+  if (t.includes('iii')) return 'low';
+  if (t.includes('ii')) return 'medium';
+  if (t.includes('i')) return 'high';
+  return 'unknown';
+};
+---
+
+<div class="tablewrap">
+  <table>
+    <caption class="sr-only">Recent food recalls, most serious first</caption>
+    <thead>
+      <tr>
+        <th scope="col">Food</th>
+        <th scope="col">Why</th>
+        <th scope="col">How risky</th>
+        <th scope="col">Where</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {recalls.map((recall) => (
+        <tr
+          data-kind="recall"
+          data-f-food={foodChip(recall)}
+          data-f-risk={riskChip(recall)}
+          data-f-states={recall.states.join('|')}
+        >
+          <td>
+            <b>{recall.product.slice(0, 110)}{recall.product.length > 110 ? '…' : ''}</b>
+            <span class="firm">{recall.firm}</span>
+            <span class="cat">{foodChip(recall)}</span>
+          </td>
+          <td class="reason">{recall.reason.slice(0, 130)}{recall.reason.length > 130 ? '…' : ''}</td>
+          <td><span class:list={['risk', `risk--${classKey(recall.classification)}`]}>{classLabel(recall.classification)}</span></td>
+          <td class="where">{recall.states.length ? recall.states.slice(0, 3).join(', ') + (recall.states.length > 3 ? ` +${recall.states.length - 3}` : '') : 'Not specified'}</td>
+          <td class="when">{shortDate(recall.date)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .tablewrap {
+    overflow-x: auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+  table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 0.92rem; table-layout: fixed; }
+  th:nth-child(1), td:nth-child(1) { width: 32%; }
+  th:nth-child(2), td:nth-child(2) { width: 26%; }
+  th:nth-child(3), td:nth-child(3) { width: 12%; }
+  th:nth-child(4), td:nth-child(4) { width: 18%; }
+  th:nth-child(5), td:nth-child(5) { width: 12%; }
+  caption { text-align: left; }
+  th {
+    text-align: left;
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-muted);
+    padding: 0.75rem 0.9rem;
+    border-bottom: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+  td { padding: 0.75rem 0.9rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: 0; }
+  tbody tr[hidden] { display: none; }
+  td b { display: block; font-weight: 600; }
+  .firm, .cat { display: block; font-size: 0.8rem; color: var(--ink-muted); }
+  .reason { color: var(--ink-secondary); }
+  .where { color: var(--ink-secondary); }
+  .when { color: var(--ink-secondary); white-space: nowrap; }
+  td b { overflow-wrap: anywhere; }
+
+  .risk {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    border: 1px solid var(--border);
+  }
+  /* Risk level is carried by the label text, never by color alone. */
+  .risk--high { background: color-mix(in srgb, var(--critical) 14%, transparent); color: var(--ink); }
+  .risk--medium { background: color-mix(in srgb, var(--warning) 20%, transparent); color: var(--ink); }
+  .risk--low { background: var(--surface-sunken); color: var(--ink-secondary); }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+</style>
