@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-23T02:00:16.945Z",
+  "generatedAt": "2026-08-23T07:01:34.918Z",
   "sources": {
     "cdc": {
       "ok": true,
-      "fetchedAt": "2026-08-23T02:00:16.946Z",
-      "lastSuccessAt": "2026-08-23T02:00:16.946Z",
+      "fetchedAt": "2026-08-23T07:01:34.919Z",
+      "lastSuccessAt": "2026-08-23T07:01:34.919Z",
       "error": null
     },
     "fda": {
       "ok": false,
-      "fetchedAt": "2026-08-23T02:00:16.959Z",
+      "fetchedAt": "2026-08-23T07:01:34.931Z",
       "lastSuccessAt": "2026-08-22T14:32:44.735Z",
       "error": "3 attempts failed for https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks: HTTP 404 from https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks"
     }
@@ -29,7 +29,7 @@
       "stateCount": 17,
       "states": [],
       "firstSeen": "2026-07-14T17:09:00Z",
-      "lastSeen": "2026-08-23T02:00:16.945Z",
+      "lastSeen": "2026-08-23T07:01:34.918Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/index.html",
       "advice": "Contact your healthcare provider if you have symptoms of Cyclospora",
@@ -71,7 +71,7 @@
         "Washington"
       ],
       "firstSeen": "2026-06-08T18:21:00Z",
-      "lastSeen": "2026-08-23T02:00:16.945Z",
+      "lastSeen": "2026-08-23T07:01:34.918Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/listeria/outbreaks/soft-cheese-06-26/index.html",
       "advice": "Do not eat recalled cheese.",
@@ -110,7 +110,7 @@
       "stateCount": 32,
       "states": [],
       "firstSeen": "2026-08-06T17:33:00Z",
-      "lastSeen": "2026-08-23T02:00:16.945Z",
+      "lastSeen": "2026-08-23T07:01:34.918Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/salmonella/outbreaks/javiana-08-26/index.html",
       "advice": "Do not eat recalled jalapeño peppers or products made with recalled peppers.",
@@ -156,7 +156,7 @@
         "Texas"
       ],
       "firstSeen": "2026-07-27T12:07:00Z",
-      "lastSeen": "2026-08-23T02:00:16.945Z",
+      "lastSeen": "2026-08-23T07:01:34.918Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/salmonella/outbreaks/shell-eggs-07-26/index.html",
       "advice": "Do not eat any recalled shell eggs.",
@@ -190,7 +190,7 @@
       "stateCount": 15,
       "states": [],
       "firstSeen": "2026-08-21T15:35:00Z",
-      "lastSeen": "2026-08-23T02:00:16.945Z",
+      "lastSeen": "2026-08-23T07:01:34.918Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/alfalfa-sprouts-08-26/index.html",
       "advice": "Do not eat any affected alfalfa sprouts.",
@@ -233,7 +233,7 @@
         "Virginia"
       ],
       "firstSeen": "2026-07-07T16:34:00Z",
-      "lastSeen": "2026-08-23T02:00:16.945Z",
+      "lastSeen": "2026-08-23T07:01:34.918Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/blueberries-07-26/index.html",
       "advice": "Do not eat any recalled frozen berries.",
@@ -269,7 +269,7 @@
         "California"
       ],
       "firstSeen": "2026-06-15T14:37:00Z",
-      "lastSeen": "2026-08-23T02:00:16.945Z",
+      "lastSeen": "2026-08-23T07:01:34.918Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/botulism/outbreaks-investigations/infant-formula-june-2026/index.html",
       "advice": "If you still have the formula in your home, please take a picture and record the lot number and use-by date on the container.",
