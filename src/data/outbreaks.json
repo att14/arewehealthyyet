@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-23T07:01:34.918Z",
+  "generatedAt": "2026-08-23T13:02:22.574Z",
   "sources": {
     "cdc": {
-      "ok": true,
-      "fetchedAt": "2026-08-23T07:01:34.919Z",
+      "ok": false,
+      "fetchedAt": "2026-08-23T13:02:22.575Z",
       "lastSuccessAt": "2026-08-23T07:01:34.919Z",
-      "error": null
+      "error": "CDC syndication feed 285676 returned no items"
     },
     "fda": {
       "ok": false,
-      "fetchedAt": "2026-08-23T07:01:34.931Z",
+      "fetchedAt": "2026-08-23T13:02:22.586Z",
       "lastSuccessAt": "2026-08-22T14:32:44.735Z",
       "error": "3 attempts failed for https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks: HTTP 404 from https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks"
     }
