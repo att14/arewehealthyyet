@@ -2,29 +2,38 @@ import type { SourceHealth } from '../../src/lib/types.js';
 
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) ' +
-  'Chrome/128.0.0.0 Safari/537.36';
+  'Chrome/137.0.0.0 Safari/537.36';
 
 export class FetchFailure extends Error {}
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-/**
- * Fetch with a real browser UA and backoff. Government sites (CDC, FDA, FSIS) sit behind
- * bot protection that rejects default agents outright.
- */
+const HTML_HEADERS: Record<string, string> = {
+  'User-Agent': UA,
+  Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'en-US,en;q=0.9',
+  'Accept-Encoding': 'gzip, deflate, br',
+  'Sec-Fetch-Dest': 'document',
+  'Sec-Fetch-Mode': 'navigate',
+  'Sec-Fetch-Site': 'none',
+  'Sec-Fetch-User': '?1',
+  'Upgrade-Insecure-Requests': '1',
+  'Cache-Control': 'max-age=0',
+};
+
 export async function fetchText(url: string, opts: { attempts?: number; accept?: string } = {}): Promise<string> {
   const attempts = opts.attempts ?? 3;
+  const headers = opts.accept
+    ? { 'User-Agent': UA, Accept: opts.accept, 'Accept-Language': 'en-US,en;q=0.9' }
+    : HTML_HEADERS;
   let lastError: unknown;
   for (let i = 0; i < attempts; i++) {
     if (i > 0) await sleep(2 ** i * 1000);
     try {
       const res = await fetch(url, {
-        headers: {
-          'User-Agent': UA,
-          Accept: opts.accept ?? 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-          'Accept-Language': 'en-US,en;q=0.9',
-        },
+        headers,
         signal: AbortSignal.timeout(45_000),
+        redirect: 'follow',
       });
       if (!res.ok) throw new FetchFailure(`HTTP ${res.status} from ${url}`);
       return await res.text();
@@ -48,10 +57,6 @@ export function describe(err: unknown): string {
   return err instanceof Error ? err.message : String(err);
 }
 
-/**
- * Runs one source and records its health. A thrown error is captured, never swallowed:
- * downstream merging must be able to tell "nothing found" from "could not look".
- */
 export async function runSource<T>(
   name: string,
   previous: SourceHealth | undefined,
