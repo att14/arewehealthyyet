@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-25T07:09:08.890Z",
+  "generatedAt": "2026-08-25T13:12:01.344Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-08-25T07:09:08.904Z",
-      "lastSuccessAt": "2026-08-25T07:09:08.904Z",
+      "fetchedAt": "2026-08-25T13:12:01.359Z",
+      "lastSuccessAt": "2026-08-25T13:12:01.359Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-08-25T07:09:08.905Z",
+      "fetchedAt": "2026-08-25T13:12:01.361Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
