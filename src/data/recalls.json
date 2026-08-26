@@ -1,20 +1,41 @@
 {
-  "generatedAt": "2026-08-25T18:57:23.092Z",
+  "generatedAt": "2026-08-26T01:59:12.384Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-08-25T18:57:23.109Z",
-      "lastSuccessAt": "2026-08-25T18:57:23.109Z",
+      "fetchedAt": "2026-08-26T01:59:12.399Z",
+      "lastSuccessAt": "2026-08-26T01:59:12.399Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-08-25T18:57:23.111Z",
+      "fetchedAt": "2026-08-26T01:59:12.400Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-1230-2026",
+      "source": "openfda",
+      "firm": "MIDWEST POULTRY SERVC C/O H & LELECTRIC",
+      "product": "Grade A White In-shell Chicken eggs packaged in the following configurations: 1. Kroger, Medium, 12 Eggs, Net Wt 21 oz (1lb 5oz) 596g, UPC 0 11110-60902 1. Distributed by The Kroger Co., Cincinnati, OH 45202. 2. Kroger, Medium, 30 Eggs, Net Wt 52.5 oz (3lb 4.5oz) 596g, UPC 0 11110-60980 9. Distributed by The Kroger Co., Cincinnati, OH 45202. 3. Kroger, Large 12 Eggs, Net Wt 24 oz (1lb 8oz) 681g, U",
+      "reason": "Possible Salmonella Enteritidis",
+      "classification": "Class I",
+      "foodRaw": "Grade A White In-shell Chicken eggs packaged in the following configurations: 1. Kroger, Medium, 12 Eggs, Net Wt 21 oz (1lb 5oz) 596g, UPC 0 11110-60902 1. Distributed by The Kroger Co., Cincinnati, OH 45202. 2. Kroger, Medium, 30 Eggs, Net Wt 52.5 oz (3lb 4.5oz) 596g, UPC 0 11110-60980 9. Distributed by The Kroger Co., Cincinnati, OH 45202. 3. Kroger, Large 12 Eggs, Net Wt 24 oz (1lb 8oz) 681g, U",
+      "foodCategory": "Eggs",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Arkansas",
+        "Louisiana",
+        "Mississippi",
+        "New Mexico",
+        "Oklahoma",
+        "Texas"
+      ],
+      "date": "2026-08-19",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-1219-2026",
       "source": "openfda",
@@ -1936,22 +1957,6 @@
       "foodRaw": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
       "foodCategory": "Other",
       "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0998-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Shrimp",
-      "classification": "Class III",
-      "foodRaw": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Crustaceans",
-      "foodGroup": "Aquatic Animals",
       "states": [
         "Nationwide"
       ],
