@@ -378,6 +378,7 @@ const updated = (outbreakFile as OutbreakFile).generatedAt;
       }
 
       const filtering = selections.size > 0;
+      const totalChecked = form.querySelectorAll<HTMLInputElement>('input:checked').length;
       if (clear) clear.hidden = !filtering;
       if (empty) empty.hidden = !(filtering && shown === 0);
       if (result) {
@@ -386,12 +387,24 @@ const updated = (outbreakFile as OutbreakFile).generatedAt;
           : '';
       }
 
+      const badge = form.querySelector<HTMLElement>('.filters__count');
+      if (badge) {
+        badge.hidden = totalChecked === 0;
+        badge.textContent = String(totalChecked);
+      }
+
       if (pushUrl) syncUrl(key, selections);
     };
 
     form.addEventListener('change', () => {
       expanded = false;
       apply(true);
+      // On mobile, close the filter panel after a selection so the user
+      // immediately sees the filtered results instead of more chips.
+      const details = form.querySelector<HTMLDetailsElement>('.filters__details');
+      if (details && !window.matchMedia('(min-width: 720px)').matches) {
+        details.open = false;
+      }
     });
     more?.addEventListener('click', () => {
       expanded = !expanded;

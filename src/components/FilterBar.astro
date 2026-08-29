@@ -14,7 +14,8 @@ const { groups } = Astro.props;
 <form class="filters" aria-label="Filter what you see">
   <details class="filters__details">
     <summary class="filters__head">
-      <p class="filters__title">Narrow it down</p>
+      <p class="filters__title">Filter</p>
+      <span class="filters__count" hidden></span>
       <span class="filters__toggle" aria-hidden="true"></span>
     </summary>
 
@@ -66,6 +67,17 @@ const { groups } = Astro.props;
   .filters__head::marker { display: none; content: ''; }
   .filters__title { font-weight: 700; font-size: 1rem; }
 
+  .filters__count {
+    background: var(--series-1);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 0.1rem 0.5rem;
+    min-width: 1.4em;
+    text-align: center;
+  }
+
   .filters__toggle {
     font-size: 0.75rem;
     color: var(--ink-muted);
@@ -81,9 +93,23 @@ const { groups } = Astro.props;
     padding-top: 0.85rem;
   }
 
+  /* Mobile: compact chips */
+  @media (max-width: 719px) {
+    .filters { padding: 0.7rem 0.85rem 0.6rem; gap: 0.55rem; }
+    .filters__body { gap: 0.6rem; padding-top: 0.6rem; }
+    .chips { gap: 0.3rem; }
+    .chip span {
+      min-height: 34px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.82rem;
+    }
+    .chip span b { font-size: 0.7rem; padding: 0.02rem 0.35rem; }
+  }
+
   /* Desktop: open by default via JS, hide the toggle arrow */
   @media (min-width: 720px) {
     .filters__toggle { display: none; }
+    .filters__count { display: none; }
     .filters__head { cursor: default; }
   }
 
