@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-02T16:35:14.795Z",
+  "generatedAt": "2026-09-02T21:04:20.746Z",
   "sources": {
     "cdc": {
       "ok": true,
-      "fetchedAt": "2026-09-02T16:35:14.796Z",
-      "lastSuccessAt": "2026-09-02T16:35:14.796Z",
+      "fetchedAt": "2026-09-02T21:04:20.748Z",
+      "lastSuccessAt": "2026-09-02T21:04:20.748Z",
       "error": null
     },
     "fda": {
       "ok": true,
-      "fetchedAt": "2026-09-02T16:35:14.809Z",
-      "lastSuccessAt": "2026-09-02T16:35:14.809Z",
+      "fetchedAt": "2026-09-02T21:04:20.760Z",
+      "lastSuccessAt": "2026-09-02T21:04:20.760Z",
       "error": null
     }
   },
@@ -29,7 +29,7 @@
       "stateCount": 20,
       "states": [],
       "firstSeen": "2026-07-14T17:09:00Z",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/index.html",
       "advice": "Contact your healthcare provider if you have symptoms of Cyclospora",
@@ -37,6 +37,11 @@
       "title": "Cyclospora Outbreak Linked to Iceberg Lettuce",
       "updatedAt": "2026-08-06T11:55:47Z",
       "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-multistate-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+          "id": "fda-1390"
+        },
         {
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-multistate-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
@@ -238,7 +243,7 @@
       "stateCount": 32,
       "states": [],
       "firstSeen": "2026-08-06T17:33:00Z",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/salmonella/outbreaks/javiana-08-26/index.html",
       "advice": "Do not eat recalled jalapeño peppers or products made with recalled peppers.",
@@ -250,6 +255,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/foodborne-pathogens/salmonella-salmonellosis",
           "id": "fda-salmonella-jalape-o-peppers-2026"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-jalapeno-august-2026",
+          "id": "fda-1395"
         },
         {
           "source": "fda",
@@ -459,7 +469,7 @@
         "Texas"
       ],
       "firstSeen": "2026-07-27T12:07:00Z",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/salmonella/outbreaks/shell-eggs-07-26/index.html",
       "advice": "Do not eat any recalled shell eggs.",
@@ -476,6 +486,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/foodborne-pathogens/salmonella-salmonellosis",
           "id": "fda-salmonella-eggs-2026"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-eggs-july-2026",
+          "id": "fda-1378"
         },
         {
           "source": "fda",
@@ -668,7 +683,7 @@
       "stateCount": 15,
       "states": [],
       "firstSeen": "2026-08-21T15:35:00Z",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/alfalfa-sprouts-08-26/index.html",
       "advice": "Do not eat any recalled sprouts.",
@@ -676,6 +691,11 @@
       "title": "E. coli and Salmonella Outbreak Linked to Alfalfa Sprouts",
       "updatedAt": "2026-08-21T18:22:30Z",
       "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
         {
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
@@ -886,7 +906,7 @@
         "Virginia"
       ],
       "firstSeen": "2026-07-07T16:34:00Z",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/blueberries-07-26/index.html",
       "advice": "Do not eat any recalled frozen berries.",
@@ -1078,227 +1098,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o145h28-frozen-blueberries-july-2026",
           "id": "fda-1389"
-        }
-      ]
-    },
-    {
-      "id": "cdc-765841",
-      "source": "cdc",
-      "pathogen": "Botulism",
-      "status": "active",
-      "foodRaw": "Powdered Infant Formula",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "illnesses": 4,
-      "hospitalizations": 4,
-      "deaths": 0,
-      "stateCount": 3,
-      "states": [
-        "California"
-      ],
-      "firstSeen": "2026-06-15T14:37:00Z",
-      "lastSeen": "2026-08-27T09:49:36.780Z",
-      "closedAt": null,
-      "sourceUrl": "https://www.cdc.gov/botulism/outbreaks-investigations/infant-formula-june-2026/index.html",
-      "advice": "If you still have the formula in your home, please take a picture and record the lot number and use-by date on the container.",
-      "notes": "A recall has been issued.",
-      "title": "Infant Botulism Outbreak Linked to Powdered Infant Formula",
-      "updatedAt": "2026-06-15T14:37:59Z",
-      "crossReferences": [
-        {
-          "source": "fda",
-          "url": "https://www.cdc.gov/botulism/about/index.html",
-          "id": "fda-botulism-powdered-infant-formula-2026"
         },
         {
           "source": "fda",
-          "url": "https://www.fda.gov/media/192722/download?attachment",
-          "id": "fda-botulism-infant-formula-2026"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
-          "id": "fda-1383"
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o145h28-frozen-blueberries-july-2026",
+          "id": "fda-1389"
         }
       ]
     },
@@ -1316,7 +1120,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1338,7 +1142,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-05",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1360,7 +1164,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-22",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1382,7 +1186,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-22",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1404,7 +1208,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1426,7 +1230,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1448,7 +1252,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1675,6 +1479,237 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-listeria-monocytogenes-soft-cheese-june-2026",
           "id": "fda-1380"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-listeria-monocytogenes-soft-cheese-june-2026",
+          "id": "fda-1380"
+        }
+      ]
+    },
+    {
+      "id": "cdc-765841",
+      "source": "cdc",
+      "pathogen": "Botulism",
+      "status": "closed",
+      "foodRaw": "Powdered Infant Formula",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "illnesses": 4,
+      "hospitalizations": 4,
+      "deaths": 0,
+      "stateCount": 3,
+      "states": [
+        "California"
+      ],
+      "firstSeen": "2026-06-15T14:37:00Z",
+      "lastSeen": "2026-08-27T09:49:36.780Z",
+      "closedAt": "2026-09-02T21:04:20.746Z",
+      "sourceUrl": "https://www.cdc.gov/botulism/outbreaks-investigations/infant-formula-june-2026/index.html",
+      "advice": "If you still have the formula in your home, please take a picture and record the lot number and use-by date on the container.",
+      "notes": "A recall has been issued.",
+      "title": "Infant Botulism Outbreak Linked to Powdered Infant Formula",
+      "updatedAt": "2026-06-15T14:37:59Z",
+      "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.cdc.gov/botulism/about/index.html",
+          "id": "fda-botulism-powdered-infant-formula-2026"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/media/192722/download?attachment",
+          "id": "fda-botulism-infant-formula-2026"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
         }
       ]
     },
@@ -1692,7 +1727,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": "2026-07-08",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1714,13 +1749,57 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-01",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
       "closedAt": "2026-07-01",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
       "notes": null,
       "title": "E. coli linked to Not Yet Identified",
       "updatedAt": "2026-07-01"
+    },
+    {
+      "id": "fda-1377",
+      "source": "fda",
+      "pathogen": "Salmonella",
+      "status": "closed",
+      "foodRaw": "Moringa Leaf Powder",
+      "foodCategory": null,
+      "foodGroup": null,
+      "illnesses": null,
+      "hospitalizations": null,
+      "deaths": null,
+      "stateCount": null,
+      "states": [],
+      "firstSeen": "2026-05-20",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
+      "closedAt": "2026-05-20",
+      "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-may-2026",
+      "advice": null,
+      "notes": null,
+      "title": "Salmonella linked to Moringa Leaf Powder",
+      "updatedAt": "2026-05-20"
+    },
+    {
+      "id": "fda-1369",
+      "source": "fda",
+      "pathogen": "E. coli",
+      "status": "closed",
+      "foodRaw": "Raw Cheddar Cheese",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "illnesses": null,
+      "hospitalizations": null,
+      "deaths": null,
+      "stateCount": null,
+      "states": [],
+      "firstSeen": "2026-03-16",
+      "lastSeen": "2026-09-02T21:04:20.746Z",
+      "closedAt": "2026-03-16",
+      "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o157h7-raw-cheddar-cheese-march-2026",
+      "advice": null,
+      "notes": null,
+      "title": "E. coli linked to Raw Cheddar Cheese",
+      "updatedAt": "2026-03-16"
     },
     {
       "id": "fda-1381",
@@ -1765,50 +1844,6 @@
       "notes": null,
       "title": "Cyclospora linked to Not Yet Identified",
       "updatedAt": "2026-06-03"
-    },
-    {
-      "id": "fda-1377",
-      "source": "fda",
-      "pathogen": "Salmonella",
-      "status": "closed",
-      "foodRaw": "Moringa Leaf Powder",
-      "foodCategory": null,
-      "foodGroup": null,
-      "illnesses": null,
-      "hospitalizations": null,
-      "deaths": null,
-      "stateCount": null,
-      "states": [],
-      "firstSeen": "2026-05-20",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
-      "closedAt": "2026-05-20",
-      "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-may-2026",
-      "advice": null,
-      "notes": null,
-      "title": "Salmonella linked to Moringa Leaf Powder",
-      "updatedAt": "2026-05-20"
-    },
-    {
-      "id": "fda-1369",
-      "source": "fda",
-      "pathogen": "E. coli",
-      "status": "closed",
-      "foodRaw": "Raw Cheddar Cheese",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "illnesses": null,
-      "hospitalizations": null,
-      "deaths": null,
-      "stateCount": null,
-      "states": [],
-      "firstSeen": "2026-03-16",
-      "lastSeen": "2026-09-02T16:35:14.795Z",
-      "closedAt": "2026-03-16",
-      "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o157h7-raw-cheddar-cheese-march-2026",
-      "advice": null,
-      "notes": null,
-      "title": "E. coli linked to Raw Cheddar Cheese",
-      "updatedAt": "2026-03-16"
     },
     {
       "id": "fda-salmonella-alfalfa-sprouts-2026",
