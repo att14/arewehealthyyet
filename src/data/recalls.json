@@ -1,20 +1,138 @@
 {
-  "generatedAt": "2026-09-07T21:31:28.412Z",
+  "generatedAt": "2026-09-08T04:37:20.995Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-09-07T21:31:28.426Z",
-      "lastSuccessAt": "2026-09-07T21:31:28.426Z",
+      "fetchedAt": "2026-09-08T04:37:21.008Z",
+      "lastSuccessAt": "2026-09-08T04:37:21.008Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-09-07T21:31:28.428Z",
+      "fetchedAt": "2026-09-08T04:37:21.009Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-1258-2026",
+      "source": "openfda",
+      "firm": "H & U Inc. dba Sun Noodle",
+      "product": "Sura Tanmen Hot and Sour Flavor Premium Japanese Noodles & Soup Base. Retail package net wt. 15.4oz. Product is ramen noodle kit which contains noodles and Soba soup packet. Item #05410 retail package, UPC 085315054108 Item #05410.1 cardboard box (12 packages per case), UPC 085315054105 Product is Perishable Frozen or Refrigerated and made by Sun Noodle Hawaii 1933 Colburn Street, Honolulu, HI",
+      "reason": "Soba sauce packet, which contains bonito, sardine, and mackerel (fish), was packed into Sura Tanmen Hot and Sour Flavor ramen noodle package kit, but fish species are not declared on finished product label.",
+      "classification": "Class I",
+      "foodRaw": "Sura Tanmen Hot and Sour Flavor Premium Japanese Noodles & Soup Base. Retail package net wt. 15.4oz. Product is ramen noodle kit which contains noodles and Soba soup packet. Item #05410 retail package, UPC 085315054108 Item #05410.1 cardboard box (12 packages per case), UPC 085315054105 Product is Perishable Frozen or Refrigerated and made by Sun Noodle Hawaii 1933 Colburn Street, Honolulu, HI",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "Hawaii"
+      ],
+      "date": "2026-09-02",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1259-2026",
+      "source": "openfda",
+      "firm": "KHONG GUAN (HQ)",
+      "product": "Glutinous Rice Balls with Black Sesame Filling NET WT. 14.1 OZ (400 g) Product of China UPC: 6908791000053",
+      "reason": "Undeclared peanuts.",
+      "classification": "Class I",
+      "foodRaw": "Glutinous Rice Balls with Black Sesame Filling NET WT. 14.1 OZ (400 g) Product of China UPC: 6908791000053",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Arizona",
+        "California",
+        "Colorado",
+        "Hawaii",
+        "New Jersey",
+        "Oregon",
+        "Texas",
+        "Washington"
+      ],
+      "date": "2026-09-02",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1249-2026",
+      "source": "openfda",
+      "firm": "WFM Purchasing, LP",
+      "product": "Whole Foods Medium Pico de Gallo Guacamole Dip, Keep Refrigerated. Packed in various sized clear plastic containers. Product is weighed and a finished product label is applied. Products contain the following PLU Cods located under label bar code: 29802800000. Packed for Whole Foods Market, located at either 1745 W. Market Street, Akron, OH 44313 or 4301 W. William Cannon, Austin, TX 78749.",
+      "reason": "Salsa and Guacamole products were made with jalapenos that may be contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Whole Foods Medium Pico de Gallo Guacamole Dip, Keep Refrigerated. Packed in various sized clear plastic containers. Product is weighed and a finished product label is applied. Products contain the following PLU Cods located under label bar code: 29802800000. Packed for Whole Foods Market, located at either 1745 W. Market Street, Akron, OH 44313 or 4301 W. William Cannon, Austin, TX 78749.",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Arkansas",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kentucky",
+        "Louisiana",
+        "Michigan",
+        "Minnesota",
+        "Missouri",
+        "Ohio",
+        "Oklahoma",
+        "Texas",
+        "Wisconsin"
+      ],
+      "date": "2026-08-26",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1241-2026",
+      "source": "openfda",
+      "firm": "Publix Super Markets, Inc.",
+      "product": "Organic Whole Mixed Berries, Net Wt. 48 oz (3Lb) plastic bag. packed in 6 bags per case of 10 oz each. Keep Frozen. UPC 41415-12153",
+      "reason": "Due to potential E. coli O145:H28 contamination",
+      "classification": "Class I",
+      "foodRaw": "Organic Whole Mixed Berries, Net Wt. 48 oz (3Lb) plastic bag. packed in 6 bags per case of 10 oz each. Keep Frozen. UPC 41415-12153",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Florida",
+        "Georgia",
+        "Kentucky",
+        "North Carolina",
+        "South Carolina",
+        "Tennessee",
+        "Virginia"
+      ],
+      "date": "2026-08-26",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1252-2026",
+      "source": "openfda",
+      "firm": "WFM Purchasing, LP",
+      "product": "Whole Foods Spicy Guacamole Dip, Keep Refrigerated. Packed in various sized clear plastic containers. Product is weighed and a finished product label is applied. Products contain the following PLU Cods located under label bar code: 21212000000, 21211900000, 25138200000. Packed for Whole Foods Market, located at either 1745 W. Market Street, Akron, OH 44313 or 4301 W. William Cannon, Austin, TX 787",
+      "reason": "Salsa and Guacamole products were made with jalapenos that may be contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Whole Foods Spicy Guacamole Dip, Keep Refrigerated. Packed in various sized clear plastic containers. Product is weighed and a finished product label is applied. Products contain the following PLU Cods located under label bar code: 21212000000, 21211900000, 25138200000. Packed for Whole Foods Market, located at either 1745 W. Market Street, Akron, OH 44313 or 4301 W. William Cannon, Austin, TX 787",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Arkansas",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kentucky",
+        "Louisiana",
+        "Michigan",
+        "Minnesota",
+        "Missouri",
+        "Ohio",
+        "Oklahoma",
+        "Texas",
+        "Wisconsin"
+      ],
+      "date": "2026-08-26",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-1230-2026",
       "source": "openfda",
@@ -32,6 +150,132 @@
         "New Mexico",
         "Oklahoma",
         "Texas"
+      ],
+      "date": "2026-08-19",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1293-2026",
+      "source": "openfda",
+      "firm": "Taylor Farms de Mexico S. de R.L. de C.V.",
+      "product": "MARKON LETTUCE SALAD MIX 4/5# MARKON LETTUCE SALAD WITH SEP BAG 4/5# Iceberg, Carrots, Red Cabbage products.",
+      "reason": "Potential Cyclospora contamination.",
+      "classification": "Class I",
+      "foodRaw": "MARKON LETTUCE SALAD MIX 4/5# MARKON LETTUCE SALAD WITH SEP BAG 4/5# Iceberg, Carrots, Red Cabbage products.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Mississippi",
+        "Missouri",
+        "New Hampshire",
+        "New Jersey",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-08-19",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1286-2026",
+      "source": "openfda",
+      "firm": "Taylor Farms de Mexico S. de R.L. de C.V.",
+      "product": "Jack in the Box 1/8\" SHRED LETTUCE 4/5# Iceberg only products.",
+      "reason": "Potential Cyclospora contamination.",
+      "classification": "Class I",
+      "foodRaw": "Jack in the Box 1/8\" SHRED LETTUCE 4/5# Iceberg only products.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Mississippi",
+        "Missouri",
+        "New Hampshire",
+        "New Jersey",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-08-19",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1297-2026",
+      "source": "openfda",
+      "firm": "Taylor Farms de Mexico S. de R.L. de C.V.",
+      "product": "Cross Valley Farms BLEND LETT/ROM 80/20 WITH SEP BAGGIES 4/5# Iceberg, Romaine, Carrots, Red Cabbage products.",
+      "reason": "Potential Cyclospora contamination.",
+      "classification": "Class I",
+      "foodRaw": "Cross Valley Farms BLEND LETT/ROM 80/20 WITH SEP BAGGIES 4/5# Iceberg, Romaine, Carrots, Red Cabbage products.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Mississippi",
+        "Missouri",
+        "New Hampshire",
+        "New Jersey",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Pennsylvania",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Virginia",
+        "Wisconsin"
       ],
       "date": "2026-08-19",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -249,22 +493,6 @@
         "Texas"
       ],
       "date": "2026-07-15",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1128-2026",
-      "source": "openfda",
-      "firm": "MOGO Moringa LLC",
-      "product": "MOGO PURE MORINGA OLEIFERA CAPSULES, HERBAL SUPPLEMENT, 180 QUICK RELEASE VEGGIE CAPSULE, 100% PURE, 350 MG PER CAPSULE, SUPPLEMENT FACTS MORINGA POWDER 1050 mg, Ingredients: 100% Pure Moringa Leaf Powder (Moringa Oleifera), MANUFACTURED IN USA AND Marketed by: MOGO MIRINGA LLC, PO BOX 32066 Saint Louis, MO 63132",
-      "reason": "Product may be contaminated with Salmonella Typhimurium",
-      "classification": "Class I",
-      "foodRaw": "MOGO PURE MORINGA OLEIFERA CAPSULES, HERBAL SUPPLEMENT, 180 QUICK RELEASE VEGGIE CAPSULE, 100% PURE, 350 MG PER CAPSULE, SUPPLEMENT FACTS MORINGA POWDER 1050 mg, Ingredients: 100% Pure Moringa Leaf Powder (Moringa Oleifera), MANUFACTURED IN USA AND Marketed by: MOGO MIRINGA LLC, PO BOX 32066 Saint Louis, MO 63132",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-07-08",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -562,25 +790,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0888-2026",
-      "source": "openfda",
-      "firm": "JCB Flavors, LLC",
-      "product": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
-      "reason": "Products may be potentially contaminated with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
-      "foodCategory": "Root/Underground",
-      "foodGroup": "Plants",
-      "states": [
-        "Kansas",
-        "Minnesota",
-        "New York",
-        "Wisconsin"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0850-2026",
       "source": "openfda",
       "firm": "Legacy Bakehouse LLC",
@@ -743,22 +952,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0817-2026",
-      "source": "openfda",
-      "firm": "PS Seasoning & Spices, Inc.",
-      "product": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
-      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
-      "classification": "Class I",
-      "foodRaw": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0699-2026",
       "source": "openfda",
       "firm": "California Dairies Inc.",
@@ -814,47 +1007,44 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0698-2026",
+      "id": "openfda-H-1278-2026",
       "source": "openfda",
-      "firm": "California Dairies Inc.",
-      "product": "Low Heat Non-Fat Dried Milk Powder - plastic totes (NTE) 2200 lbs. (packed under 5 labels: Off Grade NFDM Variable; Grade A NFDM LH Basic; Grade A NFDM LH Green Loop rBST Free; Grade A NFDM LH Standard NC rBST Free; NFDM LH Variable Standard)",
-      "reason": "Potential contamination with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "Low Heat Non-Fat Dried Milk Powder - plastic totes (NTE) 2200 lbs. (packed under 5 labels: Off Grade NFDM Variable; Grade A NFDM LH Basic; Grade A NFDM LH Green Loop rBST Free; Grade A NFDM LH Standard NC rBST Free; NFDM LH Variable Standard)",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [],
-      "date": "2026-05-13",
+      "firm": "Byron White Formulas, Inc.",
+      "product": "Byron White FORMULAS A-FNG Herbal Supplement 1.0 fl. oz./30 mL May Contain Nuts (Juglans nigra hull) Byron White Formulas Inc. 3315 Chanate Rd. Suite 1C Santa Rosa, CA 95404",
+      "reason": "Label does not declare walnuts in English",
+      "classification": "Class II",
+      "foodRaw": "Byron White FORMULAS A-FNG Herbal Supplement 1.0 fl. oz./30 mL May Contain Nuts (Juglans nigra hull) Byron White Formulas Inc. 3315 Chanate Rd. Suite 1C Santa Rosa, CA 95404",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "California"
+      ],
+      "date": "2026-09-02",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0691-2026",
+      "id": "openfda-H-1231-2026",
       "source": "openfda",
-      "firm": "Griffith Foods Inc.",
-      "product": "Costco Service Deli Department 63 MEATLOAF SEASONING MORE FLV Pack Size: 4-5lb. Bags Net Weight: 20lbs Allergy Information: CONTAINS: MILK, WHEAT Packed BY: Griffith Foods STONECREST, GA 30058",
-      "reason": "Potential Salmonella contamination. The firm was notified from their supplier that the nonfat dry milk may be contaminated with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "Costco Service Deli Department 63 MEATLOAF SEASONING MORE FLV Pack Size: 4-5lb. Bags Net Weight: 20lbs Allergy Information: CONTAINS: MILK, WHEAT Packed BY: Griffith Foods STONECREST, GA 30058",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
+      "firm": "Nutrient Foods, LLC",
+      "product": "Protein Cereal Cocoa Crunch. Shelf stable, ready to eat cereal product. 25-year shelf life, metalized poly pillow pouch. Net wt.8.9 oz (252g). 1 pillow pouch per kit. Nutrient, 110 Woodland Ave Reno, NV 89523. No UPC Not for individual retail sale",
+      "reason": "Soy not declared in the contains statement.",
+      "classification": "Class II",
+      "foodRaw": "Protein Cereal Cocoa Crunch. Shelf stable, ready to eat cereal product. 25-year shelf life, metalized poly pillow pouch. Net wt.8.9 oz (252g). 1 pillow pouch per kit. Nutrient, 110 Woodland Ave Reno, NV 89523. No UPC Not for individual retail sale",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
       "states": [
-        "Arizona",
-        "California",
-        "Colorado",
         "Florida",
-        "Georgia",
-        "Illinois",
-        "Louisiana",
+        "Indiana",
         "Maryland",
-        "Michigan",
+        "Massachusetts",
+        "Missouri",
+        "New Jersey",
         "North Carolina",
+        "Oklahoma",
         "Pennsylvania",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Washington"
+        "Texas"
       ],
-      "date": "2026-05-13",
+      "date": "2026-08-26",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1100,40 +1290,6 @@
       "foodGroup": "Plants",
       "states": [
         "California"
-      ],
-      "date": "2026-07-01",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1095-2026",
-      "source": "openfda",
-      "firm": "Champion Foods, LLC",
-      "product": "Motor City Pizza Co. 5 Cheese Bread Single retail pack; 22.43 oz. (1 lb. 6.4 oz.) 636g UPC 8 70375 00511 1; 6 retail units per case Motor City Pizza Co. 5 Cheese Bread Twin retail pack; 44.86 oz. (2 lb. 12.9 oz.) 1272g UPC 8 70375 00509 8; 10 retail units per case",
-      "reason": "potential salmonella contamination",
-      "classification": "Class II",
-      "foodRaw": "Motor City Pizza Co. 5 Cheese Bread Single retail pack; 22.43 oz. (1 lb. 6.4 oz.) 636g UPC 8 70375 00511 1; 6 retail units per case Motor City Pizza Co. 5 Cheese Bread Twin retail pack; 44.86 oz. (2 lb. 12.9 oz.) 1272g UPC 8 70375 00509 8; 10 retail units per case",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Michigan"
-      ],
-      "date": "2026-07-01",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1094-2026",
-      "source": "openfda",
-      "firm": "Joy Gourmet Foods LLC.",
-      "product": "Joy Saffron Cardamon Lassi 16 oz.",
-      "reason": "Product not adequately pasteurized",
-      "classification": "Class II",
-      "foodRaw": "Joy Saffron Cardamon Lassi 16 oz.",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
       ],
       "date": "2026-07-01",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1462,38 +1618,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1031-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Salmon",
-      "classification": "Class II",
-      "foodRaw": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0985-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Walnut",
-      "classification": "Class II",
-      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0788-2026",
       "source": "openfda",
       "firm": "LIQUID BLENZ CORP",
@@ -1705,6 +1829,66 @@
         "California"
       ],
       "date": "2026-05-13",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1234-2026",
+      "source": "openfda",
+      "firm": "Prospector Popcorn, LLC",
+      "product": "Prospector Popcorn Fudge Brownie Gourmet Popcorn 1.5oz and 3.5oz",
+      "reason": "Inaccurately declared nutrients including Potassium (overstated) and Calcium (overstated).",
+      "classification": "Class III",
+      "foodRaw": "Prospector Popcorn Fudge Brownie Gourmet Popcorn 1.5oz and 3.5oz",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "District of Columbia",
+        "Florida",
+        "Georgia",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Rhode Island",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "Wisconsin"
+      ],
+      "date": "2026-08-26",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1945,44 +2129,6 @@
         "Nationwide"
       ],
       "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0892-2026",
-      "source": "openfda",
-      "firm": "Sato Pharmaceutical Inc.",
-      "product": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
-      "reason": "Product does not meet label claim for Vitamin E.",
-      "classification": "Class III",
-      "foodRaw": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0696-2026",
-      "source": "openfda",
-      "firm": "Falcon Trading Co., Inc.",
-      "product": "SunRidge Farms Organic CHILI BEAN BLEND CERTIFIED ORGANIC BY QAI NET WT. 15 LBS Item: 003056 UPC: 086700030561",
-      "reason": "Potential contamination with pesticides, haloxyfop and thiamethoxam",
-      "classification": "Class III",
-      "foodRaw": "SunRidge Farms Organic CHILI BEAN BLEND CERTIFIED ORGANIC BY QAI NET WT. 15 LBS Item: 003056 UPC: 086700030561",
-      "foodCategory": "Grains-beans",
-      "foodGroup": "Plants",
-      "states": [
-        "California",
-        "Colorado",
-        "Hawaii",
-        "Missouri",
-        "Texas",
-        "Vermont",
-        "Washington"
-      ],
-      "date": "2026-05-13",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     }
   ]
