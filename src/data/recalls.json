@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T12:48:31.382Z",
+  "generatedAt": "2026-09-14T21:49:51.767Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-09-14T12:48:31.398Z",
-      "lastSuccessAt": "2026-09-14T12:48:31.398Z",
+      "fetchedAt": "2026-09-14T21:49:51.779Z",
+      "lastSuccessAt": "2026-09-14T21:49:51.779Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-09-14T12:48:31.399Z",
+      "fetchedAt": "2026-09-14T21:49:51.780Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -996,19 +996,21 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0817-2026",
+      "id": "openfda-H-1327-2026",
       "source": "openfda",
-      "firm": "PS Seasoning & Spices, Inc.",
-      "product": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
-      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
-      "classification": "Class I",
-      "foodRaw": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
+      "firm": "Ukrop's Homestyle Foods LLC",
+      "product": "Bread Pudding with Vanilla Sauce - KIT NET WT 4 LB (1.81Kg) UPC 7 22515 91732 0 Ukrop's Homestyle Foods, LLC Richmond, VA 23230",
+      "reason": "Foreign object: metal fragments",
+      "classification": "Class II",
+      "foodRaw": "Bread Pudding with Vanilla Sauce - KIT NET WT 4 LB (1.81Kg) UPC 7 22515 91732 0 Ukrop's Homestyle Foods, LLC Richmond, VA 23230",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
       "states": [
-        "Nationwide"
+        "Kentucky",
+        "North Carolina",
+        "Virginia"
       ],
-      "date": "2026-05-27",
+      "date": "2026-09-09",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1706,38 +1708,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1031-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Salmon",
-      "classification": "Class II",
-      "foodRaw": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0985-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Walnut",
-      "classification": "Class II",
-      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0788-2026",
       "source": "openfda",
       "firm": "LIQUID BLENZ CORP",
@@ -1839,6 +1809,58 @@
         "South Dakota"
       ],
       "date": "2026-05-20",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1305-2026",
+      "source": "openfda",
+      "firm": "Prince Bakery Inc",
+      "product": "Prince ITALIAN BREAD; Sesame; ITALIAN & FRENCH BREAD, LARGE; NET WEIGHT 12 OZ. (340g); INGREDIENTS: ENRICHED BLEACHED FLOUR (WHEAT FLOUR, MALT BARLEY FLOUR< NIACIN, FERROUS SULFATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID, POTASSIUM BROMATE), WATER, YEAST, SALT, VEGETABLE SHORTENING (PARTIALLY HYDROGENATED SOYBEAN, COTTONSEED AND/OR CANOLA OILS), DOUGH CONDITIONER [WHEY (MILK), CORN FLOUR, MO",
+      "reason": "Sesame is not declared in the ingredient statement but is declared in the statement of identity.",
+      "classification": "Class III",
+      "foodRaw": "Prince ITALIAN BREAD; Sesame; ITALIAN & FRENCH BREAD, LARGE; NET WEIGHT 12 OZ. (340g); INGREDIENTS: ENRICHED BLEACHED FLOUR (WHEAT FLOUR, MALT BARLEY FLOUR< NIACIN, FERROUS SULFATE, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID, POTASSIUM BROMATE), WATER, YEAST, SALT, VEGETABLE SHORTENING (PARTIALLY HYDROGENATED SOYBEAN, COTTONSEED AND/OR CANOLA OILS), DOUGH CONDITIONER [WHEY (MILK), CORN FLOUR, MO",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "New York"
+      ],
+      "date": "2026-09-09",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1320-2026",
+      "source": "openfda",
+      "firm": "Wonton Specialists",
+      "product": "Wonton Specialist Inc. Pan Fried Noodle, 16 oz and 5lb packaged in clear plastic bags",
+      "reason": "Undeclared FD&C Red No. 40",
+      "classification": "Class III",
+      "foodRaw": "Wonton Specialist Inc. Pan Fried Noodle, 16 oz and 5lb packaged in clear plastic bags",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-09-09",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1325-2026",
+      "source": "openfda",
+      "firm": "Wonton Specialists",
+      "product": "Wonton Specialist Inc. Cooked Noodle, 16 oz and 5 lb - packaged in clear plastic bags",
+      "reason": "Undeclared FD&C Red No. 40",
+      "classification": "Class III",
+      "foodRaw": "Wonton Specialist Inc. Cooked Noodle, 16 oz and 5 lb - packaged in clear plastic bags",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "New Jersey",
+        "New York",
+        "Pennsylvania"
+      ],
+      "date": "2026-09-09",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -2135,22 +2157,6 @@
       "foodRaw": "UPC 21788400000 Ready Meals SANDWICH TUNA SALAD CROISSANT SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
       "foodCategory": "Fish",
       "foodGroup": "Aquatic Animals",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0892-2026",
-      "source": "openfda",
-      "firm": "Sato Pharmaceutical Inc.",
-      "product": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
-      "reason": "Product does not meet label claim for Vitamin E.",
-      "classification": "Class III",
-      "foodRaw": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
       "states": [
         "Nationwide"
       ],
