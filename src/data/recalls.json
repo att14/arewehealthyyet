@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-17T21:23:00.734Z",
+  "generatedAt": "2026-09-18T04:44:26.645Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-09-17T21:23:00.750Z",
-      "lastSuccessAt": "2026-09-17T21:23:00.750Z",
+      "fetchedAt": "2026-09-18T04:44:26.661Z",
+      "lastSuccessAt": "2026-09-18T04:44:26.661Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-09-17T21:23:00.751Z",
+      "fetchedAt": "2026-09-18T04:44:26.662Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -996,6 +996,22 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0817-2026",
+      "source": "openfda",
+      "firm": "PS Seasoning & Spices, Inc.",
+      "product": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
+      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
+      "classification": "Class I",
+      "foodRaw": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-05-27",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-1327-2026",
       "source": "openfda",
       "firm": "Ukrop's Homestyle Foods LLC",
@@ -1708,6 +1724,38 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-1031-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Salmon",
+      "classification": "Class II",
+      "foodRaw": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0985-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Walnut",
+      "classification": "Class II",
+      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0788-2026",
       "source": "openfda",
       "firm": "LIQUID BLENZ CORP",
@@ -1738,77 +1786,6 @@
         "Puerto Rico"
       ],
       "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0770-2026",
-      "source": "openfda",
-      "firm": "Dakota Honey Company",
-      "product": "Dakota Honey Company Spreadable Spun Honey, Salted Caramel. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41981 4. 2. Net Wt 12 oz (340g) UPC 8 60010-57964 0.",
-      "reason": "Foreign object (stainless steel dust/flakes or shreds of plastic)",
-      "classification": "Class II",
-      "foodRaw": "Dakota Honey Company Spreadable Spun Honey, Salted Caramel. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41981 4. 2. Net Wt 12 oz (340g) UPC 8 60010-57964 0.",
-      "foodCategory": "Oils-sugars",
-      "foodGroup": "Plants",
-      "states": [
-        "Florida",
-        "Georgia",
-        "Nationwide",
-        "South Dakota"
-      ],
-      "date": "2026-05-20",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0773-2026",
-      "source": "openfda",
-      "firm": "FINESALER LLC",
-      "product": "Alain MILLIAT; MARMELADE ORANGE; 300 g 10.6 oz; packaged in glass jars",
-      "reason": "Product may contain foreign objects, specifically glass.",
-      "classification": "Class II",
-      "foodRaw": "Alain MILLIAT; MARMELADE ORANGE; 300 g 10.6 oz; packaged in glass jars",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Massachusetts"
-      ],
-      "date": "2026-05-20",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0775-2026",
-      "source": "openfda",
-      "firm": "WE R NUTS",
-      "product": "Uncle Giuseppe's Marketplace Milk Chocolate Bridge Mix, 11 oz Net Wt, packed in clear tamper resistant plastic container. UPC 812235023309. Distributed by: WE R NUTS LLC, 99 Seaview Blvd, Port Washington, NY 11050",
-      "reason": "Contains undeclared allergens (cashews, milk, and soy).",
-      "classification": "Class II",
-      "foodRaw": "Uncle Giuseppe's Marketplace Milk Chocolate Bridge Mix, 11 oz Net Wt, packed in clear tamper resistant plastic container. UPC 812235023309. Distributed by: WE R NUTS LLC, 99 Seaview Blvd, Port Washington, NY 11050",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "New Jersey",
-        "New York"
-      ],
-      "date": "2026-05-20",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0771-2026",
-      "source": "openfda",
-      "firm": "Dakota Honey Company",
-      "product": "Dakota Honey Company Spreadable Spun Honey, Jalapeno. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41982 1. 2. Net Wt 12 oz (340g) UPC 8 60010-57965 7.",
-      "reason": "Foreign object (stainless steel dust/flakes or shreds of plastic)",
-      "classification": "Class II",
-      "foodRaw": "Dakota Honey Company Spreadable Spun Honey, Jalapeno. Stir before use. Produced in Winner, SD. Packaged in the following sized plastic jars: 1. Net Wt 4 oz (113g) UPC 8 60012-41982 1. 2. Net Wt 12 oz (340g) UPC 8 60010-57965 7.",
-      "foodCategory": "Seeded Vegetables",
-      "foodGroup": "Plants",
-      "states": [
-        "Florida",
-        "Georgia",
-        "Nationwide",
-        "South Dakota"
-      ],
-      "date": "2026-05-20",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -2157,6 +2134,22 @@
       "foodRaw": "UPC 21788400000 Ready Meals SANDWICH TUNA SALAD CROISSANT SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
       "foodCategory": "Fish",
       "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0892-2026",
+      "source": "openfda",
+      "firm": "Sato Pharmaceutical Inc.",
+      "product": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
+      "reason": "Product does not meet label claim for Vitamin E.",
+      "classification": "Class III",
+      "foodRaw": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
       "states": [
         "Nationwide"
       ],
