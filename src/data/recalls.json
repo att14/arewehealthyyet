@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-22T11:39:32.994Z",
+  "generatedAt": "2026-09-22T16:57:58.329Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-09-22T11:39:33.010Z",
-      "lastSuccessAt": "2026-09-22T11:39:33.010Z",
+      "fetchedAt": "2026-09-22T16:57:58.342Z",
+      "lastSuccessAt": "2026-09-22T16:57:58.342Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-09-22T11:39:33.011Z",
+      "fetchedAt": "2026-09-22T16:57:58.343Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -996,22 +996,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0817-2026",
-      "source": "openfda",
-      "firm": "PS Seasoning & Spices, Inc.",
-      "product": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
-      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
-      "classification": "Class I",
-      "foodRaw": "Blackstone Parmesan Ranch Seasoning, Net Wt 7.3 oz (207g). UPC 7 17604-04106 2. Manufactured for North Atlantic Imports, LLC, Logan, UT 84321.",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1327-2026",
       "source": "openfda",
       "firm": "Ukrop's Homestyle Foods LLC",
@@ -1740,22 +1724,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0985-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Walnut",
-      "classification": "Class II",
-      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0788-2026",
       "source": "openfda",
       "firm": "LIQUID BLENZ CORP",
@@ -1898,6 +1866,38 @@
         "Wisconsin"
       ],
       "date": "2026-08-26",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1371-2026",
+      "source": "openfda",
+      "firm": "Wild Coast Brew LLC",
+      "product": "The Lover Loose-Leaf Tea - Tart Chocolaty Tisane, net wt. 1.5oz (42 g). Product is packaged in cellophane bag within tubular container. UPC 00198168682364. Ingredients: Hibiscus, Cacao Husks, Oxidized Blackberry Leaf, Raspberry Leaf, Rose, Lemon Peel, Peppermint, Ashwagandha, Tangerine oil. Produced By Wild Coast Brew, Myrtle Point, OR.",
+      "reason": "Dry tea blends product containing Ashwagandha root which is an unsafe food additive.",
+      "classification": "Class III",
+      "foodRaw": "The Lover Loose-Leaf Tea - Tart Chocolaty Tisane, net wt. 1.5oz (42 g). Product is packaged in cellophane bag within tubular container. UPC 00198168682364. Ingredients: Hibiscus, Cacao Husks, Oxidized Blackberry Leaf, Raspberry Leaf, Rose, Lemon Peel, Peppermint, Ashwagandha, Tangerine oil. Produced By Wild Coast Brew, Myrtle Point, OR.",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-17",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1370-2026",
+      "source": "openfda",
+      "firm": "Wild Coast Brew LLC",
+      "product": "The Creator Loose-Leaf Tea - Ginger Lemongrass Tisane, net wt. 1.5oz (42 g). Product is packaged in cellophane bag within tubular container. UPC 00198168088265. Ingredients: Oxidized Fireweed, Coriander Seed, Lemongrass, Peppermint, Ginger, Coconut Flakes, Lemon Peel, Ashwagandha, Calendula, Red Pepper Flakes. Produced by Wild Coast Brew, Myrtle Point, OR.",
+      "reason": "Dry tea blends product containing Ashwagandha root which is an unsafe food additive.",
+      "classification": "Class III",
+      "foodRaw": "The Creator Loose-Leaf Tea - Ginger Lemongrass Tisane, net wt. 1.5oz (42 g). Product is packaged in cellophane bag within tubular container. UPC 00198168088265. Ingredients: Oxidized Fireweed, Coriander Seed, Lemongrass, Peppermint, Ginger, Coconut Flakes, Lemon Peel, Ashwagandha, Calendula, Red Pepper Flakes. Produced by Wild Coast Brew, Myrtle Point, OR.",
+      "foodCategory": "Seeded Vegetables",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-17",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
