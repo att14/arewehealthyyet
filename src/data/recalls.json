@@ -1,20 +1,60 @@
 {
-  "generatedAt": "2026-09-24T21:31:43.954Z",
+  "generatedAt": "2026-09-25T04:58:24.660Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-09-24T21:31:43.966Z",
-      "lastSuccessAt": "2026-09-24T21:31:43.966Z",
+      "fetchedAt": "2026-09-25T04:58:24.677Z",
+      "lastSuccessAt": "2026-09-25T04:58:24.677Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-09-24T21:31:43.967Z",
+      "fetchedAt": "2026-09-25T04:58:24.679Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-1331-2026",
+      "source": "openfda",
+      "firm": "EURO FOODS GROUP USA NJ INC",
+      "product": "Crown Farms Dried Suri Cut, 200 gm, in plastic pack, 25 packages per box, keep frozen",
+      "reason": "The firm imported and distributed dried ribbon fish that was not properly eviscerated prior to drying.",
+      "classification": "Class I",
+      "foodRaw": "Crown Farms Dried Suri Cut, 200 gm, in plastic pack, 25 packages per box, keep frozen",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Michigan",
+        "New Jersey",
+        "New York",
+        "Virginia"
+      ],
+      "date": "2026-09-16",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1329-2026",
+      "source": "openfda",
+      "firm": "Fayus Inc.",
+      "product": "OLA-OLA Pounded Yam (Iyan) IYANINSTANT, NET WT. 2 lbs., 4 lbs., 5 lbs., 10 lbs, packed in flexible plastic bags. INGREDIENTS: Processed Dehydrated Yam Flour, freshness preserved by BHT & sodium bisulfite. UPCs: (2 lb): 650655244825, (4 lb): 650655496873, (5 lb): 650655244856, (10 lb): 650655244702 Manufacturer information is printed on the front label panel: Manufactured by: Yusol International Fo",
+      "reason": "Undeclared milk.",
+      "classification": "Class I",
+      "foodRaw": "OLA-OLA Pounded Yam (Iyan) IYANINSTANT, NET WT. 2 lbs., 4 lbs., 5 lbs., 10 lbs, packed in flexible plastic bags. INGREDIENTS: Processed Dehydrated Yam Flour, freshness preserved by BHT & sodium bisulfite. UPCs: (2 lb): 650655244825, (4 lb): 650655496873, (5 lb): 650655244856, (10 lb): 650655244702 Manufacturer information is printed on the front label panel: Manufactured by: Yusol International Fo",
+      "foodCategory": "Root/Underground",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Georgia",
+        "Illinois",
+        "New Jersey",
+        "New York",
+        "Texas"
+      ],
+      "date": "2026-09-09",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-1258-2026",
       "source": "openfda",
@@ -437,6 +477,24 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-1201-2026",
+      "source": "openfda",
+      "firm": "Clover Hill Dairy, LLC",
+      "product": "Clover Hill Dairy LLP, Soft Cuajada in Brine, sold in five (5) gallon and two (2) gallon buckets. Unknown information: labeling. Keep refrigerated.",
+      "reason": "Product contaminated with Listeria monocytogenes.",
+      "classification": "Class I",
+      "foodRaw": "Clover Hill Dairy LLP, Soft Cuajada in Brine, sold in five (5) gallon and two (2) gallon buckets. Unknown information: labeling. Keep refrigerated.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Maryland",
+        "New York",
+        "Virginia"
+      ],
+      "date": "2026-08-12",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-1180-2026",
       "source": "openfda",
       "firm": "Green Jeeva LLC",
@@ -721,6 +779,22 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0942-2026",
+      "source": "openfda",
+      "firm": "Total Nutrition Inc",
+      "product": "1. TNVitamins Ultrapotent Complete Green Superfood Moringa Capsules (120 count) 2. Doctor s Pride Complete Green Superfood Ultra Potent Moringa 10,000 mg (120 capsules)",
+      "reason": "Product may be contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "1. TNVitamins Ultrapotent Complete Green Superfood Moringa Capsules (120 count) 2. Doctor s Pride Complete Green Superfood Ultra Potent Moringa 10,000 mg (120 capsules)",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-17",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0890-2026",
       "source": "openfda",
       "firm": "JCB Flavors, LLC",
@@ -834,6 +908,25 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0888-2026",
+      "source": "openfda",
+      "firm": "JCB Flavors, LLC",
+      "product": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "reason": "Products may be potentially contaminated with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "foodCategory": "Root/Underground",
+      "foodGroup": "Plants",
+      "states": [
+        "Kansas",
+        "Minnesota",
+        "New York",
+        "Wisconsin"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0850-2026",
       "source": "openfda",
       "firm": "Legacy Bakehouse LLC",
@@ -868,131 +961,6 @@
         "Virginia"
       ],
       "date": "2026-06-03",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0814-2026",
-      "source": "openfda",
-      "firm": "PS Seasoning & Spices, Inc.",
-      "product": "Ellsworth Sour Cream + Onion Seasoning, Part #: 180000113. Net Wt 25.00 lbs (11.3kg). PS Seasoning & Spices 216 W Pleasant St Iron Ridge WI 53035",
-      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
-      "classification": "Class I",
-      "foodRaw": "Ellsworth Sour Cream + Onion Seasoning, Part #: 180000113. Net Wt 25.00 lbs (11.3kg). PS Seasoning & Spices 216 W Pleasant St Iron Ridge WI 53035",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0835-2026",
-      "source": "openfda",
-      "firm": "JOHN B SANFILIPPO & SONS INC",
-      "product": "Good & Gather Mexican Street Corn Trail Mix 8 oz bag UPC 085239270240, 8 bags per case",
-      "reason": "potential presence of Salmonella",
-      "classification": "Class I",
-      "foodRaw": "Good & Gather Mexican Street Corn Trail Mix 8 oz bag UPC 085239270240, 8 bags per case",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0844-2026",
-      "source": "openfda",
-      "firm": "Ghirardelli Chocolate Company",
-      "product": "GHIRARDELLI SWEET GROUND POWDER WHITE CHOCOLATE FLAVORED NET WT 50oz (3lbs 2oz) 1.41kg Distributed by Ghirardelli Chocolate Company, San Leandro, CA 94578, U.S.A. UPC: 747599620386",
-      "reason": "Potential contamination with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "GHIRARDELLI SWEET GROUND POWDER WHITE CHOCOLATE FLAVORED NET WT 50oz (3lbs 2oz) 1.41kg Distributed by Ghirardelli Chocolate Company, San Leandro, CA 94578, U.S.A. UPC: 747599620386",
-      "foodCategory": "Oils-sugars",
-      "foodGroup": "Plants",
-      "states": [
-        "California"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0822-2026",
-      "source": "openfda",
-      "firm": "Solina U.S. Holding",
-      "product": "Solina 6036195 Ranch Seasoning, 50lb bag",
-      "reason": "potential to be contaminated with Salmonella",
-      "classification": "Class I",
-      "foodRaw": "Solina 6036195 Ranch Seasoning, 50lb bag",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "California",
-        "Georgia",
-        "Illinois",
-        "Kansas",
-        "Michigan",
-        "Pennsylvania",
-        "Wisconsin"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0812-2026",
-      "source": "openfda",
-      "firm": "Fontana Flavors, Inc",
-      "product": "VG7274D1 Natural Cream of Mushroom Type Flavor, Net Weight: 50 lbs. bag. Item #: R5302. For Further Processing. Fontana Flavors, Janesville, WI.",
-      "reason": "Product was made with milk powder recalled by the supplier due to Salmonella contamination.",
-      "classification": "Class I",
-      "foodRaw": "VG7274D1 Natural Cream of Mushroom Type Flavor, Net Weight: 50 lbs. bag. Item #: R5302. For Further Processing. Fontana Flavors, Janesville, WI.",
-      "foodCategory": "Fungi",
-      "foodGroup": "Plants",
-      "states": [
-        "Illinois",
-        "Tennessee"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0836-2026",
-      "source": "openfda",
-      "firm": "JOHN B SANFILIPPO & SONS INC",
-      "product": "Fisher Tex Mex Trail Mix 30 oz plastic jar UPC 070690275941, 6 jars per case",
-      "reason": "potential presence of Salmonella",
-      "classification": "Class I",
-      "foodRaw": "Fisher Tex Mex Trail Mix 30 oz plastic jar UPC 070690275941, 6 jars per case",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0823-2026",
-      "source": "openfda",
-      "firm": "Solina U.S. Holding",
-      "product": "Solina 6036443 Cheddar Cheese Powder Seasoning, 50lb bag",
-      "reason": "potential to be contaminated with Salmonella",
-      "classification": "Class I",
-      "foodRaw": "Solina 6036443 Cheddar Cheese Powder Seasoning, 50lb bag",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "California",
-        "Georgia",
-        "Illinois",
-        "Kansas",
-        "Michigan",
-        "Pennsylvania",
-        "Wisconsin"
-      ],
-      "date": "2026-05-27",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1724,36 +1692,19 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0788-2026",
+      "id": "openfda-H-0985-2026",
       "source": "openfda",
-      "firm": "LIQUID BLENZ CORP",
-      "product": "Menopause Bully 16 oz and 32 oz.",
-      "reason": "May be under-processed resulting in growth of Clostridium botulinum and lists health claims.",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Walnut",
       "classification": "Class II",
-      "foodRaw": "Menopause Bully 16 oz and 32 oz.",
-      "foodCategory": null,
-      "foodGroup": null,
+      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
       "states": [
-        "New York"
+        "Nationwide"
       ],
-      "date": "2026-05-27",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0808-2026",
-      "source": "openfda",
-      "firm": "Wellnov Supplements LLC",
-      "product": "Liposomal Sleep Spray. Dosage: 6 sprays Liquid. Packaging: Aluminum bottle. 30 ml. Firm Address: VitaminAlly LLC Chandler, AZ 85225",
-      "reason": "Deviations from current Good Manufacturing Practices (cGMP) that could lead to bacterial pathogen and possible C. Botulinum concerns.",
-      "classification": "Class II",
-      "foodRaw": "Liposomal Sleep Spray. Dosage: 6 sprays Liquid. Packaging: Aluminum bottle. 30 ml. Firm Address: VitaminAlly LLC Chandler, AZ 85225",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide",
-        "Puerto Rico"
-      ],
-      "date": "2026-05-27",
+      "date": "2026-06-10",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -2150,6 +2101,54 @@
       "foodRaw": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
       "foodCategory": "Other",
       "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0998-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Shrimp",
+      "classification": "Class III",
+      "foodRaw": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Crustaceans",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1009-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 23036500000 SHRIMP P&D OLD BAY SEASONED This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Shrimp.",
+      "classification": "Class III",
+      "foodRaw": "UPC 23036500000 SHRIMP P&D OLD BAY SEASONED This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Crustaceans",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1010-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 23070400000 SHRIMP SKEWER MEDIUM RAW CILANTRO LIME This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Shrimp.",
+      "classification": "Class III",
+      "foodRaw": "UPC 23070400000 SHRIMP SKEWER MEDIUM RAW CILANTRO LIME This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
+      "foodCategory": "Herbs",
+      "foodGroup": "Plants",
       "states": [
         "Nationwide"
       ],
