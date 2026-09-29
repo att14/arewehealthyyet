@@ -1,20 +1,239 @@
 {
-  "generatedAt": "2026-09-29T01:06:10.284Z",
+  "generatedAt": "2026-09-29T06:45:25.933Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-09-29T01:06:10.301Z",
-      "lastSuccessAt": "2026-09-29T01:06:10.301Z",
+      "fetchedAt": "2026-09-29T06:45:25.949Z",
+      "lastSuccessAt": "2026-09-29T06:45:25.949Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-09-29T01:06:10.302Z",
+      "fetchedAt": "2026-09-29T06:45:25.950Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-1339-2026",
+      "source": "openfda",
+      "firm": "Everything Sprouts, LLC",
+      "product": "Everything Sprouts Crunchy Protein Sprout Mix, containing Alfalfa Fenugreek, Cabbage, Mung, Adzuki, Lentils, Green Pea, Net Wt. 5.0 oz (142 g) UPC 0 87906-01018 7. everythingsprouts.com",
+      "reason": "Sprouts may be contaminated with STEC E. coli and/or Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Everything Sprouts Crunchy Protein Sprout Mix, containing Alfalfa Fenugreek, Cabbage, Mung, Adzuki, Lentils, Green Pea, Net Wt. 5.0 oz (142 g) UPC 0 87906-01018 7. everythingsprouts.com",
+      "foodCategory": "Sprouts",
+      "foodGroup": "Plants",
+      "states": [
+        "Minnesota",
+        "Wisconsin"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1364-2026",
+      "source": "openfda",
+      "firm": "Taylor Fresh Foods Inc",
+      "product": "Tomato Salsa Fresca. Ingredients: Tomatoes, Yellow Onion, Red Onion, Cilantro, Jalapeno Pepper, Garlic, Salt, Ground Cumin, Lemon Juice. Net Wt: 4 lbs. Keep Refrigerated.",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Tomato Salsa Fresca. Ingredients: Tomatoes, Yellow Onion, Red Onion, Cilantro, Jalapeno Pepper, Garlic, Salt, Ground Cumin, Lemon Juice. Net Wt: 4 lbs. Keep Refrigerated.",
+      "foodCategory": "Herbs",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nebraska",
+        "New Hampshire",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "West Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1379-2026",
+      "source": "openfda",
+      "firm": "NatureBest Pre-Cut & Produce LLc",
+      "product": "PICO DE GALLO-HOT-6/9oz HEB-PICO-HOT-12/14oz",
+      "reason": "Jalapenos have the potential to be contaminated with Salmonella",
+      "classification": "Class I",
+      "foodRaw": "PICO DE GALLO-HOT-6/9oz HEB-PICO-HOT-12/14oz",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Louisiana",
+        "Texas"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1355-2026",
+      "source": "openfda",
+      "firm": "Taylor Fresh Foods Inc",
+      "product": "Pico De Gallo. Ingredients: Tomato, Onion, Jalapeno Pepper, Cilantro, Garlic, Salt, Black Pepper. Net Wt: 7 oz. Keep Refrigerated. Distributed By: ADUSA Distribution, LLC, Salisbury, NC 28147. UPC: 688267575778",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Pico De Gallo. Ingredients: Tomato, Onion, Jalapeno Pepper, Cilantro, Garlic, Salt, Black Pepper. Net Wt: 7 oz. Keep Refrigerated. Distributed By: ADUSA Distribution, LLC, Salisbury, NC 28147. UPC: 688267575778",
+      "foodCategory": "Herbs",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nebraska",
+        "New Hampshire",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "West Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1354-2026",
+      "source": "openfda",
+      "firm": "Taylor Fresh Foods Inc",
+      "product": "Pineapple Mango Salsa Mild. Ingredients: Mango, Pineapple, Pasteurized Lime Juice, Pasteurized Lemon Juice, Jalapeno Pepper, Serrano Pepper, Lime Flavored Zest (***), Lemon Peel (***), Spearmint, Salt. Net Wt: 10 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223075653",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Pineapple Mango Salsa Mild. Ingredients: Mango, Pineapple, Pasteurized Lime Juice, Pasteurized Lemon Juice, Jalapeno Pepper, Serrano Pepper, Lime Flavored Zest (***), Lemon Peel (***), Spearmint, Salt. Net Wt: 10 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223075653",
+      "foodCategory": "Seeded Vegetables",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nebraska",
+        "New Hampshire",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "West Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1378-2026",
+      "source": "openfda",
+      "firm": "NatureBest Pre-Cut & Produce LLc",
+      "product": "HEB-PICO-MEDIUM-12/14oz PICO DE GALLO-MEDIUM-6/14oz PICO DE GALLO-MEDIUM-6/9oz PICO-DE-GALLO-MEDIUM-BGC-1/5# PICO-MEDIUM-SNACK-12/4oz",
+      "reason": "Jalapenos have the potential to be contaminated with Salmonella",
+      "classification": "Class I",
+      "foodRaw": "HEB-PICO-MEDIUM-12/14oz PICO DE GALLO-MEDIUM-6/14oz PICO DE GALLO-MEDIUM-6/9oz PICO-DE-GALLO-MEDIUM-BGC-1/5# PICO-MEDIUM-SNACK-12/4oz",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Louisiana",
+        "Texas"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1351-2026",
+      "source": "openfda",
+      "firm": "Taylor Fresh Foods Inc",
+      "product": "Spicy Guacamole. Ingredients: Guacamole, Pico De Gallo. Spec Sheet: Guacamole (Avocado, Pico De Gallo, Serrano Peper, Lime Juice, Salt, Pepper); Pico De Gallo (Cilantro, Jalapeno Pepper, Tomato, Yellow Onion) Net Wt: 13 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073574",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Spicy Guacamole. Ingredients: Guacamole, Pico De Gallo. Spec Sheet: Guacamole (Avocado, Pico De Gallo, Serrano Peper, Lime Juice, Salt, Pepper); Pico De Gallo (Cilantro, Jalapeno Pepper, Tomato, Yellow Onion) Net Wt: 13 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073574",
+      "foodCategory": "Herbs",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nebraska",
+        "New Hampshire",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "West Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-1331-2026",
       "source": "openfda",
@@ -32,27 +251,6 @@
         "Virginia"
       ],
       "date": "2026-09-16",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1329-2026",
-      "source": "openfda",
-      "firm": "Fayus Inc.",
-      "product": "OLA-OLA Pounded Yam (Iyan) IYANINSTANT, NET WT. 2 lbs., 4 lbs., 5 lbs., 10 lbs, packed in flexible plastic bags. INGREDIENTS: Processed Dehydrated Yam Flour, freshness preserved by BHT & sodium bisulfite. UPCs: (2 lb): 650655244825, (4 lb): 650655496873, (5 lb): 650655244856, (10 lb): 650655244702 Manufacturer information is printed on the front label panel: Manufactured by: Yusol International Fo",
-      "reason": "Undeclared milk.",
-      "classification": "Class I",
-      "foodRaw": "OLA-OLA Pounded Yam (Iyan) IYANINSTANT, NET WT. 2 lbs., 4 lbs., 5 lbs., 10 lbs, packed in flexible plastic bags. INGREDIENTS: Processed Dehydrated Yam Flour, freshness preserved by BHT & sodium bisulfite. UPCs: (2 lb): 650655244825, (4 lb): 650655496873, (5 lb): 650655244856, (10 lb): 650655244702 Manufacturer information is printed on the front label panel: Manufactured by: Yusol International Fo",
-      "foodCategory": "Root/Underground",
-      "foodGroup": "Plants",
-      "states": [
-        "California",
-        "Georgia",
-        "Illinois",
-        "New Jersey",
-        "New York",
-        "Texas"
-      ],
-      "date": "2026-09-09",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -477,24 +675,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1201-2026",
-      "source": "openfda",
-      "firm": "Clover Hill Dairy, LLC",
-      "product": "Clover Hill Dairy LLP, Soft Cuajada in Brine, sold in five (5) gallon and two (2) gallon buckets. Unknown information: labeling. Keep refrigerated.",
-      "reason": "Product contaminated with Listeria monocytogenes.",
-      "classification": "Class I",
-      "foodRaw": "Clover Hill Dairy LLP, Soft Cuajada in Brine, sold in five (5) gallon and two (2) gallon buckets. Unknown information: labeling. Keep refrigerated.",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Maryland",
-        "New York",
-        "Virginia"
-      ],
-      "date": "2026-08-12",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1180-2026",
       "source": "openfda",
       "firm": "Green Jeeva LLC",
@@ -779,22 +959,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0942-2026",
-      "source": "openfda",
-      "firm": "Total Nutrition Inc",
-      "product": "1. TNVitamins Ultrapotent Complete Green Superfood Moringa Capsules (120 count) 2. Doctor s Pride Complete Green Superfood Ultra Potent Moringa 10,000 mg (120 capsules)",
-      "reason": "Product may be contaminated with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "1. TNVitamins Ultrapotent Complete Green Superfood Moringa Capsules (120 count) 2. Doctor s Pride Complete Green Superfood Ultra Potent Moringa 10,000 mg (120 capsules)",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-17",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0890-2026",
       "source": "openfda",
       "firm": "JCB Flavors, LLC",
@@ -898,25 +1062,6 @@
       "foodRaw": "#003020 Sour Cream & Onion, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
       "foodCategory": "Dairy",
       "foodGroup": "Land Animals",
-      "states": [
-        "Kansas",
-        "Minnesota",
-        "New York",
-        "Wisconsin"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0888-2026",
-      "source": "openfda",
-      "firm": "JCB Flavors, LLC",
-      "product": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
-      "reason": "Products may be potentially contaminated with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
-      "foodCategory": "Root/Underground",
-      "foodGroup": "Plants",
       "states": [
         "Kansas",
         "Minnesota",
@@ -1692,19 +1837,33 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0985-2026",
+      "id": "openfda-H-1387-2026",
       "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Walnut",
-      "classification": "Class II",
-      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Nuts-seeds",
+      "firm": "Tiffany Food Corp",
+      "product": "Hexing Haw Balls candy; packaged in 200g/0.44 lb./7.05 oz clear plastic bag; Ingredients: haw, white sugar, water.; Serving suggestion: ready to eat. Storage: keep in cool and dry place and keep tightly closed in refrigerator after opening.; PRODUCT OF CHINA; UPC 6 920603 810025",
+      "reason": "Unapproved dye Ponceau 4R",
+      "classification": "Class III",
+      "foodRaw": "Hexing Haw Balls candy; packaged in 200g/0.44 lb./7.05 oz clear plastic bag; Ingredients: haw, white sugar, water.; Serving suggestion: ready to eat. Storage: keep in cool and dry place and keep tightly closed in refrigerator after opening.; PRODUCT OF CHINA; UPC 6 920603 810025",
+      "foodCategory": "Oils-sugars",
       "foodGroup": "Plants",
       "states": [
-        "Nationwide"
+        "Arizona",
+        "California",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Massachusetts",
+        "Minnesota",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Pennsylvania",
+        "Tennessee",
+        "Texas",
+        "Virginia"
       ],
-      "date": "2026-06-10",
+      "date": "2026-09-23",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -2101,54 +2260,6 @@
       "foodRaw": "Yunker(branded) Energy & Health Herbal Supplement with Vitamins; Manufactured by Sato Pharmaceuticals Co. Ltd.; 30ml container. Packed in single serving, 3 units/pack, and 10 units per pack. Single UPC: 49873-916-11 3pack UPC: 49873-916-15 10pack UPC: 49873-916-07",
       "foodCategory": "Other",
       "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0998-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Shrimp",
-      "classification": "Class III",
-      "foodRaw": "UPC 21963800000 Ready Meals CHIMICHURRI SHRIMP BOWL SS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Crustaceans",
-      "foodGroup": "Aquatic Animals",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1009-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 23036500000 SHRIMP P&D OLD BAY SEASONED This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Shrimp.",
-      "classification": "Class III",
-      "foodRaw": "UPC 23036500000 SHRIMP P&D OLD BAY SEASONED This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
-      "foodCategory": "Crustaceans",
-      "foodGroup": "Aquatic Animals",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1010-2026",
-      "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 23070400000 SHRIMP SKEWER MEDIUM RAW CILANTRO LIME This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Shrimp.",
-      "classification": "Class III",
-      "foodRaw": "UPC 23070400000 SHRIMP SKEWER MEDIUM RAW CILANTRO LIME This is Albertson's store-made item and sold by random weight at point of sale with grocery store's scale label.",
-      "foodCategory": "Herbs",
-      "foodGroup": "Plants",
       "states": [
         "Nationwide"
       ],
