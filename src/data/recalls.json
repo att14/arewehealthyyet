@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-01T18:35:57.236Z",
+  "generatedAt": "2026-10-02T01:04:52.041Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-10-01T18:35:57.246Z",
-      "lastSuccessAt": "2026-10-01T18:35:57.246Z",
+      "fetchedAt": "2026-10-02T01:04:52.057Z",
+      "lastSuccessAt": "2026-10-02T01:04:52.057Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-10-01T18:35:57.247Z",
+      "fetchedAt": "2026-10-02T01:04:52.059Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -1072,40 +1072,22 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0850-2026",
+      "id": "openfda-H-0888-2026",
       "source": "openfda",
-      "firm": "Legacy Bakehouse LLC",
-      "product": "Butter Parsley Bagel Crisps, Item Number 18490, Net Weight: 10 lbs. Legacy Bakehouse, LLC, N8W22100 Johnson Dr., Waukesha, WI 53166.",
-      "reason": "Products were made with recalled California Dairies milk powder due to Salmonella.",
+      "firm": "JCB Flavors, LLC",
+      "product": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "reason": "Products may be potentially contaminated with Salmonella.",
       "classification": "Class I",
-      "foodRaw": "Butter Parsley Bagel Crisps, Item Number 18490, Net Weight: 10 lbs. Legacy Bakehouse, LLC, N8W22100 Johnson Dr., Waukesha, WI 53166.",
-      "foodCategory": "Herbs",
+      "foodRaw": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
+      "foodCategory": "Root/Underground",
       "foodGroup": "Plants",
       "states": [
-        "Pennsylvania",
+        "Kansas",
+        "Minnesota",
+        "New York",
         "Wisconsin"
       ],
-      "date": "2026-06-03",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0856-2026",
-      "source": "openfda",
-      "firm": "Wawa Beverage Company",
-      "product": "Wawa Diet Iced Tea Lemon Pint (16oz),Plastic bottle",
-      "reason": "Undeclared Milk Allergen,",
-      "classification": "Class I",
-      "foodRaw": "Wawa Diet Iced Tea Lemon Pint (16oz),Plastic bottle",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Delaware",
-        "Maryland",
-        "New Jersey",
-        "Pennsylvania",
-        "Virginia"
-      ],
-      "date": "2026-06-03",
+      "date": "2026-06-10",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1829,6 +1811,22 @@
       "classification": "Class II",
       "foodRaw": "UPC 21299900000 LOX AVOCADO TOAST FS COLD This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
       "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-06-10",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0985-2026",
+      "source": "openfda",
+      "firm": "Albertsons Companies LLC",
+      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "reason": "Contains statement does not declare Walnut",
+      "classification": "Class II",
+      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
+      "foodCategory": "Nuts-seeds",
       "foodGroup": "Plants",
       "states": [
         "Nationwide"
