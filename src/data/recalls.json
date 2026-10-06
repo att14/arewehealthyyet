@@ -1,20 +1,58 @@
 {
-  "generatedAt": "2026-10-06T01:04:36.811Z",
+  "generatedAt": "2026-10-06T06:46:06.212Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-10-06T01:04:36.828Z",
-      "lastSuccessAt": "2026-10-06T01:04:36.828Z",
+      "fetchedAt": "2026-10-06T06:46:06.225Z",
+      "lastSuccessAt": "2026-10-06T06:46:06.225Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-10-06T01:04:36.829Z",
+      "fetchedAt": "2026-10-06T06:46:06.226Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-1395-2026",
+      "source": "openfda",
+      "firm": "WFM Purchasing, LP",
+      "product": "Fromagerie Coop de Mean Cabricharme and Belgium Cabricharme Shelf life: 30 days, all dates through and including 10/7/2026 Packaging: Plastic wrapped by slice Net Wt.: Various, cut from whole wheel and priced by weight with Whole Foods Market scale label PLUs: 54670, 57953",
+      "reason": "Undeclared Egg Allergen",
+      "classification": "Class I",
+      "foodRaw": "Fromagerie Coop de Mean Cabricharme and Belgium Cabricharme Shelf life: 30 days, all dates through and including 10/7/2026 Packaging: Plastic wrapped by slice Net Wt.: Various, cut from whole wheel and priced by weight with Whole Foods Market scale label PLUs: 54670, 57953",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Arizona",
+        "California",
+        "Connecticut",
+        "Massachusetts",
+        "New Jersey",
+        "New York",
+        "Rhode Island"
+      ],
+      "date": "2026-09-30",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1396-2026",
+      "source": "openfda",
+      "firm": "GIAS FOOD INC.",
+      "product": "Lemon Alfredo Fettuccine packed in a yellow plastic sealed bag with pink and black lettering; label reads in part as \"bettergoods Lemon Alfredo Fettuccine, MADE IN ITALY, NET WT 22 OZ, BEST if Used By: SEP 20 2027 L6080C, UPC 194346442706, DISTRIBUTED BY: Walmart Inc., Bentonville, AR 72716 PRODUCT OF ITALY",
+      "reason": "Contamination with Listeria monocytogenes",
+      "classification": "Class I",
+      "foodRaw": "Lemon Alfredo Fettuccine packed in a yellow plastic sealed bag with pink and black lettering; label reads in part as \"bettergoods Lemon Alfredo Fettuccine, MADE IN ITALY, NET WT 22 OZ, BEST if Used By: SEP 20 2027 L6080C, UPC 194346442706, DISTRIBUTED BY: Walmart Inc., Bentonville, AR 72716 PRODUCT OF ITALY",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-09-30",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-1339-2026",
       "source": "openfda",
@@ -232,25 +270,6 @@
         "Wisconsin"
       ],
       "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1331-2026",
-      "source": "openfda",
-      "firm": "EURO FOODS GROUP USA NJ INC",
-      "product": "Crown Farms Dried Suri Cut, 200 gm, in plastic pack, 25 packages per box, keep frozen",
-      "reason": "The firm imported and distributed dried ribbon fish that was not properly eviscerated prior to drying.",
-      "classification": "Class I",
-      "foodRaw": "Crown Farms Dried Suri Cut, 200 gm, in plastic pack, 25 packages per box, keep frozen",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "Michigan",
-        "New Jersey",
-        "New York",
-        "Virginia"
-      ],
-      "date": "2026-09-16",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1072,25 +1091,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0888-2026",
-      "source": "openfda",
-      "firm": "JCB Flavors, LLC",
-      "product": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
-      "reason": "Products may be potentially contaminated with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "#003740 Dill & Garlic Seasoning, Net Wt: 10 lbs. JCB Flavors, 1224 Clark St. Watertown, WI 53094.",
-      "foodCategory": "Root/Underground",
-      "foodGroup": "Plants",
-      "states": [
-        "Kansas",
-        "Minnesota",
-        "New York",
-        "Wisconsin"
-      ],
-      "date": "2026-06-10",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1327-2026",
       "source": "openfda",
       "firm": "Ukrop's Homestyle Foods LLC",
@@ -1819,19 +1819,19 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0985-2026",
+      "id": "openfda-H-1393-2026",
       "source": "openfda",
-      "firm": "Albertsons Companies LLC",
-      "product": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "reason": "Contains statement does not declare Walnut",
-      "classification": "Class II",
-      "foodRaw": "UPC 22321200000 MUFFINS PISTACHIO 2CT UPC 22770600000 MUFFINS PISTACHIO 4CT This is Albertson's store-made item and sold by unit at point of sale with grocery store's scale label.",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
+      "firm": "Kwok Shing, Inc.",
+      "product": "American Ginsengs. PRODUCT OF WISCONSIN. NET WT: 4 oz. NET WT. 8 oz.",
+      "reason": "Potential contamination with pesticides.",
+      "classification": "Class III",
+      "foodRaw": "American Ginsengs. PRODUCT OF WISCONSIN. NET WT: 4 oz. NET WT. 8 oz.",
+      "foodCategory": null,
+      "foodGroup": null,
       "states": [
-        "Nationwide"
+        "California"
       ],
-      "date": "2026-06-10",
+      "date": "2026-09-30",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
