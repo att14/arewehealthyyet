@@ -1,20 +1,36 @@
 {
-  "generatedAt": "2026-10-12T18:36:02.759Z",
+  "generatedAt": "2026-10-13T01:10:55.968Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-10-12T18:36:02.771Z",
-      "lastSuccessAt": "2026-10-12T18:36:02.771Z",
+      "fetchedAt": "2026-10-13T01:10:55.985Z",
+      "lastSuccessAt": "2026-10-13T01:10:55.985Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-10-12T18:36:02.772Z",
+      "fetchedAt": "2026-10-13T01:10:55.986Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-1407-2026",
+      "source": "openfda",
+      "firm": "TODD'S SEEDS LLC",
+      "product": "Todd's Seeds Salad Sprouting Mixture - Broccoli, Mustard, Alfalfa and Cabbage, packaged in heat-sealed resealable bags in the following sizes: 1/4 lb., 1/2 lb., and 1 lb.",
+      "reason": "Products contain alfalfa seed recalled by the supplier and may be contaminated with E. coli and/or Salmonella (downstream recall)",
+      "classification": "Class I",
+      "foodRaw": "Todd's Seeds Salad Sprouting Mixture - Broccoli, Mustard, Alfalfa and Cabbage, packaged in heat-sealed resealable bags in the following sizes: 1/4 lb., 1/2 lb., and 1 lb.",
+      "foodCategory": "Sprouts",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-10-07",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-1395-2026",
       "source": "openfda",
@@ -373,48 +389,6 @@
       "foodRaw": "Pico De Gallo. Ingredients: Tomato, Onion, Jalapeno, Cilantro. Net Wt: 16 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073536",
       "foodCategory": "Herbs",
       "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Arkansas",
-        "Florida",
-        "Georgia",
-        "Illinois",
-        "Indiana",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maine",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Nebraska",
-        "New Hampshire",
-        "New York",
-        "North Carolina",
-        "Ohio",
-        "Oklahoma",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Vermont",
-        "West Virginia",
-        "Wisconsin"
-      ],
-      "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1348-2026",
-      "source": "openfda",
-      "firm": "Taylor Fresh Foods Inc",
-      "product": "Spicy Pimento Cheese Dip. Ingredients: Sharp Cheddar Cheese *** Cream Cheese *** Piquillo Peppers *** Jalapeno Pepper, Mayonnaise *** Cayenne Pepper Sauce *** Dijon Mustard *** Granulated Garlic, Cayenne Pepper, Pimiento Peppers *** Net Wt: 10 oz. Keep Refrigerated. Distributed by: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223116448",
-      "reason": "Potential contamination with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "Spicy Pimento Cheese Dip. Ingredients: Sharp Cheddar Cheese *** Cream Cheese *** Piquillo Peppers *** Jalapeno Pepper, Mayonnaise *** Cayenne Pepper Sauce *** Dijon Mustard *** Granulated Garlic, Cayenne Pepper, Pimiento Peppers *** Net Wt: 10 oz. Keep Refrigerated. Distributed by: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223116448",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
       "states": [
         "Alabama",
         "Arkansas",
