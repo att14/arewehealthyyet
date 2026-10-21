@@ -1,20 +1,36 @@
 {
-  "generatedAt": "2026-10-20T18:32:59.485Z",
+  "generatedAt": "2026-10-21T00:57:47.293Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-10-20T18:32:59.503Z",
-      "lastSuccessAt": "2026-10-20T18:32:59.503Z",
+      "fetchedAt": "2026-10-21T00:57:47.312Z",
+      "lastSuccessAt": "2026-10-21T00:57:47.312Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-10-20T18:32:59.504Z",
+      "fetchedAt": "2026-10-21T00:57:47.313Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-0016-2027",
+      "source": "openfda",
+      "firm": "A&P CREATIONS",
+      "product": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "reason": "Product contains undeclared Sildenafil and Tadalafil.",
+      "classification": "Class I",
+      "foodRaw": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-10-14",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-1407-2026",
       "source": "openfda",
@@ -650,29 +666,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1240-2026",
-      "source": "openfda",
-      "firm": "Publix Super Markets, Inc.",
-      "product": "Organic Whole Mixed Berries, Net Wt. 10 oz (284 g) plastic bags, packed in 8 bags per case of 10 oz each. Keep Frozen. UPC 41415-06753",
-      "reason": "Due to potential E. coli O145:H28 contamination",
-      "classification": "Class I",
-      "foodRaw": "Organic Whole Mixed Berries, Net Wt. 10 oz (284 g) plastic bags, packed in 8 bags per case of 10 oz each. Keep Frozen. UPC 41415-06753",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Florida",
-        "Georgia",
-        "Kentucky",
-        "North Carolina",
-        "South Carolina",
-        "Tennessee",
-        "Virginia"
-      ],
-      "date": "2026-08-26",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1230-2026",
       "source": "openfda",
       "firm": "MIDWEST POULTRY SERVC C/O H & LELECTRIC",
@@ -1152,22 +1145,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1178-2026",
-      "source": "openfda",
-      "firm": "Modern Warrior Life, LLC",
-      "product": "Modern Warrior Ready, Dietary Supplement, 60 CAPSULES",
-      "reason": "FDA analysis revealed the presence of unapproved ingredients including tianeptine, 1,4 DMAA, and aniracetam.",
-      "classification": "Class I",
-      "foodRaw": "Modern Warrior Ready, Dietary Supplement, 60 CAPSULES",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1166-2026",
       "source": "openfda",
       "firm": "D'Dioses Fruit Pops, Inc.",
@@ -1636,6 +1613,56 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0015-2027",
+      "source": "openfda",
+      "firm": "QUESO PALMITA GP LLC",
+      "product": "QUESO PALMITA. Generic Name: Pastel de Queso (Cheese Pie). Intended use: Human consumption. Condition: Frozen. Shelf life or expected life: 90 days. Type of packaging: Vacuum, resealable package. Net weight: 1.2 lbs. UPC: 094922980045.",
+      "reason": "Undeclared milk, cheese declared",
+      "classification": "Class II",
+      "foodRaw": "QUESO PALMITA. Generic Name: Pastel de Queso (Cheese Pie). Intended use: Human consumption. Condition: Frozen. Shelf life or expected life: 90 days. Type of packaging: Vacuum, resealable package. Net weight: 1.2 lbs. UPC: 094922980045.",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Texas"
+      ],
+      "date": "2026-10-14",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0021-2027",
+      "source": "openfda",
+      "firm": "Saint Francis Apizza LLC",
+      "product": "Saint Francis Apizza Frozen Pepperoni Pizza, Net Weight: 17 oz. (482g), packaged individually in vacuum-sealed plastic, UPC: 6 66186 27762 1",
+      "reason": "Undeclared soy allergen: soybean oil and soy lecithin",
+      "classification": "Class II",
+      "foodRaw": "Saint Francis Apizza Frozen Pepperoni Pizza, Net Weight: 17 oz. (482g), packaged individually in vacuum-sealed plastic, UPC: 6 66186 27762 1",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Kentucky",
+        "Ohio"
+      ],
+      "date": "2026-10-14",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0026-2027",
+      "source": "openfda",
+      "firm": "J K Patisserie & Bakery LLC",
+      "product": "Chocolate Chip Cookies packaged in a cardboard box; Ingredients: King Midas Special (Wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid, malted barley flour), Dark Chocolate Chip (sugar, unsweetened chocolate, cocoa butter, soy lecithin, ground vanilla beans), Unsalted Butter, Dark Brown Sugar, Wheat flour, Eggs, Salt, Baking Powder, Baking Soda, Veribest Pastry flour ",
+      "reason": "Soy was not declared in the Contains statement.",
+      "classification": "Class II",
+      "foodRaw": "Chocolate Chip Cookies packaged in a cardboard box; Ingredients: King Midas Special (Wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid, malted barley flour), Dark Chocolate Chip (sugar, unsweetened chocolate, cocoa butter, soy lecithin, ground vanilla beans), Unsalted Butter, Dark Brown Sugar, Wheat flour, Eggs, Salt, Baking Powder, Baking Soda, Veribest Pastry flour ",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "New Jersey",
+        "New York"
+      ],
+      "date": "2026-10-14",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-1391-2026",
       "source": "openfda",
       "firm": "United Sugar Producers and Refiners",
@@ -1960,22 +1987,6 @@
       "states": [
         "California",
         "New Mexico"
-      ],
-      "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1177-2026",
-      "source": "openfda",
-      "firm": "Vintage Roots LLC",
-      "product": "Vintage Roots Root Beer Syrup, packaged in glass bottle. Net Wt. 8oz. (236.6 mL). Distributed by Vintage Roots, PO Box 12, Brady, MT 59416. The product label declares: Ingredients: Filtered Water, Pure Cane Sugar, Sassafras Bark, Burdock Roots, Wild Cherry Bark, Molasses, Fresh Lemon Juice, Star Anise, Coriander Seeds, Whole Clove, Wintergreen Extract (no alcohol).",
-      "reason": "Unapproved food additive: sassafras bark.",
-      "classification": "Class II",
-      "foodRaw": "Vintage Roots Root Beer Syrup, packaged in glass bottle. Net Wt. 8oz. (236.6 mL). Distributed by Vintage Roots, PO Box 12, Brady, MT 59416. The product label declares: Ingredients: Filtered Water, Pure Cane Sugar, Sassafras Bark, Burdock Roots, Wild Cherry Bark, Molasses, Fresh Lemon Juice, Star Anise, Coriander Seeds, Whole Clove, Wintergreen Extract (no alcohol).",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Montana"
       ],
       "date": "2026-07-29",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -2340,22 +2351,6 @@
         "New Jersey",
         "New York",
         "Pennsylvania"
-      ],
-      "date": "2026-09-09",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1304-2026",
-      "source": "openfda",
-      "firm": "Prince Bakery Inc",
-      "product": "Prince ITALIAN BREAD; Sesame; NET WEIGHT 8 OZ. (227g); INGREDIENTS: ENRICHED BLEACHED FLOUR (WHEAT FLOUR, MALT BARLEY FLOUR, NIACIN, FERROUS SULFATE, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID, POTASSIUM BROMATE), WATER, YEAST, SALT, VEGETABLE SHORTENING (PARTIALLY HYDROGENATED SOYBEAN, COTTONSEED, AND/OR CANOLA OILS) DOUGH CONDITIONER [WHEY MILK], CORN FLOUR, MONOCALCIUM PHOSPHATE, L-CYSTEINE, H",
-      "reason": "Sesame is not declared in the ingredient statement but is declared in the statement of identity.",
-      "classification": "Class III",
-      "foodRaw": "Prince ITALIAN BREAD; Sesame; NET WEIGHT 8 OZ. (227g); INGREDIENTS: ENRICHED BLEACHED FLOUR (WHEAT FLOUR, MALT BARLEY FLOUR, NIACIN, FERROUS SULFATE, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID, POTASSIUM BROMATE), WATER, YEAST, SALT, VEGETABLE SHORTENING (PARTIALLY HYDROGENATED SOYBEAN, COTTONSEED, AND/OR CANOLA OILS) DOUGH CONDITIONER [WHEY MILK], CORN FLOUR, MONOCALCIUM PHOSPHATE, L-CYSTEINE, H",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "New York"
       ],
       "date": "2026-09-09",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
