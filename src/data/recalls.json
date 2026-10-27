@@ -1,20 +1,36 @@
 {
-  "generatedAt": "2026-10-26T18:41:56.797Z",
+  "generatedAt": "2026-10-27T01:00:20.398Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-10-26T18:41:56.814Z",
-      "lastSuccessAt": "2026-10-26T18:41:56.814Z",
+      "fetchedAt": "2026-10-27T01:00:20.416Z",
+      "lastSuccessAt": "2026-10-27T01:00:20.416Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-10-26T18:41:56.816Z",
+      "fetchedAt": "2026-10-27T01:00:20.418Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-",
+      "source": "openfda",
+      "firm": "Made Fresh Salads Inc",
+      "product": "Made Fresh brand Black Bean and Corn Salad; 5lb white plastic tub",
+      "reason": "Products may be contaminated with Listeria monocytogenes.",
+      "classification": "Class I",
+      "foodRaw": "Made Fresh brand Black Bean and Corn Salad; 5lb white plastic tub",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "New York"
+      ],
+      "date": "2026-10-21",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-0016-2027",
       "source": "openfda",
@@ -81,55 +97,6 @@
       "foodGroup": "Plants",
       "states": [
         "Nationwide"
-      ],
-      "date": "2026-09-30",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-",
-      "source": "openfda",
-      "firm": "Unilever North America Supply Chain Company, LLC",
-      "product": "Almond Joy Ice Cream Bar, 2.0 fl. oz. ice cream bars, paper cartons containing individually wrapped ice cream bars. 6 bars per carton. Keep frozen",
-      "reason": "Inaccurate Nutrition Facts information listed on product",
-      "classification": "Not Yet Classified",
-      "foodRaw": "Almond Joy Ice Cream Bar, 2.0 fl. oz. ice cream bars, paper cartons containing individually wrapped ice cream bars. 6 bars per carton. Keep frozen",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Alaska",
-        "Arizona",
-        "California",
-        "Colorado",
-        "Florida",
-        "Georgia",
-        "Hawaii",
-        "Illinois",
-        "Iowa",
-        "Kansas",
-        "Louisiana",
-        "Maine",
-        "Maryland",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Nevada",
-        "New Hampshire",
-        "New Jersey",
-        "New Mexico",
-        "New York",
-        "Ohio",
-        "Oklahoma",
-        "Oregon",
-        "Pennsylvania",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Utah",
-        "Virginia",
-        "Washington",
-        "Wisconsin"
       ],
       "date": "2026-09-30",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1097,24 +1064,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1215-2026",
-      "source": "openfda",
-      "firm": "Clover Hill Dairy, LLC",
-      "product": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (3-in-a-Pack Assorted Jalapeno Cheddar, Pepper Jack, Sizzling Colby). Sold in approximate 0.20-lb (3.2oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
-      "reason": "Product contaminated with Listeria monocytogenes.",
-      "classification": "Class I",
-      "foodRaw": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (3-in-a-Pack Assorted Jalapeno Cheddar, Pepper Jack, Sizzling Colby). Sold in approximate 0.20-lb (3.2oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Maryland",
-        "New York",
-        "Virginia"
-      ],
-      "date": "2026-08-12",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1189-2026",
       "source": "openfda",
       "firm": "Nelson & Isa Lacteos LLC",
@@ -1573,43 +1522,59 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1123-2026",
+      "id": "openfda-H-0094-2027",
       "source": "openfda",
-      "firm": "George J Howe Company, Inc.",
-      "product": "25# Sunflower Seeds C/S",
-      "reason": "The firm is recalling sunflower seed products due to the presence of an undeclared tree nut allergen, cashew.",
-      "classification": "Class I",
-      "foodRaw": "25# Sunflower Seeds C/S",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
+      "firm": "Stewart's Shops Corp.",
+      "product": "Stewarts Shops Vanilla Heavenly Medley 1/2 Gallon (1.89 L), UPC Codes: 0 82086 44371 1",
+      "reason": "Foreign object: May contain pieces of metal",
+      "classification": "Class II",
+      "foodRaw": "Stewarts Shops Vanilla Heavenly Medley 1/2 Gallon (1.89 L), UPC Codes: 0 82086 44371 1",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
       "states": [
-        "Alabama",
-        "Arkansas",
+        "New Hampshire",
+        "New York",
+        "Vermont"
+      ],
+      "date": "2026-10-21",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0090-2027",
+      "source": "openfda",
+      "firm": "Saratoga Potato Chips LLC",
+      "product": "J. HIGGS Loaded Bacon & Cheddar Potato Chips, NET WT 7.75 OZ (219.7g) bag, UPC 051933316454. Sold as 13 (7.75oz) bags per case.",
+      "reason": "Undeclared soy.",
+      "classification": "Class II",
+      "foodRaw": "J. HIGGS Loaded Bacon & Cheddar Potato Chips, NET WT 7.75 OZ (219.7g) bag, UPC 051933316454. Sold as 13 (7.75oz) bags per case.",
+      "foodCategory": "Pork",
+      "foodGroup": "Land Animals",
+      "states": [
         "Florida",
-        "Georgia",
-        "Illinois",
         "Indiana",
-        "Iowa",
-        "Kansas",
         "Kentucky",
         "Maryland",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "New Jersey",
-        "New York",
-        "North Carolina",
         "Ohio",
-        "Oklahoma",
-        "Pennsylvania",
-        "South Carolina",
-        "Tennessee",
-        "Virginia",
-        "West Virginia",
-        "Wisconsin"
+        "Tennessee"
       ],
-      "date": "2026-07-01",
+      "date": "2026-10-21",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0091-2027",
+      "source": "openfda",
+      "firm": "DARING FOODS INC",
+      "product": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
+      "reason": "defective packaging; packaging can rupture/explode during cooking.",
+      "classification": "Class II",
+      "foodRaw": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
+      "foodCategory": "Beef",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Florida",
+        "North Carolina"
+      ],
+      "date": "2026-10-21",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -2240,21 +2205,19 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1082-2026",
+      "id": "openfda-H-0095-2027",
       "source": "openfda",
-      "firm": "Joy Gourmet Foods LLC.",
-      "product": "Joy Rose Lassi 16 oz.",
-      "reason": "Product not adequately pasteurized",
-      "classification": "Class II",
-      "foodRaw": "Joy Rose Lassi 16 oz.",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
+      "firm": "Refresco Beverages US Inc",
+      "product": "Pur Aqua Sparkling Frost Cherry Limeade 17 oz., UPC: 4099100167023",
+      "reason": "May contain undeclared aspartame.",
+      "classification": "Class III",
+      "foodRaw": "Pur Aqua Sparkling Frost Cherry Limeade 17 oz., UPC: 4099100167023",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
       "states": [
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
+        "Florida"
       ],
-      "date": "2026-07-01",
+      "date": "2026-10-21",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -2473,25 +2436,6 @@
         "Wisconsin"
       ],
       "date": "2026-08-26",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1111-2026",
-      "source": "openfda",
-      "firm": "Produce Innovations",
-      "product": "Roast beef and cheddar closed face sandwich packed in clear plastic wrap with a green adhesive label. The label reads in part as \"***Lunch Box Kitchen*** Premium Convenience***Turkey & Cheddar Sub***BEST BY 06/14/26 Lot no. 26 134 NET WEIGHT: 6.1oz***KEEP REFRIGERATED*** Produced by: Produce Innovations***1845 Colonial Parkway Norwalk, IA 50211***\"",
-      "reason": "Incorrect Product Label; Roast Beef and Swiss closed face sub sandwich labeled as Turkey and Cheddar closed face sub sandwich",
-      "classification": "Class III",
-      "foodRaw": "Roast beef and cheddar closed face sandwich packed in clear plastic wrap with a green adhesive label. The label reads in part as \"***Lunch Box Kitchen*** Premium Convenience***Turkey & Cheddar Sub***BEST BY 06/14/26 Lot no. 26 134 NET WEIGHT: 6.1oz***KEEP REFRIGERATED*** Produced by: Produce Innovations***1845 Colonial Parkway Norwalk, IA 50211***\"",
-      "foodCategory": "Turkey",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Illinois",
-        "Iowa",
-        "Kansas",
-        "Missouri"
-      ],
-      "date": "2026-07-01",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     }
   ]
