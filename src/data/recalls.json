@@ -1,20 +1,102 @@
 {
-  "generatedAt": "2026-11-02T18:22:34.788Z",
+  "generatedAt": "2026-11-03T00:38:35.957Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-02T18:22:34.806Z",
-      "lastSuccessAt": "2026-11-02T18:22:34.806Z",
+      "fetchedAt": "2026-11-03T00:38:35.968Z",
+      "lastSuccessAt": "2026-11-03T00:38:35.968Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-02T18:22:34.807Z",
+      "fetchedAt": "2026-11-03T00:38:35.969Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-0141-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Special Red Almond Mole Powder; packaged in 1lb, 5lb, 11lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Sesame, Peanuts, Wheat, Soy, Almonds, Walnuts, Yellow#5, Yellow#6, Red#40, Blue#2)",
+      "classification": "Class I",
+      "foodRaw": "Special Red Almond Mole Powder; packaged in 1lb, 5lb, 11lb clear plastic units. No UPC",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0123-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Fritura Rueda Papa / Potato Wheel Snack; packed in a clear plastic 1lb, 5lb, 33lb unit sizes. No UPC",
+      "reason": "undeclared allergen ingredient (Wheat)",
+      "classification": "Class I",
+      "foodRaw": "Fritura Rueda Papa / Potato Wheel Snack; packed in a clear plastic 1lb, 5lb, 33lb unit sizes. No UPC",
+      "foodCategory": "Root/Underground",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0136-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Horchata Drink Mix; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Milk)",
+      "classification": "Class I",
+      "foodRaw": "Horchata Drink Mix; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0174-2027",
+      "source": "openfda",
+      "firm": "EAK Distribution LLC",
+      "product": "Heirloom Homegrown Green Sprouting Calabrese Broccoli Sprouts Seed. Net wt. 8oz ASIN #B09P49WHHP, UPC 8 50056 62744 3. EAK Distribution LLC 5830 E. 2nd St. PMB 91446 Casper, WY 82609 Label with Growing Instructions ***Easy to Grow ***Up to 24 Servings***90%+ Germination Rates***Shelf Stable for 2+ Years",
+      "reason": "Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Heirloom Homegrown Green Sprouting Calabrese Broccoli Sprouts Seed. Net wt. 8oz ASIN #B09P49WHHP, UPC 8 50056 62744 3. EAK Distribution LLC 5830 E. 2nd St. PMB 91446 Casper, WY 82609 Label with Growing Instructions ***Easy to Grow ***Up to 24 Servings***90%+ Germination Rates***Shelf Stable for 2+ Years",
+      "foodCategory": "Sprouts",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-",
       "source": "openfda",
@@ -29,39 +111,6 @@
         "New York"
       ],
       "date": "2026-10-21",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0016-2027",
-      "source": "openfda",
-      "firm": "A&P CREATIONS",
-      "product": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
-      "reason": "Product contains undeclared Sildenafil and Tadalafil.",
-      "classification": "Class I",
-      "foodRaw": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-10-14",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0003-2027",
-      "source": "openfda",
-      "firm": "LEASA Industries Co., Inc.",
-      "product": "LEASA Alfalfa Sprouts; packaged in plastic clamshell containers; KEEP REFRIGERATED; NET WT. 6 OZ. (170g); Grown & Packaged by: LEASA Industries Co., Inc., Mami FL 33147; Product of USA; UPC: 0 75465 11111 0",
-      "reason": "Seeds may have been contaminated with E.coli",
-      "classification": "Class I",
-      "foodRaw": "LEASA Alfalfa Sprouts; packaged in plastic clamshell containers; KEEP REFRIGERATED; NET WT. 6 OZ. (170g); Grown & Packaged by: LEASA Industries Co., Inc., Mami FL 33147; Product of USA; UPC: 0 75465 11111 0",
-      "foodCategory": "Sprouts",
-      "foodGroup": "Plants",
-      "states": [
-        "Florida",
-        "New Hampshire"
-      ],
-      "date": "2026-10-14",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -380,132 +429,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1356-2026",
-      "source": "openfda",
-      "firm": "Taylor Fresh Foods Inc",
-      "product": "Pico De Gallo. Ingredients: Tomato, Onion, Jalapeno, Cilantro. Net Wt: 16 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073536",
-      "reason": "Potential contamination with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "Pico De Gallo. Ingredients: Tomato, Onion, Jalapeno, Cilantro. Net Wt: 16 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073536",
-      "foodCategory": "Herbs",
-      "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Arkansas",
-        "Florida",
-        "Georgia",
-        "Illinois",
-        "Indiana",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maine",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Nebraska",
-        "New Hampshire",
-        "New York",
-        "North Carolina",
-        "Ohio",
-        "Oklahoma",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Vermont",
-        "West Virginia",
-        "Wisconsin"
-      ],
-      "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1348-2026",
-      "source": "openfda",
-      "firm": "Taylor Fresh Foods Inc",
-      "product": "Spicy Pimento Cheese Dip. Ingredients: Sharp Cheddar Cheese *** Cream Cheese *** Piquillo Peppers *** Jalapeno Pepper, Mayonnaise *** Cayenne Pepper Sauce *** Dijon Mustard *** Granulated Garlic, Cayenne Pepper, Pimiento Peppers *** Net Wt: 10 oz. Keep Refrigerated. Distributed by: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223116448",
-      "reason": "Potential contamination with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "Spicy Pimento Cheese Dip. Ingredients: Sharp Cheddar Cheese *** Cream Cheese *** Piquillo Peppers *** Jalapeno Pepper, Mayonnaise *** Cayenne Pepper Sauce *** Dijon Mustard *** Granulated Garlic, Cayenne Pepper, Pimiento Peppers *** Net Wt: 10 oz. Keep Refrigerated. Distributed by: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223116448",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Alabama",
-        "Arkansas",
-        "Florida",
-        "Georgia",
-        "Illinois",
-        "Indiana",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maine",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Nebraska",
-        "New Hampshire",
-        "New York",
-        "North Carolina",
-        "Ohio",
-        "Oklahoma",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Vermont",
-        "West Virginia",
-        "Wisconsin"
-      ],
-      "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1368-2026",
-      "source": "openfda",
-      "firm": "Taylor Fresh Foods Inc",
-      "product": "BH Bold Chef Salad Kit. Ingredients: Iceberg Lettuce, Pico De Gallo (***Jalapeno Pepper), Jalapeno Ranch Dressing (***Jalapeno Peppers***), Egg, Cucumber, Black Olives *** Carrot, Red Cabbage.",
-      "reason": "Potential contamination with Salmonella.",
-      "classification": "Class I",
-      "foodRaw": "BH Bold Chef Salad Kit. Ingredients: Iceberg Lettuce, Pico De Gallo (***Jalapeno Pepper), Jalapeno Ranch Dressing (***Jalapeno Peppers***), Egg, Cucumber, Black Olives *** Carrot, Red Cabbage.",
-      "foodCategory": "Eggs",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Alabama",
-        "Arkansas",
-        "Florida",
-        "Georgia",
-        "Illinois",
-        "Indiana",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maine",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Nebraska",
-        "New Hampshire",
-        "New York",
-        "North Carolina",
-        "Ohio",
-        "Oklahoma",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Vermont",
-        "West Virginia",
-        "Wisconsin"
-      ],
-      "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1331-2026",
       "source": "openfda",
       "firm": "EURO FOODS GROUP USA NJ INC",
@@ -687,29 +610,6 @@
         "Oklahoma",
         "Texas",
         "Wisconsin"
-      ],
-      "date": "2026-08-26",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1240-2026",
-      "source": "openfda",
-      "firm": "Publix Super Markets, Inc.",
-      "product": "Organic Whole Mixed Berries, Net Wt. 10 oz (284 g) plastic bags, packed in 8 bags per case of 10 oz each. Keep Frozen. UPC 41415-06753",
-      "reason": "Due to potential E. coli O145:H28 contamination",
-      "classification": "Class I",
-      "foodRaw": "Organic Whole Mixed Berries, Net Wt. 10 oz (284 g) plastic bags, packed in 8 bags per case of 10 oz each. Keep Frozen. UPC 41415-06753",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Florida",
-        "Georgia",
-        "Kentucky",
-        "North Carolina",
-        "South Carolina",
-        "Tennessee",
-        "Virginia"
       ],
       "date": "2026-08-26",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -920,48 +820,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1299-2026",
-      "source": "openfda",
-      "firm": "Taylor Farms de Mexico S. de R.L. de C.V.",
-      "product": "TAYLOR FARMS BLEND LETT/ROM BLEND WITH BAG 4/5# Iceberg, Romaine, Carrots, Red Cabbage products.",
-      "reason": "Potential Cyclospora contamination.",
-      "classification": "Class I",
-      "foodRaw": "TAYLOR FARMS BLEND LETT/ROM BLEND WITH BAG 4/5# Iceberg, Romaine, Carrots, Red Cabbage products.",
-      "foodCategory": "Vegetable Row Crops",
-      "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Arkansas",
-        "Connecticut",
-        "Florida",
-        "Georgia",
-        "Illinois",
-        "Indiana",
-        "Iowa",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maryland",
-        "Massachusetts",
-        "Michigan",
-        "Mississippi",
-        "Missouri",
-        "New Hampshire",
-        "New Jersey",
-        "North Carolina",
-        "Ohio",
-        "Oklahoma",
-        "Pennsylvania",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Virginia",
-        "Wisconsin"
-      ],
-      "date": "2026-08-19",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1219-2026",
       "source": "openfda",
       "firm": "La Colonia Foods Llc",
@@ -1146,42 +1004,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1215-2026",
-      "source": "openfda",
-      "firm": "Clover Hill Dairy, LLC",
-      "product": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (3-in-a-Pack Assorted Jalapeno Cheddar, Pepper Jack, Sizzling Colby). Sold in approximate 0.20-lb (3.2oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
-      "reason": "Product contaminated with Listeria monocytogenes.",
-      "classification": "Class I",
-      "foodRaw": "Clover Hill Dairy LLP, Pepper Jack Cheese Varieties (3-in-a-Pack Assorted Jalapeno Cheddar, Pepper Jack, Sizzling Colby). Sold in approximate 0.20-lb (3.2oz) units. Unknown information: packaging, labeling, or total quantity of product distributed. Keep refrigerated.",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Maryland",
-        "New York",
-        "Virginia"
-      ],
-      "date": "2026-08-12",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1199-2026",
-      "source": "openfda",
-      "firm": "Clover Hill Dairy, LLC",
-      "product": "Clover Hill Dairy LLP, Soft Ricotta (Requeson), and Soft Ricotta with Jalapenos (Requeson Con Chile). Sold in 2- and 5-gallon buckets, and 10oz, 12oz, and 14oz individually packaged food grade clamshell containers. The 5- and 2-gallon buckets are shrink wrapped. Keep refrigerated.",
-      "reason": "Product contaminated with Listeria monocytogenes.",
-      "classification": "Class I",
-      "foodRaw": "Clover Hill Dairy LLP, Soft Ricotta (Requeson), and Soft Ricotta with Jalapenos (Requeson Con Chile). Sold in 2- and 5-gallon buckets, and 10oz, 12oz, and 14oz individually packaged food grade clamshell containers. The 5- and 2-gallon buckets are shrink wrapped. Keep refrigerated.",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Maryland",
-        "New York",
-        "Virginia"
-      ],
-      "date": "2026-08-12",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1189-2026",
       "source": "openfda",
       "firm": "Nelson & Isa Lacteos LLC",
@@ -1208,22 +1030,6 @@
       "foodCategory": null,
       "foodGroup": null,
       "states": [],
-      "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1178-2026",
-      "source": "openfda",
-      "firm": "Modern Warrior Life, LLC",
-      "product": "Modern Warrior Ready, Dietary Supplement, 60 CAPSULES",
-      "reason": "FDA analysis revealed the presence of unapproved ingredients including tianeptine, 1,4 DMAA, and aniracetam.",
-      "classification": "Class I",
-      "foodRaw": "Modern Warrior Ready, Dietary Supplement, 60 CAPSULES",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
       "date": "2026-07-29",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
@@ -1304,25 +1110,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1171-2026",
-      "source": "openfda",
-      "firm": "D'Dioses Fruit Pops, Inc.",
-      "product": "Ice Pop, D'Dioses Mango, 3.7 oz (81.7 g), with UPC 827912008494",
-      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
-      "classification": "Class I",
-      "foodRaw": "Ice Pop, D'Dioses Mango, 3.7 oz (81.7 g), with UPC 827912008494",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Connecticut",
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
-      ],
-      "date": "2026-07-22",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1138-2026",
       "source": "openfda",
       "firm": "Adams Extract & Spice LLC",
@@ -1355,22 +1142,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1144-2026",
-      "source": "openfda",
-      "firm": "Trafa Pharmaceutical Inc.",
-      "product": "Trafa Pharmaceuticals Inc. brand ORGANIC MORINGA LEAF POWDER; NET WEIGHT: 15 KGS; packaged in brown paper bags with a white label",
-      "reason": "Potential contamination with Salmonella",
-      "classification": "Class I",
-      "foodRaw": "Trafa Pharmaceuticals Inc. brand ORGANIC MORINGA LEAF POWDER; NET WEIGHT: 15 KGS; packaged in brown paper bags with a white label",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "New York"
-      ],
-      "date": "2026-07-15",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1128-2026",
       "source": "openfda",
       "firm": "MOGO Moringa LLC",
@@ -1387,19 +1158,195 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1125-2026",
+      "id": "openfda-H-0130-2027",
       "source": "openfda",
-      "firm": "Western Mixers Produce & Nuts, Inc.",
-      "product": "FIRST STREET Dark Chocolate Raisins Net Wt. 9 oz. (255g) UPC 797565011830 INGREDIENTS: DARK CHOCOLATE (SUGAR, CHOCOLATE LIQUOR, COCOA BUTTER, MILK FAT, SOY LECITHIN - AN EMULSIFIER, NATURAL VANILLA FLAVOR), RAISINS, TAPIOCA DEXTRIN, CONFECTIONERS GLAZE. CONTAINS: MILK, SOY PACKED IN A FAICLITY THAT HANDLES PEANUTS, TREE NUTS, WHEAT, SOY, EGG, SESAME, AND MILK PRODUCTS.",
-      "reason": "Undeclared peanuts.",
-      "classification": "Class I",
-      "foodRaw": "FIRST STREET Dark Chocolate Raisins Net Wt. 9 oz. (255g) UPC 797565011830 INGREDIENTS: DARK CHOCOLATE (SUGAR, CHOCOLATE LIQUOR, COCOA BUTTER, MILK FAT, SOY LECITHIN - AN EMULSIFIER, NATURAL VANILLA FLAVOR), RAISINS, TAPIOCA DEXTRIN, CONFECTIONERS GLAZE. CONTAINS: MILK, SOY PACKED IN A FAICLITY THAT HANDLES PEANUTS, TREE NUTS, WHEAT, SOY, EGG, SESAME, AND MILK PRODUCTS.",
-      "foodCategory": "Nuts-seeds",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Jovy Gummy Worms Neon; packaged in 1lb plastic units. UPC 712199083411",
+      "reason": "undeclared allergen ingredient (Red#40, Yellow#5, Yellow#6, Blue#1)",
+      "classification": "Class II",
+      "foodRaw": "Jovy Gummy Worms Neon; packaged in 1lb plastic units. UPC 712199083411",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0158-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Milk Chocolate Covered Raisins; packaged in 1lb, 5lb, 20lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Milk, Soy)",
+      "classification": "Class II",
+      "foodRaw": "Milk Chocolate Covered Raisins; packaged in 1lb, 5lb, 20lb clear plastic units. No UPC",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0120-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Fritura mixed dry fruit; packed in a clear plastic 1lb, 5lb, 25lb unit sizes. no UPC",
+      "reason": "undeclared allergen ingredient (Wheat, Yellow #5, Yellow #6)",
+      "classification": "Class II",
+      "foodRaw": "Fritura mixed dry fruit; packed in a clear plastic 1lb, 5lb, 25lb unit sizes. no UPC",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0165-2027",
+      "source": "openfda",
+      "firm": "Voila Juice Company",
+      "product": "Voila! juice 100% SQUEEZED ORANGE VOILA! OAKLAND, CA 94601 16 OZ: UPC 701725001074 32 OZ: UPC 701725001081 64 OZ: UPC 701725001098 128 OZ: UPC 701725001104",
+      "reason": "Product not processed to achieve 5-log pathogen reduction.",
+      "classification": "Class II",
+      "foodRaw": "Voila! juice 100% SQUEEZED ORANGE VOILA! OAKLAND, CA 94601 16 OZ: UPC 701725001074 32 OZ: UPC 701725001081 64 OZ: UPC 701725001098 128 OZ: UPC 701725001104",
+      "foodCategory": "Fruits",
       "foodGroup": "Plants",
       "states": [
         "California"
       ],
-      "date": "2026-07-08",
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0132-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "All-Purpose Flour; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Wheat)",
+      "classification": "Class II",
+      "foodRaw": "All-Purpose Flour; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0117-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Churro Mix; packed in a clear plastic 1lb, 5lb, 50lb unit sizes. no UPC",
+      "reason": "undeclared allergen ingredient (Egg, Wheat)",
+      "classification": "Class II",
+      "foodRaw": "Churro Mix; packed in a clear plastic 1lb, 5lb, 50lb unit sizes. no UPC",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0129-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Jovy Gummy Bears Regular; packed in a clear plastic 1lb unit sizes. UPC: UPC 712199085156",
+      "reason": "undeclared allergen ingredient (Red#40, Yellow#5, Yellow#6, Blue#1)",
+      "classification": "Class II",
+      "foodRaw": "Jovy Gummy Bears Regular; packed in a clear plastic 1lb unit sizes. UPC: UPC 712199085156",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0149-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Dried Pears; packaged in 1lb, 5lb, 25lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Sulfites)",
+      "classification": "Class II",
+      "foodRaw": "Dried Pears; packaged in 1lb, 5lb, 25lb clear plastic units. No UPC",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0167-2027",
+      "source": "openfda",
+      "firm": "Pacific Coast Producers",
+      "product": "Great Value Fruit Cocktail in Fruit Juice from Concentrate NET WT 15 OZ (425g) DISTRIBUTED BY: Walmart Inc., Bentonville, AR 72716 UPC: 078742369570",
+      "reason": "Potential contamination with elevated levels of lead.",
+      "classification": "Class II",
+      "foodRaw": "Great Value Fruit Cocktail in Fruit Juice from Concentrate NET WT 15 OZ (425g) DISTRIBUTED BY: Walmart Inc., Bentonville, AR 72716 UPC: 078742369570",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "Alabama",
+        "Arizona",
+        "Louisiana",
+        "New Mexico",
+        "Pennsylvania",
+        "Washington",
+        "Wyoming"
+      ],
+      "date": "2026-10-28",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1437,23 +1384,6 @@
         "Maryland",
         "Ohio",
         "Tennessee"
-      ],
-      "date": "2026-10-21",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0091-2027",
-      "source": "openfda",
-      "firm": "DARING FOODS INC",
-      "product": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
-      "reason": "defective packaging; packaging can rupture/explode during cooking.",
-      "classification": "Class II",
-      "foodRaw": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
-      "foodCategory": "Beef",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Florida",
-        "North Carolina"
       ],
       "date": "2026-10-21",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1509,29 +1439,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0008-2027",
-      "source": "openfda",
-      "firm": "WinCo Foods LLC",
-      "product": "WinCo Foods Salsa Bean Dip Express Tray is packaged in a foil bottom container with clear plastic lid. Net Wt. 54oz. UPC 2 67173 510983. WinCo Foods Salsa Bean Dip Tray 16inch (sold by catering special order only) is packaged in plastic tray container with clear plastic dome lid. Net Wt. 104oz. UPC 2 67240 ######. Both products sold refrigerated with a shelf life of 4 days from package date. Distr",
-      "reason": "Bean Dip Trays contains recalled Peperoncini (pepper) which was recalled due to pest issue.",
-      "classification": "Class II",
-      "foodRaw": "WinCo Foods Salsa Bean Dip Express Tray is packaged in a foil bottom container with clear plastic lid. Net Wt. 54oz. UPC 2 67173 510983. WinCo Foods Salsa Bean Dip Tray 16inch (sold by catering special order only) is packaged in plastic tray container with clear plastic dome lid. Net Wt. 104oz. UPC 2 67240 ######. Both products sold refrigerated with a shelf life of 4 days from package date. Distr",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Arizona",
-        "California",
-        "Idaho",
-        "Montana",
-        "Nevada",
-        "Oregon",
-        "Utah",
-        "Washington"
-      ],
-      "date": "2026-10-14",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1391-2026",
       "source": "openfda",
       "firm": "United Sugar Producers and Refiners",
@@ -1569,67 +1476,6 @@
         "New Jersey",
         "New York",
         "Pennsylvania"
-      ],
-      "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1382-2026",
-      "source": "openfda",
-      "firm": "Buckhead Meat Company D.B.A. Trinity Seafood",
-      "product": "Buckhead, Tuna, 10lb cs, 12lb cs, 15lb cs, 3-5lb cs, Styrofoam container, Keep Refrigerated",
-      "reason": "The Firm was notified by NJ Department of Health of two samples collected from tuna with reported high levels of scombrotoxin.",
-      "classification": "Class II",
-      "foodRaw": "Buckhead, Tuna, 10lb cs, 12lb cs, 15lb cs, 3-5lb cs, Styrofoam container, Keep Refrigerated",
-      "foodCategory": "Fish",
-      "foodGroup": "Aquatic Animals",
-      "states": [
-        "Connecticut",
-        "Maryland",
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
-      ],
-      "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1386-2026",
-      "source": "openfda",
-      "firm": "Best Friends Bakery, LLC",
-      "product": "PUMPKIN SPICE NO BAKE COOKIE NET WT 3.5 oz. INGREDIENTS: WHOLE GRAIN OATS, MILK, MARGARINE***WATER, SALT, CONTAINS LESS THAN 2% OF THE FOLLOWING: SOY LECITHIN, VEGETABLE MONO & DIGLYCERIDES, POTASSIUM SORBATE***, CITRIC ACID, NATURAL & ARTIFICIAL FLAVOR, BETA CAROTENE, VITAMIN A PALMITATE ADDED, PEANUT BUTTER***VANILLA***PUMPKIN PIE SPICE***GLYCERINE, PAPRIKA OLEORESINM, POTASSIUM SORBATE CONTAINS",
-      "reason": "Peanuts & Eggs. The firm list peanuts in the ingredient statement but omitted them from the contain statement. They also have eggs listed in the contain statement but there are no eggs in the product.",
-      "classification": "Class II",
-      "foodRaw": "PUMPKIN SPICE NO BAKE COOKIE NET WT 3.5 oz. INGREDIENTS: WHOLE GRAIN OATS, MILK, MARGARINE***WATER, SALT, CONTAINS LESS THAN 2% OF THE FOLLOWING: SOY LECITHIN, VEGETABLE MONO & DIGLYCERIDES, POTASSIUM SORBATE***, CITRIC ACID, NATURAL & ARTIFICIAL FLAVOR, BETA CAROTENE, VITAMIN A PALMITATE ADDED, PEANUT BUTTER***VANILLA***PUMPKIN PIE SPICE***GLYCERINE, PAPRIKA OLEORESINM, POTASSIUM SORBATE CONTAINS",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Florida",
-        "Georgia",
-        "Indiana",
-        "Kentucky",
-        "Michigan",
-        "Ohio",
-        "Tennessee",
-        "Virginia",
-        "West Virginia"
-      ],
-      "date": "2026-09-23",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1385-2026",
-      "source": "openfda",
-      "firm": "Elegant Foods, LLC",
-      "product": "Elegant Foods Carrot Cake, 9\". 14 Servings. Keep Refrigerated/Frozen. 537 Atlas Ave., Madison, WI 53714.",
-      "reason": "Carrot decoration contains Yellow #5 and Yellow #6 which is not listed on finished product label.",
-      "classification": "Class II",
-      "foodRaw": "Elegant Foods Carrot Cake, 9\". 14 Servings. Keep Refrigerated/Frozen. 537 Atlas Ave., Madison, WI 53714.",
-      "foodCategory": "Root/Underground",
-      "foodGroup": "Plants",
-      "states": [
-        "Wisconsin"
       ],
       "date": "2026-09-23",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1777,66 +1623,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1232-2026",
-      "source": "openfda",
-      "firm": "Prospector Popcorn, LLC",
-      "product": "Prospector Popcorn Chocolate Mocha Gourmet Popcorn 1.5 oz.",
-      "reason": "Inaccurately declared nutrients including Carbohydrates (understated) and Cholesterol (understated).",
-      "classification": "Class II",
-      "foodRaw": "Prospector Popcorn Chocolate Mocha Gourmet Popcorn 1.5 oz.",
-      "foodCategory": "Oils-sugars",
-      "foodGroup": "Plants",
-      "states": [
-        "Alabama",
-        "Alaska",
-        "Arizona",
-        "Arkansas",
-        "California",
-        "Colorado",
-        "Connecticut",
-        "Delaware",
-        "District of Columbia",
-        "Florida",
-        "Georgia",
-        "Idaho",
-        "Illinois",
-        "Indiana",
-        "Iowa",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maryland",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Montana",
-        "Nebraska",
-        "Nevada",
-        "New Hampshire",
-        "New Jersey",
-        "New Mexico",
-        "New York",
-        "North Carolina",
-        "Ohio",
-        "Oklahoma",
-        "Oregon",
-        "Pennsylvania",
-        "Rhode Island",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Utah",
-        "Vermont",
-        "Virginia",
-        "Washington",
-        "Wisconsin"
-      ],
-      "date": "2026-08-26",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1223-2026",
       "source": "openfda",
       "firm": "PT Organics Limited",
@@ -1895,22 +1681,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1190-2026",
-      "source": "openfda",
-      "firm": "Mellish Island Corp",
-      "product": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
-      "reason": "Firm's finished product label does not declare the source of marine collagen which was determined to be fish.",
-      "classification": "Class II",
-      "foodRaw": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-08-05",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-1179-2026",
       "source": "openfda",
       "firm": "Brooklyn Roasting Works LLC",
@@ -1957,22 +1727,6 @@
       "states": [
         "California",
         "New Mexico"
-      ],
-      "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1177-2026",
-      "source": "openfda",
-      "firm": "Vintage Roots LLC",
-      "product": "Vintage Roots Root Beer Syrup, packaged in glass bottle. Net Wt. 8oz. (236.6 mL). Distributed by Vintage Roots, PO Box 12, Brady, MT 59416. The product label declares: Ingredients: Filtered Water, Pure Cane Sugar, Sassafras Bark, Burdock Roots, Wild Cherry Bark, Molasses, Fresh Lemon Juice, Star Anise, Coriander Seeds, Whole Clove, Wintergreen Extract (no alcohol).",
-      "reason": "Unapproved food additive: sassafras bark.",
-      "classification": "Class II",
-      "foodRaw": "Vintage Roots Root Beer Syrup, packaged in glass bottle. Net Wt. 8oz. (236.6 mL). Distributed by Vintage Roots, PO Box 12, Brady, MT 59416. The product label declares: Ingredients: Filtered Water, Pure Cane Sugar, Sassafras Bark, Burdock Roots, Wild Cherry Bark, Molasses, Fresh Lemon Juice, Star Anise, Coriander Seeds, Whole Clove, Wintergreen Extract (no alcohol).",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "Montana"
       ],
       "date": "2026-07-29",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -2140,6 +1894,204 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0162-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Whole wheat flour; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Wheat)",
+      "classification": "Class III",
+      "foodRaw": "Whole wheat flour; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0104-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Black Sesame Seeds; packed in a clear plastic bag. 1lb, 5lb, 50lb unit size. No UPC",
+      "reason": "undeclared allergen ingredient (Sesame)",
+      "classification": "Class III",
+      "foodRaw": "Black Sesame Seeds; packed in a clear plastic bag. 1lb, 5lb, 50lb unit size. No UPC",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0159-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "10X10 Wheat Snack; packaged in 2lb, 5lb, 33lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Wheat)",
+      "classification": "Class III",
+      "foodRaw": "10X10 Wheat Snack; packaged in 2lb, 5lb, 33lb clear plastic units. No UPC",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0155-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Textured Soy Protein; packaged in 1lb, 5lb, 33lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Soy)",
+      "classification": "Class III",
+      "foodRaw": "Textured Soy Protein; packaged in 1lb, 5lb, 33lb clear plastic units. No UPC",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0119-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Soybeans; packed in a clear plastic 1lb, 5lb, 50lb unit sizes. No UPC",
+      "reason": "undeclared allergen ingredient (Soy)",
+      "classification": "Class III",
+      "foodRaw": "Soybeans; packed in a clear plastic 1lb, 5lb, 50lb unit sizes. No UPC",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0106-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Almonds in Shell; packed in a clear plastic bag. 1lb, 5lb, 50lb unit size. No UPC",
+      "reason": "undeclared allergen ingredient (Almond)",
+      "classification": "Class III",
+      "foodRaw": "Almonds in Shell; packed in a clear plastic bag. 1lb, 5lb, 50lb unit size. No UPC",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0160-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "4X6 Wheat Snack; packaged in 1lb, 5lb, 33lb clear plastic units. 4X8 Wheat Snack; packaged in 1lb, 5lb, 33lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Wheat)",
+      "classification": "Class III",
+      "foodRaw": "4X6 Wheat Snack; packaged in 1lb, 5lb, 33lb clear plastic units. 4X8 Wheat Snack; packaged in 1lb, 5lb, 33lb clear plastic units. No UPC",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0154-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Wheat Bran; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Wheat)",
+      "classification": "Class III",
+      "foodRaw": "Wheat Bran; packaged in 1lb, 5lb, 50lb clear plastic units. No UPC",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0112-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Butter Toffee Peanuts; packed in a clear plastic bag. 1lb, 5lb, 50lb unit size. No UPC",
+      "reason": "undeclared allergen ingredient (Peanuts, Milk)",
+      "classification": "Class III",
+      "foodRaw": "Butter Toffee Peanuts; packed in a clear plastic bag. 1lb, 5lb, 50lb unit size. No UPC",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0095-2027",
       "source": "openfda",
       "firm": "Refresco Beverages US Inc",
@@ -2249,22 +2201,6 @@
         "New Jersey",
         "New York",
         "Pennsylvania"
-      ],
-      "date": "2026-09-09",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1304-2026",
-      "source": "openfda",
-      "firm": "Prince Bakery Inc",
-      "product": "Prince ITALIAN BREAD; Sesame; NET WEIGHT 8 OZ. (227g); INGREDIENTS: ENRICHED BLEACHED FLOUR (WHEAT FLOUR, MALT BARLEY FLOUR, NIACIN, FERROUS SULFATE, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID, POTASSIUM BROMATE), WATER, YEAST, SALT, VEGETABLE SHORTENING (PARTIALLY HYDROGENATED SOYBEAN, COTTONSEED, AND/OR CANOLA OILS) DOUGH CONDITIONER [WHEY MILK], CORN FLOUR, MONOCALCIUM PHOSPHATE, L-CYSTEINE, H",
-      "reason": "Sesame is not declared in the ingredient statement but is declared in the statement of identity.",
-      "classification": "Class III",
-      "foodRaw": "Prince ITALIAN BREAD; Sesame; NET WEIGHT 8 OZ. (227g); INGREDIENTS: ENRICHED BLEACHED FLOUR (WHEAT FLOUR, MALT BARLEY FLOUR, NIACIN, FERROUS SULFATE, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID, POTASSIUM BROMATE), WATER, YEAST, SALT, VEGETABLE SHORTENING (PARTIALLY HYDROGENATED SOYBEAN, COTTONSEED, AND/OR CANOLA OILS) DOUGH CONDITIONER [WHEY MILK], CORN FLOUR, MONOCALCIUM PHOSPHATE, L-CYSTEINE, H",
-      "foodCategory": "Nuts-seeds",
-      "foodGroup": "Plants",
-      "states": [
-        "New York"
       ],
       "date": "2026-09-09",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
