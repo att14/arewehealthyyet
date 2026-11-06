@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-05T18:23:12.066Z",
+  "generatedAt": "2026-11-06T00:38:49.916Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-05T18:23:12.084Z",
-      "lastSuccessAt": "2026-11-05T18:23:12.084Z",
+      "fetchedAt": "2026-11-06T00:38:49.929Z",
+      "lastSuccessAt": "2026-11-06T00:38:49.929Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-05T18:23:12.086Z",
+      "fetchedAt": "2026-11-06T00:38:49.930Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -396,6 +396,48 @@
       "foodRaw": "Taco Dip. Ingredients: Refried Vegetarian Beans *** Guacamole (***Pico De Gallo [***Jalapeno Pepper]***), Pico De Gallo (***Jalapeno Pepper), Mild Cheddar Cheese *** Sour Cream *** Black Ripe Olives *** Green Onion, Taco Seasoning Mix *** Net Wt: 20 oz. Keep Refrigerated. Distributed by: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073581",
       "foodCategory": "Dairy",
       "foodGroup": "Land Animals",
+      "states": [
+        "Alabama",
+        "Arkansas",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Nebraska",
+        "New Hampshire",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "Oklahoma",
+        "South Carolina",
+        "Tennessee",
+        "Texas",
+        "Vermont",
+        "West Virginia",
+        "Wisconsin"
+      ],
+      "date": "2026-09-23",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-1356-2026",
+      "source": "openfda",
+      "firm": "Taylor Fresh Foods Inc",
+      "product": "Pico De Gallo. Ingredients: Tomato, Onion, Jalapeno, Cilantro. Net Wt: 16 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073536",
+      "reason": "Potential contamination with Salmonella.",
+      "classification": "Class I",
+      "foodRaw": "Pico De Gallo. Ingredients: Tomato, Onion, Jalapeno, Cilantro. Net Wt: 16 oz. Keep Refrigerated. Distributed By: Taylor Farms Inc., Salinas, CA 93902. UPC: 030223073536",
+      "foodCategory": "Herbs",
+      "foodGroup": "Plants",
       "states": [
         "Alabama",
         "Arkansas",
@@ -1142,19 +1184,19 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1128-2026",
+      "id": "openfda-H-1144-2026",
       "source": "openfda",
-      "firm": "MOGO Moringa LLC",
-      "product": "MOGO PURE MORINGA OLEIFERA CAPSULES, HERBAL SUPPLEMENT, 180 QUICK RELEASE VEGGIE CAPSULE, 100% PURE, 350 MG PER CAPSULE, SUPPLEMENT FACTS MORINGA POWDER 1050 mg, Ingredients: 100% Pure Moringa Leaf Powder (Moringa Oleifera), MANUFACTURED IN USA AND Marketed by: MOGO MIRINGA LLC, PO BOX 32066 Saint Louis, MO 63132",
-      "reason": "Product may be contaminated with Salmonella Typhimurium",
+      "firm": "Trafa Pharmaceutical Inc.",
+      "product": "Trafa Pharmaceuticals Inc. brand ORGANIC MORINGA LEAF POWDER; NET WEIGHT: 15 KGS; packaged in brown paper bags with a white label",
+      "reason": "Potential contamination with Salmonella",
       "classification": "Class I",
-      "foodRaw": "MOGO PURE MORINGA OLEIFERA CAPSULES, HERBAL SUPPLEMENT, 180 QUICK RELEASE VEGGIE CAPSULE, 100% PURE, 350 MG PER CAPSULE, SUPPLEMENT FACTS MORINGA POWDER 1050 mg, Ingredients: 100% Pure Moringa Leaf Powder (Moringa Oleifera), MANUFACTURED IN USA AND Marketed by: MOGO MIRINGA LLC, PO BOX 32066 Saint Louis, MO 63132",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
+      "foodRaw": "Trafa Pharmaceuticals Inc. brand ORGANIC MORINGA LEAF POWDER; NET WEIGHT: 15 KGS; packaged in brown paper bags with a white label",
+      "foodCategory": null,
+      "foodGroup": null,
       "states": [
-        "Nationwide"
+        "New York"
       ],
-      "date": "2026-07-08",
+      "date": "2026-07-15",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1345,6 +1387,28 @@
         "Pennsylvania",
         "Washington",
         "Wyoming"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0150-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Sulfites)",
+      "classification": "Class II",
+      "foodRaw": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
       ],
       "date": "2026-10-28",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1818,79 +1882,6 @@
         "Virginia"
       ],
       "date": "2026-07-15",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1129-2026",
-      "source": "openfda",
-      "firm": "MARS SNACKING",
-      "product": "MorningStar Farms Buffalo Chik'n Nuggets, 100% Plant Protein Vegan Nuggets, Net Wt. 10.5 oz. (298g), packaged in a resealable plastic bag with UPC 028989101105, packed 6 bags per case",
-      "reason": "Potential contamination with plastic material",
-      "classification": "Class II",
-      "foodRaw": "MorningStar Farms Buffalo Chik'n Nuggets, 100% Plant Protein Vegan Nuggets, Net Wt. 10.5 oz. (298g), packaged in a resealable plastic bag with UPC 028989101105, packed 6 bags per case",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "Alabama",
-        "Arizona",
-        "Arkansas",
-        "California",
-        "Colorado",
-        "Connecticut",
-        "Florida",
-        "Georgia",
-        "Idaho",
-        "Illinois",
-        "Indiana",
-        "Iowa",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Maine",
-        "Maryland",
-        "Massachusetts",
-        "Michigan",
-        "Minnesota",
-        "Mississippi",
-        "Missouri",
-        "Nebraska",
-        "Nevada",
-        "New Jersey",
-        "New York",
-        "North Carolina",
-        "Ohio",
-        "Oklahoma",
-        "Oregon",
-        "Pennsylvania",
-        "Puerto Rico",
-        "South Carolina",
-        "Tennessee",
-        "Texas",
-        "Utah",
-        "Vermont",
-        "Virginia",
-        "Washington",
-        "Wisconsin",
-        "Wyoming"
-      ],
-      "date": "2026-07-08",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1136-2026",
-      "source": "openfda",
-      "firm": "Fry Pie Factory LLC",
-      "product": "Pepperoni Rolls, Net Wt. 5 oz (141g), individually packaged in a clear plastic bag, UPC 601959803041",
-      "reason": "Undeclared allergen (milk) and process deviation (product not held under refrigeration as required)",
-      "classification": "Class II",
-      "foodRaw": "Pepperoni Rolls, Net Wt. 5 oz (141g), individually packaged in a clear plastic bag, UPC 601959803041",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "Ohio",
-        "West Virginia"
-      ],
-      "date": "2026-07-08",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
