@@ -1,20 +1,52 @@
 {
-  "generatedAt": "2026-11-10T00:37:46.922Z",
+  "generatedAt": "2026-11-10T06:27:57.696Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-10T00:37:46.940Z",
-      "lastSuccessAt": "2026-11-10T00:37:46.940Z",
+      "fetchedAt": "2026-11-10T06:27:57.708Z",
+      "lastSuccessAt": "2026-11-10T06:27:57.708Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-10T00:37:46.941Z",
+      "fetchedAt": "2026-11-10T06:27:57.709Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-0184-2027",
+      "source": "openfda",
+      "firm": "GF Blends Inc",
+      "product": "Gluten Free Truly AIP Rustic Bread Mix, 14 oz",
+      "reason": "Products are recalled due to potential undeclared wheat gluten",
+      "classification": "Class I",
+      "foodRaw": "Gluten Free Truly AIP Rustic Bread Mix, 14 oz",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-11-04",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0177-2027",
+      "source": "openfda",
+      "firm": "EDEN BROTHERS",
+      "product": "EDEN BROTHERS Broccoli Seeds - Calabrese. Sold in packets, Net Wt. 1oz pouches, UPC SVBRO111 -qb2 & 1 Pound pouches UPC SVBRO111 -qb4.",
+      "reason": "Salmonella",
+      "classification": "Class I",
+      "foodRaw": "EDEN BROTHERS Broccoli Seeds - Calabrese. Sold in packets, Net Wt. 1oz pouches, UPC SVBRO111 -qb2 & 1 Pound pouches UPC SVBRO111 -qb4.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "North Carolina"
+      ],
+      "date": "2026-11-04",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-0141-2027",
       "source": "openfda",
@@ -1184,22 +1216,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1144-2026",
-      "source": "openfda",
-      "firm": "Trafa Pharmaceutical Inc.",
-      "product": "Trafa Pharmaceuticals Inc. brand ORGANIC MORINGA LEAF POWDER; NET WEIGHT: 15 KGS; packaged in brown paper bags with a white label",
-      "reason": "Potential contamination with Salmonella",
-      "classification": "Class I",
-      "foodRaw": "Trafa Pharmaceuticals Inc. brand ORGANIC MORINGA LEAF POWDER; NET WEIGHT: 15 KGS; packaged in brown paper bags with a white label",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "New York"
-      ],
-      "date": "2026-07-15",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0130-2027",
       "source": "openfda",
       "firm": "El Ruisenor De Mexico, Inc.",
@@ -1387,28 +1403,6 @@
         "Pennsylvania",
         "Washington",
         "Wyoming"
-      ],
-      "date": "2026-10-28",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0150-2027",
-      "source": "openfda",
-      "firm": "El Ruisenor De Mexico, Inc.",
-      "product": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
-      "reason": "undeclared allergen ingredient (Sulfites)",
-      "classification": "Class II",
-      "foodRaw": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "California",
-        "Hawaii",
-        "Illinois",
-        "Kansas",
-        "Nevada",
-        "Oregon",
-        "Washington"
       ],
       "date": "2026-10-28",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
