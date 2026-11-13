@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-12T18:22:21.361Z",
+  "generatedAt": "2026-11-13T00:39:57.536Z",
   "sources": {
     "cdc": {
       "ok": true,
-      "fetchedAt": "2026-11-12T18:22:21.364Z",
-      "lastSuccessAt": "2026-11-12T18:22:21.364Z",
+      "fetchedAt": "2026-11-13T00:39:57.539Z",
+      "lastSuccessAt": "2026-11-13T00:39:57.539Z",
       "error": null
     },
     "fda": {
       "ok": true,
-      "fetchedAt": "2026-11-12T18:22:21.376Z",
-      "lastSuccessAt": "2026-11-12T18:22:21.376Z",
+      "fetchedAt": "2026-11-13T00:39:57.552Z",
+      "lastSuccessAt": "2026-11-13T00:39:57.552Z",
       "error": null
     }
   },
@@ -31,7 +31,7 @@
         "Nevada"
       ],
       "firstSeen": "2026-09-28T15:14:00Z",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/raw-milk-cheese-09-26/index.html",
       "advice": "Do not eat any recalled cheeses.",
@@ -943,1625 +943,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
           "id": "fda-1419"
-        }
-      ]
-    },
-    {
-      "id": "cdc-766294",
-      "source": "cdc",
-      "pathogen": "E. coli and Salmonella",
-      "status": "active",
-      "foodRaw": "Alfalfa Sprouts",
-      "foodCategory": "Sprouts",
-      "foodGroup": "Plants",
-      "illnesses": 77,
-      "hospitalizations": 6,
-      "deaths": 0,
-      "stateCount": 16,
-      "states": [],
-      "firstSeen": "2026-08-21T15:35:00Z",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
-      "closedAt": null,
-      "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/alfalfa-sprouts-08-26/index.html",
-      "advice": "Always follow the four steps to food safety to prevent getting sick from E.",
-      "notes": "A recall has been issued.",
-      "title": "E. coli and Salmonella Outbreak Linked to Alfalfa Sprouts",
-      "updatedAt": "2026-08-21T18:22:30Z",
-      "crossReferences": [
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
         },
         {
           "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
-          "id": "fda-1394"
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
         }
       ]
     },
@@ -2581,7 +967,7 @@
         "Virginia"
       ],
       "firstSeen": "2026-10-20T12:36:00Z",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/salmonella/outbreaks/oysters-10-26/index.html",
       "advice": "Recalled oysters are past their shelf life.",
@@ -2603,7 +989,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -2625,7 +1011,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -2647,13 +1033,57 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-10-28",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
       "notes": null,
       "title": "Salmonella linked to Not Yet Identified",
       "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "fda-1427",
+      "source": "fda",
+      "pathogen": "Salmonella",
+      "status": "active",
+      "foodRaw": "Not Yet Identified",
+      "foodCategory": null,
+      "foodGroup": null,
+      "illnesses": null,
+      "hospitalizations": null,
+      "deaths": null,
+      "stateCount": null,
+      "states": [],
+      "firstSeen": "2026-11-12",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
+      "closedAt": null,
+      "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "advice": null,
+      "notes": null,
+      "title": "Salmonella linked to Not Yet Identified",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "fda-1425",
+      "source": "fda",
+      "pathogen": "Salmonella",
+      "status": "active",
+      "foodRaw": "Not Yet Identified",
+      "foodCategory": null,
+      "foodGroup": null,
+      "illnesses": null,
+      "hospitalizations": null,
+      "deaths": null,
+      "stateCount": null,
+      "states": [],
+      "firstSeen": "2026-11-12",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
+      "closedAt": null,
+      "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "advice": null,
+      "notes": null,
+      "title": "Salmonella linked to Not Yet Identified",
+      "updatedAt": "2026-11-12"
     },
     {
       "id": "cdc-765996",
@@ -2677,6 +1107,11 @@
       "title": "Cyclospora Outbreak Linked to Iceberg Lettuce",
       "updatedAt": "2026-08-06T11:55:47Z",
       "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-multistate-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+          "id": "fda-1390"
+        },
         {
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-multistate-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
@@ -5903,6 +4338,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-listeria-monocytogenes-soft-cheese-june-2026",
           "id": "fda-1380"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-listeria-monocytogenes-soft-cheese-june-2026",
+          "id": "fda-1380"
         }
       ]
     },
@@ -5932,6 +4372,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/foodborne-pathogens/salmonella-salmonellosis",
           "id": "fda-salmonella-jalape-o-peppers-2026"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-jalapeno-august-2026",
+          "id": "fda-1395"
         },
         {
           "source": "fda",
@@ -9153,6 +7598,1635 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-eggs-july-2026",
           "id": "fda-1378"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-eggs-july-2026",
+          "id": "fda-1378"
+        }
+      ]
+    },
+    {
+      "id": "cdc-766294",
+      "source": "cdc",
+      "pathogen": "E. coli and Salmonella",
+      "status": "closed",
+      "foodRaw": "Alfalfa Sprouts",
+      "foodCategory": "Sprouts",
+      "foodGroup": "Plants",
+      "illnesses": 77,
+      "hospitalizations": 6,
+      "deaths": 0,
+      "stateCount": 16,
+      "states": [],
+      "firstSeen": "2026-08-21T15:35:00Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
+      "closedAt": "2026-11-13T00:39:57.536Z",
+      "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/alfalfa-sprouts-08-26/index.html",
+      "advice": "Always follow the four steps to food safety to prevent getting sick from E.",
+      "notes": "A recall has been issued.",
+      "title": "E. coli and Salmonella Outbreak Linked to Alfalfa Sprouts",
+      "updatedAt": "2026-08-21T18:22:30Z",
+      "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
         }
       ]
     },
@@ -9202,6 +9276,11 @@
       "title": "E. coli Outbreak Linked to Frozen Blueberries",
       "updatedAt": "2026-07-07T16:34:47Z",
       "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o145h28-frozen-blueberries-july-2026",
+          "id": "fda-1389"
+        },
         {
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o145h28-frozen-blueberries-july-2026",
@@ -12427,6 +12506,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
           "id": "fda-1383"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
         }
       ]
     },
@@ -13720,6 +13804,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-sprouts-september-2026",
           "id": "fda-1411"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-sprouts-september-2026",
+          "id": "fda-1411"
         }
       ]
     },
@@ -13737,7 +13826,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-10-28T18:25:44.708Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13759,7 +13848,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-22",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-10-21T18:32:40.819Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13781,7 +13870,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-10-21T18:32:40.819Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13803,7 +13892,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-10-16T18:31:32.160Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13825,7 +13914,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-10-07T18:36:02.326Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13847,7 +13936,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-05",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-09-23T21:30:33.408Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13869,7 +13958,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-22",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-09-23T21:30:33.408Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13891,7 +13980,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-09-23T21:30:33.408Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13913,7 +14002,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-07-08",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13935,7 +14024,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-01",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-07-01",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -13957,7 +14046,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-05-20",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-05-20",
       "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-may-2026",
       "advice": null,
@@ -13979,7 +14068,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-11-04",
-      "lastSeen": "2026-11-12T18:22:21.361Z",
+      "lastSeen": "2026-11-13T00:39:57.536Z",
       "closedAt": "2026-11-04",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-12T18:22:21.361Z",
+  "generatedAt": "2026-11-13T00:39:57.536Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-12T18:22:21.378Z",
-      "lastSuccessAt": "2026-11-12T18:22:21.378Z",
+      "fetchedAt": "2026-11-13T00:39:57.553Z",
+      "lastSuccessAt": "2026-11-13T00:39:57.553Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-12T18:22:21.379Z",
+      "fetchedAt": "2026-11-13T00:39:57.554Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -143,6 +143,22 @@
         "New York"
       ],
       "date": "2026-10-21",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0016-2027",
+      "source": "openfda",
+      "firm": "A&P CREATIONS",
+      "product": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "reason": "Product contains undeclared Sildenafil and Tadalafil.",
+      "classification": "Class I",
+      "foodRaw": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-10-14",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1184,35 +1200,28 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1138-2026",
+      "id": "openfda-H-0178-2027",
       "source": "openfda",
-      "firm": "Adams Extract & Spice LLC",
-      "product": "Smoked Sausage Spice 32.86#",
-      "reason": "Undeclared Sesame allergen",
-      "classification": "Class I",
-      "foodRaw": "Smoked Sausage Spice 32.86#",
-      "foodCategory": "Pork",
+      "firm": "Prosperity Organic Foods Inc",
+      "product": "Miyoko's Creamery European Style Salted Plant Milk Butter, Net Wt. 8 OZ (227G). UPC 857554005773. Distributed By: Prosperity Organic Foods, Inc. Boise, Idaho 83702. Product is perishable and stored refrigerated/frozen. Product is initially packaged in wax paper wrapping and into an SBS carton. Secondary packaging is the corrugated case for shipment, labeled as Miyoko's Creamery Organic European St",
+      "reason": "Product recalled due to yeast, mold, and E. coli.",
+      "classification": "Class II",
+      "foodRaw": "Miyoko's Creamery European Style Salted Plant Milk Butter, Net Wt. 8 OZ (227G). UPC 857554005773. Distributed By: Prosperity Organic Foods, Inc. Boise, Idaho 83702. Product is perishable and stored refrigerated/frozen. Product is initially packaged in wax paper wrapping and into an SBS carton. Secondary packaging is the corrugated case for shipment, labeled as Miyoko's Creamery Organic European St",
+      "foodCategory": "Dairy",
       "foodGroup": "Land Animals",
       "states": [
-        "Texas"
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Maryland",
+        "New Hampshire",
+        "New Jersey",
+        "Wisconsin"
       ],
-      "date": "2026-07-15",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1140-2026",
-      "source": "openfda",
-      "firm": "Adams Extract & Spice LLC",
-      "product": "EC Hot Links Seasoning 45.05#",
-      "reason": "Undeclared Sesame allergen",
-      "classification": "Class I",
-      "foodRaw": "EC Hot Links Seasoning 45.05#",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Texas"
-      ],
-      "date": "2026-07-15",
+      "date": "2026-11-04",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1403,6 +1412,28 @@
         "Pennsylvania",
         "Washington",
         "Wyoming"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0150-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Sulfites)",
+      "classification": "Class II",
+      "foodRaw": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
       ],
       "date": "2026-10-28",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1739,6 +1770,22 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-1190-2026",
+      "source": "openfda",
+      "firm": "Mellish Island Corp",
+      "product": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
+      "reason": "Firm's finished product label does not declare the source of marine collagen which was determined to be fish.",
+      "classification": "Class II",
+      "foodRaw": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-08-05",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-1179-2026",
       "source": "openfda",
       "firm": "Brooklyn Roasting Works LLC",
@@ -1838,44 +1885,6 @@
         "Pennsylvania"
       ],
       "date": "2026-07-22",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1143-2026",
-      "source": "openfda",
-      "firm": "Bear Stewart Co",
-      "product": "Bakr Brown Butter Chocolate Chunk Ready to Bake Cookie Dough, 8-oz pouch 12 cookies per pouch, UPC 8 50073 08700 8, 8 pouches per case",
-      "reason": "undeclared soy",
-      "classification": "Class II",
-      "foodRaw": "Bakr Brown Butter Chocolate Chunk Ready to Bake Cookie Dough, 8-oz pouch 12 cookies per pouch, UPC 8 50073 08700 8, 8 pouches per case",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Illinois"
-      ],
-      "date": "2026-07-15",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1146-2026",
-      "source": "openfda",
-      "firm": "Wise Foods Inc",
-      "product": "Wise Onion Rings, 3.75 oz, metalized film in cardboard cartons, 14 bags per case,",
-      "reason": "The product contains undeclared Yellow 5 and 6, Blue 1, and unapproved Red 3.",
-      "classification": "Class II",
-      "foodRaw": "Wise Onion Rings, 3.75 oz, metalized film in cardboard cartons, 14 bags per case,",
-      "foodCategory": "Root/Underground",
-      "foodGroup": "Plants",
-      "states": [
-        "Florida",
-        "New Jersey",
-        "New York",
-        "North Carolina",
-        "Pennsylvania",
-        "South Carolina",
-        "Virginia"
-      ],
-      "date": "2026-07-15",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
