@@ -1,981 +1,20 @@
 {
-  "generatedAt": "2026-11-14T06:25:45.193Z",
+  "generatedAt": "2026-11-14T12:22:56.893Z",
   "sources": {
     "cdc": {
       "ok": true,
-      "fetchedAt": "2026-11-14T06:25:45.195Z",
-      "lastSuccessAt": "2026-11-14T06:25:45.195Z",
+      "fetchedAt": "2026-11-14T12:22:56.897Z",
+      "lastSuccessAt": "2026-11-14T12:22:56.897Z",
       "error": null
     },
     "fda": {
-      "ok": true,
-      "fetchedAt": "2026-11-14T06:25:45.203Z",
+      "ok": false,
+      "fetchedAt": "2026-11-14T12:22:56.908Z",
       "lastSuccessAt": "2026-11-14T06:25:45.203Z",
-      "error": null
+      "error": "FDA CORE page returned no recognizable investigation table — layout changed or blocked"
     }
   },
   "outbreaks": [
-    {
-      "id": "cdc-766541",
-      "source": "cdc",
-      "pathogen": "E. coli",
-      "status": "active",
-      "foodRaw": "Raw Milk Cheese",
-      "foodCategory": "Dairy",
-      "foodGroup": "Land Animals",
-      "illnesses": 13,
-      "hospitalizations": 8,
-      "deaths": 0,
-      "stateCount": 9,
-      "states": [
-        "Nevada"
-      ],
-      "firstSeen": "2026-09-28T15:14:00Z",
-      "lastSeen": "2026-11-13T18:20:24.456Z",
-      "closedAt": null,
-      "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/raw-milk-cheese-09-26/index.html",
-      "advice": "Do not eat any recalled cheeses.",
-      "notes": "A recall has been issued.",
-      "title": "E. coli Outbreak linked to Raw Milk Cheese",
-      "updatedAt": "2026-09-28T15:13:31Z",
-      "crossReferences": [
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        },
-        {
-          "source": "fda",
-          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
-          "id": "fda-1419"
-        }
-      ]
-    },
     {
       "id": "cdc-766713",
       "source": "cdc",
@@ -992,7 +31,7 @@
         "Virginia"
       ],
       "firstSeen": "2026-10-20T12:36:00Z",
-      "lastSeen": "2026-11-14T06:25:45.193Z",
+      "lastSeen": "2026-11-14T12:22:56.893Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/salmonella/outbreaks/oysters-10-26/index.html",
       "advice": "Recalled oysters are past their shelf life.",
@@ -7732,6 +6771,967 @@
       ]
     },
     {
+      "id": "cdc-766541",
+      "source": "cdc",
+      "pathogen": "E. coli",
+      "status": "closed",
+      "foodRaw": "Raw Milk Cheese",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "illnesses": 13,
+      "hospitalizations": 8,
+      "deaths": 0,
+      "stateCount": 9,
+      "states": [
+        "Nevada"
+      ],
+      "firstSeen": "2026-09-28T15:14:00Z",
+      "lastSeen": "2026-11-13T18:20:24.456Z",
+      "closedAt": "2026-11-14T12:22:56.893Z",
+      "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/raw-milk-cheese-09-26/index.html",
+      "advice": "Do not eat any recalled cheeses.",
+      "notes": "A recall has been issued.",
+      "title": "E. coli Outbreak linked to Raw Milk Cheese",
+      "updatedAt": "2026-09-28T15:13:31Z",
+      "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
+        }
+      ]
+    },
+    {
       "id": "cdc-766294",
       "source": "cdc",
       "pathogen": "E. coli and Salmonella",
@@ -7745,7 +7745,7 @@
       "stateCount": 16,
       "states": [],
       "firstSeen": "2026-08-21T15:35:00Z",
-      "lastSeen": "2026-11-14T06:25:45.193Z",
+      "lastSeen": "2026-11-14T12:22:56.893Z",
       "closedAt": "2026-11-13T00:39:57.536Z",
       "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/alfalfa-sprouts-08-26/index.html",
       "advice": "Always follow the four steps to food safety to prevent getting sick from E.",
