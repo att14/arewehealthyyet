@@ -1,20 +1,106 @@
 {
-  "generatedAt": "2026-11-17T00:40:07.063Z",
+  "generatedAt": "2026-11-17T06:29:17.416Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-17T00:40:07.082Z",
-      "lastSuccessAt": "2026-11-17T00:40:07.082Z",
+      "fetchedAt": "2026-11-17T06:29:17.434Z",
+      "lastSuccessAt": "2026-11-17T06:29:17.434Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-17T00:40:07.084Z",
+      "fetchedAt": "2026-11-17T06:29:17.435Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-H-0197-2027",
+      "source": "openfda",
+      "firm": "Family Farmstead Dairy, LLC",
+      "product": "Raw milk cheddar cheese packed in vacuum sealed clear plastic with a white, red and green label which reads in part as, \"FAMILY FARMSTEAD MILD RAW CHEDDAR - AGED 3+ MONTHS - 100% GRASS FED, 8oz. (226g). INGREDIENTS: ORGANIC UNPASTEURIZED MILK*, SALT, CULTURES, AND ENZYMES. UPC: 860007132216; Family Farmstead Dairy, LLC 1644 County Highway 39 Worcester, NY 12197\". Product is distributed as 12-8oz b",
+      "reason": "Potential contamination with E. coli (pathogenic non-O157 STEC).",
+      "classification": "Class I",
+      "foodRaw": "Raw milk cheddar cheese packed in vacuum sealed clear plastic with a white, red and green label which reads in part as, \"FAMILY FARMSTEAD MILD RAW CHEDDAR - AGED 3+ MONTHS - 100% GRASS FED, 8oz. (226g). INGREDIENTS: ORGANIC UNPASTEURIZED MILK*, SALT, CULTURES, AND ENZYMES. UPC: 860007132216; Family Farmstead Dairy, LLC 1644 County Highway 39 Worcester, NY 12197\". Product is distributed as 12-8oz b",
+      "foodCategory": "Dairy",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Connecticut",
+        "Maryland",
+        "Massachusetts",
+        "New Jersey",
+        "New York",
+        "Pennsylvania",
+        "Virginia"
+      ],
+      "date": "2026-11-11",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0192-2027",
+      "source": "openfda",
+      "firm": "Krasnyi Oktyabr Inc",
+      "product": "Starfish Seafood Cold Smoked Norwegian Salmon",
+      "reason": "Contaminated with Listeria monocytogenes",
+      "classification": "Class I",
+      "foodRaw": "Starfish Seafood Cold Smoked Norwegian Salmon",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Florida",
+        "Georgia",
+        "Massachusetts",
+        "Nevada",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "South Carolina"
+      ],
+      "date": "2026-11-11",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0191-2027",
+      "source": "openfda",
+      "firm": "Krasnyi Oktyabr Inc",
+      "product": "Starfish Seafood Cold Smoked Trio Salmon Halibut Trout",
+      "reason": "Contaminated with Listeria monocytogenes",
+      "classification": "Class I",
+      "foodRaw": "Starfish Seafood Cold Smoked Trio Salmon Halibut Trout",
+      "foodCategory": "Fish",
+      "foodGroup": "Aquatic Animals",
+      "states": [
+        "Florida",
+        "Georgia",
+        "Massachusetts",
+        "Nevada",
+        "New Jersey",
+        "New York",
+        "North Carolina",
+        "Ohio",
+        "South Carolina"
+      ],
+      "date": "2026-11-11",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-",
+      "source": "openfda",
+      "firm": "Vitality Works, Inc",
+      "product": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count. Product Item Number: 3006661. 120 ct powder capsules in a 200cc bottle Take 1 capsule 2 times daily. Packaged in a 200cc white HDPE bottle with white cap. Whole Foods UPC: 099482520991. Label Address: Whole Foods Market, 550 Bowie Street, Austin, Texas 78703.",
+      "reason": "Possible Salmonella contamination.",
+      "classification": "Not Yet Classified",
+      "foodRaw": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count. Product Item Number: 3006661. 120 ct powder capsules in a 200cc bottle Take 1 capsule 2 times daily. Packaged in a 200cc white HDPE bottle with white cap. Whole Foods UPC: 099482520991. Label Address: Whole Foods Market, 550 Bowie Street, Austin, Texas 78703.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-11-11",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-0184-2027",
       "source": "openfda",
@@ -127,38 +213,6 @@
         "Nationwide"
       ],
       "date": "2026-10-28",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-",
-      "source": "openfda",
-      "firm": "Made Fresh Salads Inc",
-      "product": "Made Fresh brand Black Bean and Corn Salad; 5lb white plastic tub",
-      "reason": "Products may be contaminated with Listeria monocytogenes.",
-      "classification": "Class I",
-      "foodRaw": "Made Fresh brand Black Bean and Corn Salad; 5lb white plastic tub",
-      "foodCategory": "Vegetable Row Crops",
-      "foodGroup": "Plants",
-      "states": [
-        "New York"
-      ],
-      "date": "2026-10-21",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0016-2027",
-      "source": "openfda",
-      "firm": "A&P CREATIONS",
-      "product": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
-      "reason": "Product contains undeclared Sildenafil and Tadalafil.",
-      "classification": "Class I",
-      "foodRaw": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-10-14",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1417,28 +1471,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0150-2027",
-      "source": "openfda",
-      "firm": "El Ruisenor De Mexico, Inc.",
-      "product": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
-      "reason": "undeclared allergen ingredient (Sulfites)",
-      "classification": "Class II",
-      "foodRaw": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "California",
-        "Hawaii",
-        "Illinois",
-        "Kansas",
-        "Nevada",
-        "Oregon",
-        "Washington"
-      ],
-      "date": "2026-10-28",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0094-2027",
       "source": "openfda",
       "firm": "Stewart's Shops Corp.",
@@ -1765,22 +1797,6 @@
         "New Jersey",
         "New York",
         "Pennsylvania"
-      ],
-      "date": "2026-08-05",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1190-2026",
-      "source": "openfda",
-      "firm": "Mellish Island Corp",
-      "product": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
-      "reason": "Firm's finished product label does not declare the source of marine collagen which was determined to be fish.",
-      "classification": "Class II",
-      "foodRaw": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
       ],
       "date": "2026-08-05",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
