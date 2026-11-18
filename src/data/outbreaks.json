@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-18T12:25:50.503Z",
+  "generatedAt": "2026-11-18T18:21:26.060Z",
   "sources": {
     "cdc": {
       "ok": true,
-      "fetchedAt": "2026-11-18T12:25:50.505Z",
-      "lastSuccessAt": "2026-11-18T12:25:50.505Z",
+      "fetchedAt": "2026-11-18T18:21:26.063Z",
+      "lastSuccessAt": "2026-11-18T18:21:26.063Z",
       "error": null
     },
     "fda": {
       "ok": true,
-      "fetchedAt": "2026-11-18T12:25:50.513Z",
-      "lastSuccessAt": "2026-11-18T12:25:50.513Z",
+      "fetchedAt": "2026-11-18T18:21:26.073Z",
+      "lastSuccessAt": "2026-11-18T18:21:26.073Z",
       "error": null
     }
   },
@@ -1053,6 +1053,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
           "id": "fda-1419"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o26h11-raw-milk-cheese-september-2026",
+          "id": "fda-1419"
         }
       ]
     },
@@ -1072,7 +1077,7 @@
         "Virginia"
       ],
       "firstSeen": "2026-10-20T12:36:00Z",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": null,
       "sourceUrl": "https://www.cdc.gov/salmonella/outbreaks/oysters-10-26/index.html",
       "advice": "Recalled oysters are past their shelf life.",
@@ -1094,7 +1099,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1116,7 +1121,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-09-30",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1138,7 +1143,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-10-28",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1160,7 +1165,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1182,7 +1187,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": null,
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -1212,6 +1217,11 @@
       "title": "Cyclospora Outbreak Linked to Iceberg Lettuce",
       "updatedAt": "2026-08-06T11:55:47Z",
       "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-multistate-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+          "id": "fda-1390"
+        },
         {
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-multistate-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
@@ -4658,6 +4668,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-listeria-monocytogenes-soft-cheese-june-2026",
           "id": "fda-1380"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-listeria-monocytogenes-soft-cheese-june-2026",
+          "id": "fda-1380"
         }
       ]
     },
@@ -4687,6 +4702,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/foodborne-pathogens/salmonella-salmonellosis",
           "id": "fda-salmonella-jalape-o-peppers-2026"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-jalapeno-august-2026",
+          "id": "fda-1395"
         },
         {
           "source": "fda",
@@ -8128,6 +8148,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-eggs-july-2026",
           "id": "fda-1378"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-eggs-july-2026",
+          "id": "fda-1378"
         }
       ]
     },
@@ -8145,7 +8170,7 @@
       "stateCount": 16,
       "states": [],
       "firstSeen": "2026-08-21T15:35:00Z",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-11-13T00:39:57.536Z",
       "sourceUrl": "https://www.cdc.gov/ecoli/outbreaks/alfalfa-sprouts-08-26/index.html",
       "advice": "Always follow the four steps to food safety to prevent getting sick from E.",
@@ -8153,6 +8178,11 @@
       "title": "E. coli and Salmonella Outbreak Linked to Alfalfa Sprouts",
       "updatedAt": "2026-08-21T18:22:30Z",
       "crossReferences": [
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
+          "id": "fda-1394"
+        },
         {
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-shiga-toxin-producing-e-coli-salmonella-sprouts-august-2026",
@@ -11610,6 +11640,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o145h28-frozen-blueberries-july-2026",
           "id": "fda-1389"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-e-coli-o145h28-frozen-blueberries-july-2026",
+          "id": "fda-1389"
         }
       ]
     },
@@ -11646,6 +11681,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/media/192722/download?attachment",
           "id": "fda-botulism-infant-formula-2026"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-infant-botulism-powdered-infant-formula-june-2026",
+          "id": "fda-1383"
         },
         {
           "source": "fda",
@@ -14754,6 +14794,11 @@
           "source": "fda",
           "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-sprouts-september-2026",
           "id": "fda-1411"
+        },
+        {
+          "source": "fda",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-sprouts-september-2026",
+          "id": "fda-1411"
         }
       ]
     },
@@ -14771,7 +14816,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-10-28T18:25:44.708Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14793,7 +14838,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-22",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-10-21T18:32:40.819Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14815,7 +14860,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-10-21T18:32:40.819Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14837,7 +14882,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-10-16T18:31:32.160Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14859,7 +14904,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-12",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-10-07T18:36:02.326Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14881,7 +14926,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-08-05",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-09-23T21:30:33.408Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14903,7 +14948,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-22",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-09-23T21:30:33.408Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14925,7 +14970,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-09-23T21:30:33.408Z",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14947,7 +14992,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-08",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-07-08",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14969,7 +15014,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-07-01",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-07-01",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
@@ -14991,7 +15036,7 @@
       "stateCount": null,
       "states": [],
       "firstSeen": "2026-11-04",
-      "lastSeen": "2026-11-18T12:25:50.503Z",
+      "lastSeen": "2026-11-18T18:21:26.060Z",
       "closedAt": "2026-11-04",
       "sourceUrl": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
       "advice": null,
