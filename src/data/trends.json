@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-18T18:21:26.060Z",
+  "generatedAt": "2026-11-19T00:40:22.963Z",
   "sources": {
     "nndss": {
       "ok": true,
-      "fetchedAt": "2026-11-18T18:21:26.076Z",
-      "lastSuccessAt": "2026-11-18T18:21:26.076Z",
+      "fetchedAt": "2026-11-19T00:40:22.980Z",
+      "lastSuccessAt": "2026-11-19T00:40:22.980Z",
       "error": null
     }
   },
@@ -232,6 +232,11 @@
           "year": 2026,
           "week": 44,
           "cases": 692
+        },
+        {
+          "year": 2026,
+          "week": 45,
+          "cases": 603
         }
       ],
       "previousYear": [
@@ -454,10 +459,15 @@
           "year": 2025,
           "week": 44,
           "cases": 645
+        },
+        {
+          "year": 2025,
+          "week": 45,
+          "cases": 556
         }
       ],
-      "currentYearTotal": 27274,
-      "previousYearTotalToDate": 22370
+      "currentYearTotal": 27877,
+      "previousYearTotalToDate": 22926
     },
     {
       "label": "Shiga toxin-producing Escherichia coli (STEC)",
@@ -682,6 +692,11 @@
           "year": 2026,
           "week": 44,
           "cases": 176
+        },
+        {
+          "year": 2026,
+          "week": 45,
+          "cases": 160
         }
       ],
       "previousYear": [
@@ -904,10 +919,15 @@
           "year": 2025,
           "week": 44,
           "cases": 168
+        },
+        {
+          "year": 2025,
+          "week": 45,
+          "cases": 172
         }
       ],
-      "currentYearTotal": 7497,
-      "previousYearTotalToDate": 6498
+      "currentYearTotal": 7657,
+      "previousYearTotalToDate": 6670
     },
     {
       "label": "Listeriosis, Confirmed",
@@ -1132,6 +1152,11 @@
           "year": 2026,
           "week": 44,
           "cases": 6
+        },
+        {
+          "year": 2026,
+          "week": 45,
+          "cases": 5
         }
       ],
       "previousYear": [
@@ -1356,7 +1381,7 @@
           "cases": 7
         }
       ],
-      "currentYearTotal": 285,
+      "currentYearTotal": 290,
       "previousYearTotalToDate": 266
     },
     {
@@ -1582,6 +1607,11 @@
           "year": 2026,
           "week": 44,
           "cases": 896
+        },
+        {
+          "year": 2026,
+          "week": 45,
+          "cases": 864
         }
       ],
       "previousYear": [
@@ -1804,10 +1834,15 @@
           "year": 2025,
           "week": 44,
           "cases": 1032
+        },
+        {
+          "year": 2025,
+          "week": 45,
+          "cases": 832
         }
       ],
-      "currentYearTotal": 38952,
-      "previousYearTotalToDate": 37621
+      "currentYearTotal": 39816,
+      "previousYearTotalToDate": 38453
     },
     {
       "label": "Cyclosporiasis",
@@ -2027,6 +2062,11 @@
           "year": 2026,
           "week": 44,
           "cases": 8
+        },
+        {
+          "year": 2026,
+          "week": 45,
+          "cases": 11
         }
       ],
       "previousYear": [
@@ -2236,7 +2276,7 @@
           "cases": 6
         }
       ],
-      "currentYearTotal": 13359,
+      "currentYearTotal": 13370,
       "previousYearTotalToDate": 1237
     },
     {
@@ -2462,6 +2502,11 @@
           "year": 2026,
           "week": 44,
           "cases": 188
+        },
+        {
+          "year": 2026,
+          "week": 45,
+          "cases": 176
         }
       ],
       "previousYear": [
@@ -2684,10 +2729,15 @@
           "year": 2025,
           "week": 44,
           "cases": 139
+        },
+        {
+          "year": 2025,
+          "week": 45,
+          "cases": 164
         }
       ],
-      "currentYearTotal": 7151,
-      "previousYearTotalToDate": 6475
+      "currentYearTotal": 7327,
+      "previousYearTotalToDate": 6639
     }
   ]
 }
