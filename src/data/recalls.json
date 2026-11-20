@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-19T18:23:32.956Z",
+  "generatedAt": "2026-11-20T00:38:13.630Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-19T18:23:32.969Z",
-      "lastSuccessAt": "2026-11-19T18:23:32.969Z",
+      "fetchedAt": "2026-11-20T00:38:13.648Z",
+      "lastSuccessAt": "2026-11-20T00:38:13.648Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-19T18:23:32.970Z",
+      "fetchedAt": "2026-11-20T00:38:13.649Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -134,6 +134,40 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0181-2027",
+      "source": "openfda",
+      "firm": "Oliva on Main",
+      "product": "Riad's Oliva to Go Hummus",
+      "reason": "contains undeclared sesame",
+      "classification": "Class I",
+      "foodRaw": "Riad's Oliva to Go Hummus",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "Connecticut",
+        "Massachusetts"
+      ],
+      "date": "2026-11-04",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0179-2027",
+      "source": "openfda",
+      "firm": "Oliva on Main",
+      "product": "Riad's Oliva to Go Baba Ghanouj",
+      "reason": "contains undeclared sesame",
+      "classification": "Class I",
+      "foodRaw": "Riad's Oliva to Go Baba Ghanouj",
+      "foodCategory": null,
+      "foodGroup": null,
+      "states": [
+        "Connecticut",
+        "Massachusetts"
+      ],
+      "date": "2026-11-04",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0141-2027",
       "source": "openfda",
       "firm": "El Ruisenor De Mexico, Inc.",
@@ -213,6 +247,22 @@
         "Nationwide"
       ],
       "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0016-2027",
+      "source": "openfda",
+      "firm": "A&P CREATIONS",
+      "product": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "reason": "Product contains undeclared Sildenafil and Tadalafil.",
+      "classification": "Class I",
+      "foodRaw": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-10-14",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1178,79 +1228,31 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1166-2026",
+      "id": "openfda-H-0189-2027",
       "source": "openfda",
-      "firm": "D'Dioses Fruit Pops, Inc.",
-      "product": "Ice Pop, D'Dioses Nuez, 1 Bar (81.7 g), with UPC 827912008548",
-      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
-      "classification": "Class I",
-      "foodRaw": "Ice Pop, D'Dioses Nuez, 1 Bar (81.7 g), with UPC 827912008548",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
+      "firm": "Crystal Temptations",
+      "product": "Little Temptations, Chocolatey Eyeballs (Hazelnut Praline Chocolatey Eyeballs ) Spooks and Spells, The product comes in the following sizes: Card Header Bag - 10 oz. Acrylic Box - 7 oz. Eyeball Jar - 10.5 oz. Pouch Bag 16 oz. Tag & Bell Bag 11 oz.. Packaged in the following container types: Bag, Box, Plastic Jar. 12 packages per case.",
+      "reason": "Product packaging mix-up. Product containing whey (milk), were distributed in packaging that did not reveal the presence of milk.",
+      "classification": "Class II",
+      "foodRaw": "Little Temptations, Chocolatey Eyeballs (Hazelnut Praline Chocolatey Eyeballs ) Spooks and Spells, The product comes in the following sizes: Card Header Bag - 10 oz. Acrylic Box - 7 oz. Eyeball Jar - 10.5 oz. Pouch Bag 16 oz. Tag & Bell Bag 11 oz.. Packaged in the following container types: Bag, Box, Plastic Jar. 12 packages per case.",
+      "foodCategory": null,
+      "foodGroup": null,
       "states": [
+        "Arizona",
+        "California",
         "Connecticut",
+        "Georgia",
+        "Indiana",
+        "Massachusetts",
+        "Nevada",
         "New Jersey",
-        "New York",
-        "Pennsylvania"
+        "North Carolina",
+        "Ohio",
+        "Texas",
+        "Virginia",
+        "Wyoming"
       ],
-      "date": "2026-07-22",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1172-2026",
-      "source": "openfda",
-      "firm": "D'Dioses Fruit Pops, Inc.",
-      "product": "Ice Pop, D'Dioses Tamarindo, 1 Bar (81.7 g), with UPC 827912008593",
-      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
-      "classification": "Class I",
-      "foodRaw": "Ice Pop, D'Dioses Tamarindo, 1 Bar (81.7 g), with UPC 827912008593",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Connecticut",
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
-      ],
-      "date": "2026-07-22",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1160-2026",
-      "source": "openfda",
-      "firm": "D'Dioses Fruit Pops, Inc.",
-      "product": "Ice Pop, D'Dioses Arroz con Leche, 4 oz (85 g), with UPC 710594511843",
-      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
-      "classification": "Class I",
-      "foodRaw": "Ice Pop, D'Dioses Arroz con Leche, 4 oz (85 g), with UPC 710594511843",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Connecticut",
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
-      ],
-      "date": "2026-07-22",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1159-2026",
-      "source": "openfda",
-      "firm": "D'Dioses Fruit Pops, Inc.",
-      "product": "Ice Pop, D'Dioses Fresa Leche, 4 oz (85 g), with UPC 710594511850",
-      "reason": "May contain undeclared milk, pecans, pistachios, yellow #5 and red #40.",
-      "classification": "Class I",
-      "foodRaw": "Ice Pop, D'Dioses Fresa Leche, 4 oz (85 g), with UPC 710594511850",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Connecticut",
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
-      ],
-      "date": "2026-07-22",
+      "date": "2026-11-11",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1471,6 +1473,28 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0150-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Sulfites)",
+      "classification": "Class II",
+      "foodRaw": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0094-2027",
       "source": "openfda",
       "firm": "Stewart's Shops Corp.",
@@ -1505,6 +1529,23 @@
         "Maryland",
         "Ohio",
         "Tennessee"
+      ],
+      "date": "2026-10-21",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0091-2027",
+      "source": "openfda",
+      "firm": "DARING FOODS INC",
+      "product": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
+      "reason": "defective packaging; packaging can rupture/explode during cooking.",
+      "classification": "Class II",
+      "foodRaw": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
+      "foodCategory": "Beef",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Florida",
+        "North Carolina"
       ],
       "date": "2026-10-21",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1802,6 +1843,22 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-1190-2026",
+      "source": "openfda",
+      "firm": "Mellish Island Corp",
+      "product": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
+      "reason": "Firm's finished product label does not declare the source of marine collagen which was determined to be fish.",
+      "classification": "Class II",
+      "foodRaw": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-08-05",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-1179-2026",
       "source": "openfda",
       "firm": "Brooklyn Roasting Works LLC",
@@ -1850,57 +1907,6 @@
         "New Mexico"
       ],
       "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1152-2026",
-      "source": "openfda",
-      "firm": "Nutricia North America",
-      "product": "functional formularies LIQUID HOPE ORGANIC WHOLE FOODS MEAL REPLACEMENT PEPTIDE FORMULA BERRY MEDLEY NET WT. 12 OZ (341g) case UPC 8 57858 00453 3, package UPC 8 57858 00450 2",
-      "reason": "Subpotent for Vitamin A. The firm discovered that the testing laboratory used the wrong method when testing for Vitamin A. The test results gave a higher concentration of vitamin A than what is actually in the product.",
-      "classification": "Class II",
-      "foodRaw": "functional formularies LIQUID HOPE ORGANIC WHOLE FOODS MEAL REPLACEMENT PEPTIDE FORMULA BERRY MEDLEY NET WT. 12 OZ (341g) case UPC 8 57858 00453 3, package UPC 8 57858 00450 2",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "New York"
-      ],
-      "date": "2026-07-22",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1175-2026",
-      "source": "openfda",
-      "firm": "Fayus Inc.",
-      "product": "OLA-OLA POUNDED GROUNDNUTS (INTWILO) NET WT. 32 oz., 2 lbs. (0.907 kg) Distributed by: Yusol International Foods Sacramento, CA 95828 Product of USA INGREDIENTS: Pounded Groundnuts (Intwilo) UPC: 650655764330",
-      "reason": "Undeclared peanuts",
-      "classification": "Class II",
-      "foodRaw": "OLA-OLA POUNDED GROUNDNUTS (INTWILO) NET WT. 32 oz., 2 lbs. (0.907 kg) Distributed by: Yusol International Foods Sacramento, CA 95828 Product of USA INGREDIENTS: Pounded Groundnuts (Intwilo) UPC: 650655764330",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "Texas"
-      ],
-      "date": "2026-07-22",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1176-2026",
-      "source": "openfda",
-      "firm": "GELLERT GLOBAL GROUP",
-      "product": "Ruby, Artichoke Hearts Quartered, 5 LB 8 OZ (2500 G) DRAINED WT 3 LBS 6 OZ (1550G), Can, 6 cans per case, Store in dry conditions.",
-      "reason": "Foreign material (Glass) was found in the product.",
-      "classification": "Class II",
-      "foodRaw": "Ruby, Artichoke Hearts Quartered, 5 LB 8 OZ (2500 G) DRAINED WT 3 LBS 6 OZ (1550G), Can, 6 cans per case, Store in dry conditions.",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "Connecticut",
-        "New Jersey",
-        "New York",
-        "Pennsylvania"
-      ],
-      "date": "2026-07-22",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
