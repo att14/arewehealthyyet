@@ -1,20 +1,52 @@
 {
-  "generatedAt": "2026-11-25T00:40:35.288Z",
+  "generatedAt": "2026-11-25T06:30:50.613Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-25T00:40:35.307Z",
-      "lastSuccessAt": "2026-11-25T00:40:35.307Z",
+      "fetchedAt": "2026-11-25T06:30:50.627Z",
+      "lastSuccessAt": "2026-11-25T06:30:50.627Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-25T00:40:35.308Z",
+      "fetchedAt": "2026-11-25T06:30:50.628Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
   },
   "recalls": [
+    {
+      "id": "openfda-",
+      "source": "openfda",
+      "firm": "SUPPLX.com",
+      "product": "Branch Manager, Dietary Supplement for Men 18+, packaged in single capsule blister card, 24 individual blister cards per retail box; UPC 672713228585. Labeled serving size: one capsule; proprietary blend 1600 mg; directions state one capsule 20 minutes before sexual activity",
+      "reason": "FDA laboratory analysis confirmed that the product contains yohimbine that is not declared on the product labels.",
+      "classification": "Not Yet Classified",
+      "foodRaw": "Branch Manager, Dietary Supplement for Men 18+, packaged in single capsule blister card, 24 individual blister cards per retail box; UPC 672713228585. Labeled serving size: one capsule; proprietary blend 1600 mg; directions state one capsule 20 minutes before sexual activity",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Florida"
+      ],
+      "date": "2026-11-18",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0204-2027",
+      "source": "openfda",
+      "firm": "Vitality Works, Inc",
+      "product": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count. Product Item Number: 3006661. 120 ct powder capsules in a 200cc bottle Take 1 capsule 2 times daily. Packaged in a 200cc white HDPE bottle with white cap. Whole Foods UPC: 099482520991. Label Address: Whole Foods Market, 550 Bowie Street, Austin, Texas 78703.",
+      "reason": "Possible Salmonella contamination.",
+      "classification": "Class I",
+      "foodRaw": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count. Product Item Number: 3006661. 120 ct powder capsules in a 200cc bottle Take 1 capsule 2 times daily. Packaged in a 200cc white HDPE bottle with white cap. Whole Foods UPC: 099482520991. Label Address: Whole Foods Market, 550 Bowie Street, Austin, Texas 78703.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-11-11",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
     {
       "id": "openfda-H-0197-2027",
       "source": "openfda",
@@ -86,22 +118,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-",
-      "source": "openfda",
-      "firm": "Vitality Works, Inc",
-      "product": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count. Product Item Number: 3006661. 120 ct powder capsules in a 200cc bottle Take 1 capsule 2 times daily. Packaged in a 200cc white HDPE bottle with white cap. Whole Foods UPC: 099482520991. Label Address: Whole Foods Market, 550 Bowie Street, Austin, Texas 78703.",
-      "reason": "Possible Salmonella contamination.",
-      "classification": "Not Yet Classified",
-      "foodRaw": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count. Product Item Number: 3006661. 120 ct powder capsules in a 200cc bottle Take 1 capsule 2 times daily. Packaged in a 200cc white HDPE bottle with white cap. Whole Foods UPC: 099482520991. Label Address: Whole Foods Market, 550 Bowie Street, Austin, Texas 78703.",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-11-11",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0184-2027",
       "source": "openfda",
       "firm": "GF Blends Inc",
@@ -129,40 +145,6 @@
       "foodGroup": "Plants",
       "states": [
         "North Carolina"
-      ],
-      "date": "2026-11-04",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0181-2027",
-      "source": "openfda",
-      "firm": "Oliva on Main",
-      "product": "Riad's Oliva to Go Hummus",
-      "reason": "contains undeclared sesame",
-      "classification": "Class I",
-      "foodRaw": "Riad's Oliva to Go Hummus",
-      "foodCategory": "Grains-beans",
-      "foodGroup": "Plants",
-      "states": [
-        "Connecticut",
-        "Massachusetts"
-      ],
-      "date": "2026-11-04",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0179-2027",
-      "source": "openfda",
-      "firm": "Oliva on Main",
-      "product": "Riad's Oliva to Go Baba Ghanouj",
-      "reason": "contains undeclared sesame",
-      "classification": "Class I",
-      "foodRaw": "Riad's Oliva to Go Baba Ghanouj",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [
-        "Connecticut",
-        "Massachusetts"
       ],
       "date": "2026-11-04",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -247,22 +229,6 @@
         "Nationwide"
       ],
       "date": "2026-10-28",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0016-2027",
-      "source": "openfda",
-      "firm": "A&P CREATIONS",
-      "product": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
-      "reason": "Product contains undeclared Sildenafil and Tadalafil.",
-      "classification": "Class I",
-      "foodRaw": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
-      ],
-      "date": "2026-10-14",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1228,6 +1194,73 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0203-2027",
+      "source": "openfda",
+      "firm": "Breath of Fresh Air PDX LLC",
+      "product": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack. Net wt. 1.9oz. Each paper box consists two cups wrapped in one sealed cellophane pack inside. UPC 8 50017 63722 1. Distributed By: Ground Up PDX 657 SE Yamhill St. Portland, OR 97214.",
+      "reason": "Foreign material: plastic fiber",
+      "classification": "Class II",
+      "foodRaw": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack. Net wt. 1.9oz. Each paper box consists two cups wrapped in one sealed cellophane pack inside. UPC 8 50017 63722 1. Distributed By: Ground Up PDX 657 SE Yamhill St. Portland, OR 97214.",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide",
+        "Oregon"
+      ],
+      "date": "2026-11-18",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0201-2027",
+      "source": "openfda",
+      "firm": "J F C International Inc",
+      "product": "NAGAI SOYEAT GREEN branded soy paper wrap; 10- 2.5OZ containers in vacuumed sealed containers. UPC: 0 11152 64246 8",
+      "reason": "Undeclared Yellow#5",
+      "classification": "Class II",
+      "foodRaw": "NAGAI SOYEAT GREEN branded soy paper wrap; 10- 2.5OZ containers in vacuumed sealed containers. UPC: 0 11152 64246 8",
+      "foodCategory": "Grains-beans",
+      "foodGroup": "Plants",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-11-18",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0208-2027",
+      "source": "openfda",
+      "firm": "Snack Right Super Foods, Inc.",
+      "product": "Brad's Crunchy Kale Original, 2 oz (57g) bags with UPC 813104021679.",
+      "reason": "Products may contain elevated levels of thallium",
+      "classification": "Class II",
+      "foodRaw": "Brad's Crunchy Kale Original, 2 oz (57g) bags with UPC 813104021679.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Illinois",
+        "Rhode Island"
+      ],
+      "date": "2026-11-18",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0209-2027",
+      "source": "openfda",
+      "firm": "Snack Right Super Foods, Inc.",
+      "product": "Brad's Crunchy Kale, Cheeze It Up, 2 oz (57g) bags with UPC 813104021877.",
+      "reason": "Products may contain elevated levels of thallium",
+      "classification": "Class II",
+      "foodRaw": "Brad's Crunchy Kale, Cheeze It Up, 2 oz (57g) bags with UPC 813104021877.",
+      "foodCategory": "Vegetable Row Crops",
+      "foodGroup": "Plants",
+      "states": [
+        "Illinois",
+        "Rhode Island"
+      ],
+      "date": "2026-11-18",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0189-2027",
       "source": "openfda",
       "firm": "Crystal Temptations",
@@ -1473,28 +1506,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-0150-2027",
-      "source": "openfda",
-      "firm": "El Ruisenor De Mexico, Inc.",
-      "product": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
-      "reason": "undeclared allergen ingredient (Sulfites)",
-      "classification": "Class II",
-      "foodRaw": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
-      "foodCategory": "Fruits",
-      "foodGroup": "Plants",
-      "states": [
-        "California",
-        "Hawaii",
-        "Illinois",
-        "Kansas",
-        "Nevada",
-        "Oregon",
-        "Washington"
-      ],
-      "date": "2026-10-28",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0094-2027",
       "source": "openfda",
       "firm": "Stewart's Shops Corp.",
@@ -1529,23 +1540,6 @@
         "Maryland",
         "Ohio",
         "Tennessee"
-      ],
-      "date": "2026-10-21",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-0091-2027",
-      "source": "openfda",
-      "firm": "DARING FOODS INC",
-      "product": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
-      "reason": "defective packaging; packaging can rupture/explode during cooking.",
-      "classification": "Class II",
-      "foodRaw": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
-      "foodCategory": "Beef",
-      "foodGroup": "Land Animals",
-      "states": [
-        "Florida",
-        "North Carolina"
       ],
       "date": "2026-10-21",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1604,10 +1598,10 @@
       "id": "openfda-H-1391-2026",
       "source": "openfda",
       "firm": "United Sugar Producers and Refiners",
-      "product": "Light Brown Sugar, Packaged in he follow configurations: 1. United, Net Wt. 50 lbs., (22.68kg). Item Number 810051. Distributed By: United Sugar Producers & Refiners, Minneapolis, MN 55439. 2. Good & Gather, Net Wt 2 lb. (32 oz) 907g. Item Number 817773. UPC 0 85239-08454 0. Dist. By Target Corp., Minneapolis, MN 55403.",
+      "product": "Light Brown Sugar, Packaged in the following configurations: 1. United, Net Wt. 50 lbs., (22.68kg). Item Number 810051. UPC 0 11110-11888 2. Distributed By: United Sugar Producers & Refiners, Minneapolis, MN 55439. 2. Net Wt 2 lb. (32 oz) 907g in clear plastic packages. Item Number 817773. UPC 0 85239-08454 0.",
       "reason": "Potential Wheat Kernel contamination.",
       "classification": "Class II",
-      "foodRaw": "Light Brown Sugar, Packaged in he follow configurations: 1. United, Net Wt. 50 lbs., (22.68kg). Item Number 810051. Distributed By: United Sugar Producers & Refiners, Minneapolis, MN 55439. 2. Good & Gather, Net Wt 2 lb. (32 oz) 907g. Item Number 817773. UPC 0 85239-08454 0. Dist. By Target Corp., Minneapolis, MN 55403.",
+      "foodRaw": "Light Brown Sugar, Packaged in the following configurations: 1. United, Net Wt. 50 lbs., (22.68kg). Item Number 810051. UPC 0 11110-11888 2. Distributed By: United Sugar Producers & Refiners, Minneapolis, MN 55439. 2. Net Wt 2 lb. (32 oz) 907g in clear plastic packages. Item Number 817773. UPC 0 85239-08454 0.",
       "foodCategory": "Oils-sugars",
       "foodGroup": "Plants",
       "states": [
@@ -1838,22 +1832,6 @@
         "New Jersey",
         "New York",
         "Pennsylvania"
-      ],
-      "date": "2026-08-05",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1190-2026",
-      "source": "openfda",
-      "firm": "Mellish Island Corp",
-      "product": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
-      "reason": "Firm's finished product label does not declare the source of marine collagen which was determined to be fish.",
-      "classification": "Class II",
-      "foodRaw": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
-      "foodCategory": "Other",
-      "foodGroup": "Other",
-      "states": [
-        "Nationwide"
       ],
       "date": "2026-08-05",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -2121,6 +2099,22 @@
         "Florida"
       ],
       "date": "2026-10-21",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0019-2027",
+      "source": "openfda",
+      "firm": "Unilever North America Supply Chain Company, LLC",
+      "product": "Almond Joy Ice Cream Bar, 2.0 fl. oz. ice cream bars, paper cartons containing individually wrapped ice cream bars. 6 bars per carton. Keep frozen",
+      "reason": "Inaccurate Nutrition Facts information listed on product",
+      "classification": "Class III",
+      "foodRaw": "Almond Joy Ice Cream Bar, 2.0 fl. oz. ice cream bars, paper cartons containing individually wrapped ice cream bars. 6 bars per carton. Keep frozen",
+      "foodCategory": "Nuts-seeds",
+      "foodGroup": "Plants",
+      "states": [
+        "New Jersey"
+      ],
+      "date": "2026-09-30",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
