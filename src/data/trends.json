@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-25T18:21:55.863Z",
+  "generatedAt": "2026-11-26T00:39:29.285Z",
   "sources": {
     "nndss": {
       "ok": true,
-      "fetchedAt": "2026-11-25T18:21:55.884Z",
-      "lastSuccessAt": "2026-11-25T18:21:55.884Z",
+      "fetchedAt": "2026-11-26T00:39:29.306Z",
+      "lastSuccessAt": "2026-11-26T00:39:29.306Z",
       "error": null
     }
   },
@@ -237,6 +237,11 @@
           "year": 2026,
           "week": 45,
           "cases": 603
+        },
+        {
+          "year": 2026,
+          "week": 46,
+          "cases": 546
         }
       ],
       "previousYear": [
@@ -464,10 +469,15 @@
           "year": 2025,
           "week": 45,
           "cases": 556
+        },
+        {
+          "year": 2025,
+          "week": 46,
+          "cases": 559
         }
       ],
-      "currentYearTotal": 27877,
-      "previousYearTotalToDate": 22926
+      "currentYearTotal": 28423,
+      "previousYearTotalToDate": 23485
     },
     {
       "label": "Shiga toxin-producing Escherichia coli (STEC)",
@@ -697,6 +707,11 @@
           "year": 2026,
           "week": 45,
           "cases": 160
+        },
+        {
+          "year": 2026,
+          "week": 46,
+          "cases": 184
         }
       ],
       "previousYear": [
@@ -924,10 +939,15 @@
           "year": 2025,
           "week": 45,
           "cases": 172
+        },
+        {
+          "year": 2025,
+          "week": 46,
+          "cases": 136
         }
       ],
-      "currentYearTotal": 7657,
-      "previousYearTotalToDate": 6670
+      "currentYearTotal": 7841,
+      "previousYearTotalToDate": 6806
     },
     {
       "label": "Listeriosis, Confirmed",
@@ -1157,6 +1177,11 @@
           "year": 2026,
           "week": 45,
           "cases": 5
+        },
+        {
+          "year": 2026,
+          "week": 46,
+          "cases": 2
         }
       ],
       "previousYear": [
@@ -1379,10 +1404,15 @@
           "year": 2025,
           "week": 44,
           "cases": 7
+        },
+        {
+          "year": 2025,
+          "week": 46,
+          "cases": 6
         }
       ],
-      "currentYearTotal": 290,
-      "previousYearTotalToDate": 266
+      "currentYearTotal": 292,
+      "previousYearTotalToDate": 272
     },
     {
       "label": "Campylobacteriosis",
@@ -1612,6 +1642,11 @@
           "year": 2026,
           "week": 45,
           "cases": 864
+        },
+        {
+          "year": 2026,
+          "week": 46,
+          "cases": 888
         }
       ],
       "previousYear": [
@@ -1839,10 +1874,15 @@
           "year": 2025,
           "week": 45,
           "cases": 832
+        },
+        {
+          "year": 2025,
+          "week": 46,
+          "cases": 930
         }
       ],
-      "currentYearTotal": 39816,
-      "previousYearTotalToDate": 38453
+      "currentYearTotal": 40704,
+      "previousYearTotalToDate": 39383
     },
     {
       "label": "Cyclosporiasis",
@@ -2067,6 +2107,11 @@
           "year": 2026,
           "week": 45,
           "cases": 11
+        },
+        {
+          "year": 2026,
+          "week": 46,
+          "cases": 9
         }
       ],
       "previousYear": [
@@ -2274,10 +2319,15 @@
           "year": 2025,
           "week": 44,
           "cases": 6
+        },
+        {
+          "year": 2025,
+          "week": 46,
+          "cases": 3
         }
       ],
-      "currentYearTotal": 13370,
-      "previousYearTotalToDate": 1237
+      "currentYearTotal": 13379,
+      "previousYearTotalToDate": 1240
     },
     {
       "label": "Shigellosis",
@@ -2507,6 +2557,11 @@
           "year": 2026,
           "week": 45,
           "cases": 176
+        },
+        {
+          "year": 2026,
+          "week": 46,
+          "cases": 181
         }
       ],
       "previousYear": [
@@ -2734,10 +2789,15 @@
           "year": 2025,
           "week": 45,
           "cases": 164
+        },
+        {
+          "year": 2025,
+          "week": 46,
+          "cases": 170
         }
       ],
-      "currentYearTotal": 7327,
-      "previousYearTotalToDate": 6639
+      "currentYearTotal": 7508,
+      "previousYearTotalToDate": 6809
     }
   ]
 }
