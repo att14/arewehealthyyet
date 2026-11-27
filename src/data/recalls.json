@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-26T18:23:23.759Z",
+  "generatedAt": "2026-11-27T00:39:57.761Z",
   "sources": {
     "openfda": {
       "ok": true,
-      "fetchedAt": "2026-11-26T18:23:23.773Z",
-      "lastSuccessAt": "2026-11-26T18:23:23.773Z",
+      "fetchedAt": "2026-11-27T00:39:57.780Z",
+      "lastSuccessAt": "2026-11-27T00:39:57.780Z",
       "error": null
     },
     "fsis": {
       "ok": false,
-      "fetchedAt": "2026-11-26T18:23:23.773Z",
+      "fetchedAt": "2026-11-27T00:39:57.782Z",
       "lastSuccessAt": null,
       "error": "3 attempts failed for https://www.fsis.usda.gov/fsis/api/recall/v/1: HTTP 403 from https://www.fsis.usda.gov/fsis/api/recall/v/1"
     }
@@ -229,6 +229,22 @@
         "Nationwide"
       ],
       "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0016-2027",
+      "source": "openfda",
+      "firm": "A&P CREATIONS",
+      "product": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "reason": "Product contains undeclared Sildenafil and Tadalafil.",
+      "classification": "Class I",
+      "foodRaw": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, UPC: 7708075247094, Manufactured by FutuPro S.A.S., Colombian Industry; Distributed by Natur Fuel, 2725 Armstrong Avenue, Clermont, FL 34714.",
+      "foodCategory": "Other",
+      "foodGroup": "Other",
+      "states": [
+        "Nationwide"
+      ],
+      "date": "2026-10-14",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
@@ -1180,20 +1196,6 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1180-2026",
-      "source": "openfda",
-      "firm": "Green Jeeva LLC",
-      "product": "Organic Moringa Powder; 15kg/bag (bulk); Product code: GJ96",
-      "reason": "Moringa Powder ingredient positive for salmonella",
-      "classification": "Class I",
-      "foodRaw": "Organic Moringa Powder; 15kg/bag (bulk); Product code: GJ96",
-      "foodCategory": null,
-      "foodGroup": null,
-      "states": [],
-      "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
       "id": "openfda-H-0203-2027",
       "source": "openfda",
       "firm": "Breath of Fresh Air PDX LLC",
@@ -1506,6 +1508,28 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
+      "id": "openfda-H-0150-2027",
+      "source": "openfda",
+      "firm": "El Ruisenor De Mexico, Inc.",
+      "product": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "reason": "undeclared allergen ingredient (Sulfites)",
+      "classification": "Class II",
+      "foodRaw": "Dried Diced Pineapple; packaged in 1lb, 5lb, 44lb clear plastic units. No UPC",
+      "foodCategory": "Fruits",
+      "foodGroup": "Plants",
+      "states": [
+        "California",
+        "Hawaii",
+        "Illinois",
+        "Kansas",
+        "Nevada",
+        "Oregon",
+        "Washington"
+      ],
+      "date": "2026-10-28",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
       "id": "openfda-H-0094-2027",
       "source": "openfda",
       "firm": "Stewart's Shops Corp.",
@@ -1540,6 +1564,23 @@
         "Maryland",
         "Ohio",
         "Tennessee"
+      ],
+      "date": "2026-10-21",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+    },
+    {
+      "id": "openfda-H-0091-2027",
+      "source": "openfda",
+      "firm": "DARING FOODS INC",
+      "product": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
+      "reason": "defective packaging; packaging can rupture/explode during cooking.",
+      "classification": "Class II",
+      "foodRaw": "Made From Plants; Daring; Plant Steak Bites; Ready in 4 Mins Microwaveable Pouch; UPC: 86001124319",
+      "foodCategory": "Beef",
+      "foodGroup": "Land Animals",
+      "states": [
+        "Florida",
+        "North Carolina"
       ],
       "date": "2026-10-21",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
@@ -1837,54 +1878,19 @@
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "openfda-H-1179-2026",
+      "id": "openfda-H-1190-2026",
       "source": "openfda",
-      "firm": "Brooklyn Roasting Works LLC",
-      "product": "Brooklyn Roasting Company Pasteurized Cold Brew Concentrate; 2.5gal; bag in a box distributed between 04/01/2026 and 06/20/2026.",
-      "reason": "Ambient storage of the product may lead to Clostridium botulinum toxin formation.",
+      "firm": "Mellish Island Corp",
+      "product": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
+      "reason": "Firm's finished product label does not declare the source of marine collagen which was determined to be fish.",
       "classification": "Class II",
-      "foodRaw": "Brooklyn Roasting Company Pasteurized Cold Brew Concentrate; 2.5gal; bag in a box distributed between 04/01/2026 and 06/20/2026.",
+      "foodRaw": "Mellish Island Super Skin; Dietary Supplement; 60 Capsules, 2 per day; Distributed by Mellish Island Corp. UPC: 8 58792 00332 3",
       "foodCategory": "Other",
       "foodGroup": "Other",
       "states": [
-        "New Jersey",
-        "New York"
+        "Nationwide"
       ],
-      "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1187-2026",
-      "source": "openfda",
-      "firm": "Man Fon, Inc.",
-      "product": "Man Fon Inc. Won Ton Wrappers Extra Thin; Net Wt. 10 oz; UPC# 757168 977315, Keep Refrigerated, Can be Frozen. Sold in 48 units (10oz)/case.",
-      "reason": "Undeclared colors: Yellow#5, and Yellow#6.",
-      "classification": "Class II",
-      "foodRaw": "Man Fon Inc. Won Ton Wrappers Extra Thin; Net Wt. 10 oz; UPC# 757168 977315, Keep Refrigerated, Can be Frozen. Sold in 48 units (10oz)/case.",
-      "foodCategory": "Grains-beans",
-      "foodGroup": "Plants",
-      "states": [
-        "California",
-        "New Mexico"
-      ],
-      "date": "2026-07-29",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
-    },
-    {
-      "id": "openfda-H-1188-2026",
-      "source": "openfda",
-      "firm": "Man Fon, Inc.",
-      "product": "Wonton Wrappers packed into clear flexible plastic bag and sold as 40 units (16oz bags)/case. Wonton Wrappers packed into \"Wonton Noodles Net Wt. 5 LBS\" plastic bags and sold as 10 units (4-lb bags)/case. Neither product has ingredient labeling information.",
-      "reason": "No labeling. Undeclared wheat and colors: Yellow#5, Yellow#6.",
-      "classification": "Class II",
-      "foodRaw": "Wonton Wrappers packed into clear flexible plastic bag and sold as 40 units (16oz bags)/case. Wonton Wrappers packed into \"Wonton Noodles Net Wt. 5 LBS\" plastic bags and sold as 10 units (4-lb bags)/case. Neither product has ingredient labeling information.",
-      "foodCategory": "Grains-beans",
-      "foodGroup": "Plants",
-      "states": [
-        "California",
-        "New Mexico"
-      ],
-      "date": "2026-07-29",
+      "date": "2026-08-05",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
